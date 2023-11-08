@@ -1,0 +1,35 @@
+title: Site
+
+# sidebar:
+#   fields:
+#     introduction:
+#       label: Introduction
+#       type:  textarea
+
+columns:
+  artists:
+    width: 1/2
+    sections:
+      albums: sections/artists
+
+  essays:
+    width: 1/2
+    sections:
+      notes: sections/essays
+
+  introduction:
+    width: 1/2
+    sections:
+      introduction:
+        type: fields
+        fields:
+          introduction:
+            label: Introduction
+            type:  textarea
+
+  contact:
+    width: 1/2
+    sections:
+      contact:
+        type: files
+        layout: card

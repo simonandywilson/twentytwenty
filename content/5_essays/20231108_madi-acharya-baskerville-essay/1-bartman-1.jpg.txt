@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Uuid: FS2AWH0shKcx4787
+
+----
+
+Template: blocks/image
+
+----
+
+Sort: 1

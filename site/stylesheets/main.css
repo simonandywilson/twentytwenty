@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  html body {
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    height: -webkit-fill-available;
+  }
+
+  body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+
+  @font-face {
+    font-family: "helvetica";
+    src: url("./fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: normal;
+}
+
+  p:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
+  details > summary {
+    list-style: none;
+  }
+
+  details > summary::marker,
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+}
+
+@layer components {
+	.container {
+		@apply flex-1 rounded-3xl p-3;
+	}
+}
+
+
+@tailwind utilities;

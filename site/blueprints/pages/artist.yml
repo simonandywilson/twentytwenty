@@ -1,0 +1,35 @@
+title: Artist
+icon: 🖼
+status:
+  draft: true
+  listed: true
+columns:
+  - width: 1/3
+    fields:
+      cover: fields/cover
+      essay:
+        label: Essay
+        type: pages
+        multiple: false
+        query: site.find('essays')
+        required: true
+      social:
+            label: Partner
+            type: structure
+            required: true
+            max: 1
+            columns:
+              partner: true
+            fields:
+              partner:
+                label: Partner
+                type: text
+                width: 1/2
+              url:
+                label: URL
+                type: url
+                width: 1/2
+  - width: 2/3
+    fields:
+      text:
+        type: blocks

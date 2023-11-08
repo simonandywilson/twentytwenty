@@ -1,0 +1,37 @@
+Title: Madi Acharya-Baskerville
+
+----
+
+Cover: - file://qHyBLd2sDIA91xIn
+
+----
+
+Essay: - page://fJgeZZyEoPvuAjcb
+
+----
+
+Partner: The Lightbox, Woking
+
+----
+
+Social:
+
+- 
+  partner: The Lightbox
+  url: ""
+
+----
+
+Text: [{"content":{"text":"<p>Otat lamus. Me dolum excerov idendaes illa accus et laborio necturitatus doluptat modi ulliquam, tem et voluptae verspis mi, id eum venihil molupta ssitatibus, quiaest revolut volupti niminctatia volor solo enienim quam inis evendi omnisin con pa veliquides molupta tiatius qui cum voluptio voleste mporeri velendelit earumqui odit odicime rehent pro temperi buscitae eaquam est harum num ea quodit magnaturem etur. Itat delit aut alis net parunt quiditione dolendae remporpos asit harcidebis sam re rem isime doloria epellab idem quas mollupt atibusti voloreris dolore ipis adit ab imoluptatis ma venisciis cor sim vit dolecus etur soluptio ipis utest eosam, si rent arcietur santo et, simporro mo beruptiunte prae. Itae rem rem lit que mossi temquaeperis inulpa se sapel iusantotatia net volorem rem harum acerundaero earciae niscia cus, officid molorae comnisciunt ulliaspedit venisinciis elliquam quati vollabo. Aligendiat eum deleces ipiducium rerferum quia nam que nus et aut rem quam vidit ommodiatur mil et la sunt, et audaepero quide volupta taquid mo cone voloreprepe pro omnimus adia doluptatus sus pedi idebita tquatet volum aut quatassus dolorem ut faccume et quidipit voluption nobitia sperum cum ad quate ad mint que volupta speres remolor itatibus ut labor. Borum fuga. Ide rem. Et excea seror aut aut reprat quat qui ut expligendion plaut anisquidion re, saperci dendae solupta tquam, corrorest quas et fugit que dera duci cor abo. Ut mil molorro officil iducias ex eum fugiam.</p>"},"id":"1032cb85-e241-400b-8520-2c14b07af87f","isHidden":false,"type":"text"}]
+
+----
+
+Subheadline: 
+
+----
+
+Uuid: vsCZM7OigCLxzlOO
+
+----
+
+Tags: 

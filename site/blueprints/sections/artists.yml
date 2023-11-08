@@ -1,0 +1,12 @@
+type: pages
+label: Artists
+parent: kirby.page("artists")
+size: small
+info: "{{ page.partner }}"
+layout: cards
+template: artist
+empty: No artists yet
+image:
+  query: page.cover
+  cover: true
+  ratio: 5/4
