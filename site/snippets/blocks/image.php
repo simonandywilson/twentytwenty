@@ -46,13 +46,13 @@ $attrs = attr([
 
 ?>
 <?php if ($srcValue): ?>
-<figure>
-  <a <?= $attrs ?>>
-    <img src="<?= $srcValue ?>" alt="<?= esc($alt, 'attr') ?>">
+<figure >
+  <a <?= $attrs ?> >
+    <img src="<?= $srcValue ?>" alt="<?= esc($alt, 'attr') ?>" class="round">
   </a>
 
   <?php if ($caption->isNotEmpty()): ?>
-  <figcaption class="img-caption">
+  <figcaption class="figcaption">
     <?= $caption ?>
   </figcaption>
   <?php endif ?>

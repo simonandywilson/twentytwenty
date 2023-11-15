@@ -6,19 +6,34 @@ Cover: - file://qHyBLd2sDIA91xIn
 
 ----
 
+Circleone: - file://MCWAJvVgJSAsK2ba
+
+----
+
+Circletwo: - file://LTGJEsi1hIw5sSRW
+
+----
+
+Hero:
+
+- 
+  images:
+    - file://LTGJEsi1hIw5sSRW
+- 
+  images:
+    - file://MCWAJvVgJSAsK2ba
+
+----
+
 Essay: - page://fJgeZZyEoPvuAjcb
 
 ----
 
-Partner: The Lightbox, Woking
+Partnername: The Lightbox, Woking
 
 ----
 
-Social:
-
-- 
-  partner: The Lightbox
-  url: ""
+Partnerurl: 
 
 ----
 
@@ -26,12 +41,4 @@ Text: [{"content":{"text":"<p>Otat lamus. Me dolum excerov idendaes illa accus e
 
 ----
 
-Subheadline: 
-
-----
-
 Uuid: vsCZM7OigCLxzlOO
-
-----
-
-Tags: 

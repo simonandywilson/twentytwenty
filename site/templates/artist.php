@@ -1,38 +1,28 @@
-<?php
-/*
-  Templates render the content of your pages.
-
-  They contain the markup together with some control structures
-  like loops or if-statements. The `$page` variable always
-  refers to the currently active page.
-
-  To fetch the content from each field we call the field name as a
-  method on the `$page` object, e.g. `$page->title()`.
-
-  This default template must not be removed. It is used whenever Kirby
-  cannot find a template with the name of the content file.
-
-  Snippets like the header and footer contain markup used in
-  multiple templates. They also help to keep templates clean.
-
-  More about templates: https://getkirby.com/docs/guide/templates/basics
-*/
-?>
 <?php snippet('header') ?>
-
 <article>
-    <div class="w-full flex">
+    <div class="w-full grid grid-cols-2">
         <div class="w-full flex-1">
-            <h1 class="container bg-theme-artists leading-none"><?= $page->title()->esc() ?></h1>
-            <h1 class="container bg-theme-artists leading-none"> <a href="<?= $page->url() ?>"><?= $page->partner()->esc() ?></a></h1>
+            <h1 class="container bg-theme-artists leading-none"><?= $page->title()->html() ?></h1>
+            <?php
+            if ($page->partnername()->exists()) :
+            ?>
+                <a href="<?= $page->partnerurl() ?>" class="container block w-full flex-1 h-max bg-theme-artists">
+                    <h2 class="leading-none">
+                        → <?= $page->partnername() ?>
+                    </h2>
+                </a>
+            <?php endif ?>
         </div>
-        <div class="w-full flex-1">
-            <h1 class="container bg-theme-essays leading-none"><a href="<?= $page->essay() ?>"><?= $page->essay() ?></a></h1>
-        </div>
-    </div>
-    <div class="text">
-        <?= $page->text()->kt() ?>
-    </div>
-</article>
+       
+            <a href="<?= $page->essay()->toPage()->url() ?>" class="container w-full flex-1 h-max bg-theme-essays">
+                <h3 class="leading-none">→ <?= $page->essay()->toPage()->title()->html() ?></h3>
+            </a>
 
+    </div>
+    <?php snippet("layouts", ["field" => $page->text()])  ?>
+</article>
+<div class="fixed w-screen h-screen inset-0 top-0 -z-10">
+  <div class="absolute w-[150vw] h-[150vh] -left-[25vw] -top-[25vh] inset-0 z-50 backdrop-blur-xl"></div>
+  <img class="w-full h-full object-cover" src="<?= $page->cover()->toFile()->resize($width = 500)->url() ?>" alt="<?= $page->cover()->toFile()->alt()->esc() ?>">
+</div>
 <?php snippet('footer') ?>

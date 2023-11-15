@@ -1,5 +1,9 @@
   </main>
-  <?= js(['assets/js/index.js', '@auto']) ?>
-
+  <?= js([
+    'assets/index.js',
+    'assets/lightbox.js',
+    '@auto'
+  ]) ?>
   </body>
+
   </html>

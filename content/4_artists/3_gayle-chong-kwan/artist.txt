@@ -1,0 +1,45 @@
+Title: Gayle Chong Kwan
+
+----
+
+Cover: - file://k1tXRNbpnede8BQF
+
+----
+
+Circleone: - file://KjBMZfGELnvgDia8
+
+----
+
+Circletwo: - file://HhSR4Z9RGc4PQGMl
+
+----
+
+Hero: 
+
+----
+
+Essay: - page://MswM2gfDqbI4eXqW
+
+----
+
+Partnername: Compton Verney, Warwickshire
+
+----
+
+Partnerurl: https://www.comptonverney.org.uk/
+
+----
+
+Text: 
+
+----
+
+Social:
+
+- 
+  partner: Partner
+  url: ""
+
+----
+
+Uuid: AF7zw4Q18zTbf2c5

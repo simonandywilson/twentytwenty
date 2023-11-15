@@ -2,7 +2,7 @@
   "name": "2020",
   "version": "1.0.0",
   "description": "<img src=\"http://getkirby.com/assets/images/github/starterkit.jpg\" width=\"300\">",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
     "watch": "npx tailwindcss -i site/stylesheets/main.css -o assets/style.css --watch"
   },

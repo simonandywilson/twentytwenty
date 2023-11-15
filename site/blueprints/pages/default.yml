@@ -4,9 +4,6 @@ title: Simple Page
 
 # Each page can have an icon that is shown in page listings when no preview image is available.
 icon: 📝
-
-# Custom descriptions of page statuses depending on use case
-# More about page statuses: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
 status:
   draft: true
   unlisted:
@@ -15,14 +12,10 @@ status:
   listed:
     label: Menu Page
     text: The page is listed in the main menu
-
-# Content area width 2 columns and 3 sections: fields, pages, and files
-# Columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
 columns:
   main:
     width: 2/3
     sections:
-      # Fields section: https://getkirby.com/docs/reference/panel/sections/fields
       fields:
         type: fields
         fields:
@@ -32,7 +25,6 @@ columns:
   sidebar:
     width: 1/3
     sections:
-      # Pages section: https://getkirby.com/docs/reference/panel/sections/pages
       pages:
         type: pages
         template: default

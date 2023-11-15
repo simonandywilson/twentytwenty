@@ -1,12 +1,11 @@
 type: pages
 label: Artists
 parent: kirby.page("artists")
-size: small
-info: "{{ page.partner }}"
-layout: cards
+info: "{{ page.partnername }}"
 template: artist
-empty: No artists yet
+empty: No artist yet
+sortBy: title asc
 image:
   query: page.cover
   cover: true
-  ratio: 5/4
+  ratio: 3/2

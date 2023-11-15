@@ -3,33 +3,52 @@ icon: 🖼
 status:
   draft: true
   listed: true
+  unlisted: true
 columns:
   - width: 1/3
     fields:
       cover: fields/cover
+      circleone:
+        label: Circle One
+        type: files
+        multiple: false
+        query: page.images.template('image')
+        uploads:
+          template: image
+      circletwo:
+        label: Circle Two
+        type: files
+        multiple: false
+        query: page.images.template('image')
+        uploads:
+          template: image
+      hero:
+        label: Hero Images
+        type: structure
+        required: false
+        max: 2
+        columns:
+          images: true
+        fields:
+          images: fields/cover
       essay:
         label: Essay
         type: pages
         multiple: false
-        query: site.find('essays')
         required: true
-      social:
-            label: Partner
-            type: structure
-            required: true
-            max: 1
-            columns:
-              partner: true
-            fields:
-              partner:
-                label: Partner
-                type: text
-                width: 1/2
-              url:
-                label: URL
-                type: url
-                width: 1/2
+        query: site.find('essays')
+      partnername:
+        label: Partner Name
+        type: text
+      partnerurl:
+        label: Partner URL
+        type: url
   - width: 2/3
     fields:
       text:
         type: blocks
+        fieldsets:
+          - text
+          - image
+          - gallery
+          - video

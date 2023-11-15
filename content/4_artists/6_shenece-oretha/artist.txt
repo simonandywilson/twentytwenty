@@ -1,0 +1,37 @@
+Title: Shenece Oretha
+
+----
+
+Cover: - file://W4X9DWgCSRlc4rzO
+
+----
+
+Circleone: - file://ocqpEKSfapktal2o
+
+----
+
+Circletwo: - file://B4uXuYO9kYZh9KlA
+
+----
+
+Hero: 
+
+----
+
+Essay: - page://jVDAdh6QzqlSeqoT
+
+----
+
+Partnername: Hepworth Wakefield
+
+----
+
+Partnerurl: https://hepworthwakefield.org/
+
+----
+
+Text: 
+
+----
+
+Uuid: OuFEMRLGb3l7GPgm

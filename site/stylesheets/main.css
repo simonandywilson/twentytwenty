@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 @layer base {
   html body {
@@ -19,12 +20,12 @@
 
   @font-face {
     font-family: "helvetica";
-    src: url("./fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
+    src: url("fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
     font-display: auto;
     font-style: normal;
     font-weight: 500;
     font-stretch: normal;
-}
+  }
 
   p:not(:last-child) {
     margin-bottom: 1em;
@@ -38,14 +39,34 @@
   details > summary::-webkit-details-marker {
     display: none;
   }
-
 }
 
 @layer components {
-	.container {
-		@apply flex-1 rounded-3xl p-3;
-	}
+  .round {
+    @apply rounded-3xl;
+  }
+
+  .container {
+    @apply flex-1 round p-3 focus:outline-none focus-visible:ring-2 ring-black ring-inset;
+  }
+
+  .artist-background {
+    @apply absolute w-full h-full object-cover motion-safe:transition-opacity motion-safe:duration-500;
+  }
+
+  .artist-circle {
+    @apply absolute w-full h-full overflow-hidden motion-safe:transition-opacity motion-safe:duration-500;
+  }
+
+  .artist-circle-img {
+    @apply absolute inset-0 w-full h-full object-cover;
+  }
+
+  .block-type-text {
+    @apply p-3 rounded-3xl bg-theme-text;
+  }
+
+  .figcaption {
+    @apply container bg-theme-figcaption;
+  }
 }
-
-
-@tailwind utilities;
