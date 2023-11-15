@@ -16,7 +16,8 @@ module.exports = {
           introduction: "#d8d7ca",
           contact: "#f4bbfb",
           text: "#f3fff1",
-          figcaption: "#f3fff1"
+          figcaption: "#f3fff1",
+          home: "#f3fff1",
         },
       },
       height: {
