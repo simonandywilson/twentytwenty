@@ -7,6 +7,7 @@ $ratio   = $block->ratio()->or('auto');
   <ul class="grid grid-cols-2">
     <?php foreach ($block->images()->toFiles() as $image) : ?>
       <li>
+        
         <figure>
           <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>" class="round">
           <?php if ($image->caption()->isNotEmpty()) : ?>
