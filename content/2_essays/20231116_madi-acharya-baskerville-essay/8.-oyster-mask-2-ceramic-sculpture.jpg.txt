@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Uuid: GSMP2w0G0vkPUMsa
+
+----
+
+Template: blocks/image
+
+----
+
+Sort: 2

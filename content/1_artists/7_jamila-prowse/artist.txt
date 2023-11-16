@@ -14,10 +14,6 @@ Circletwo: - file://lW6LaDsxOYU19t8C
 
 ----
 
-Hero: 
-
-----
-
 Essay: - page://hHVRX2tarc2iHaHo
 
 ----
@@ -30,7 +26,11 @@ Partnerurl: https://www.shapearts.org.uk/blog/ndaca-launch-announcement?gclid=EA
 
 ----
 
-Text: 
+Text: [{"content":{"location":"kirby","image":["file://FUCJz9qXOlLCw333"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"415ef439-6486-4940-922b-63f3743b15a7","isHidden":false,"type":"image"}]
+
+----
+
+Hero: 
 
 ----
 

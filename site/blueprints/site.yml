@@ -1,11 +1,5 @@
 title: Site
 
-# sidebar:
-#   fields:
-#     introduction:
-#       label: Introduction
-#       type:  textarea
-
 columns:
   artists:
     width: 1/2
@@ -31,5 +25,8 @@ columns:
     width: 1/2
     sections:
       contact:
-        type: files
-        layout: card
+        type: fields
+        fields:
+          contact:
+            label: Contact
+            type:  textarea

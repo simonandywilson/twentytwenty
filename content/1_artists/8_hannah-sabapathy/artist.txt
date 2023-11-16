@@ -14,10 +14,6 @@ Circletwo: - file://qhG9HLdpe7SyKq6u
 
 ----
 
-Hero: 
-
-----
-
 Essay: - page://4PTlHBGN3UJi3NlO
 
 ----
@@ -30,7 +26,11 @@ Partnerurl: https://www.theharris.org.uk/
 
 ----
 
-Text: 
+Text: [{"content":{"location":"kirby","image":["file://MweFBy6d6if7rHr6"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"92fb4c69-e2e7-43b0-a060-b7b0b8f42904","isHidden":false,"type":"image"}]
+
+----
+
+Hero: 
 
 ----
 

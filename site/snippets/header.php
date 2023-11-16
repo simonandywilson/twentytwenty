@@ -51,7 +51,7 @@
 
 <body>
 
-  <header class="fixed w-1/2 right-0 grid grid-cols-2 font-sans selection:bg-zinc-500/50">
+  <header class="fixed pl-4 w-1/2 right-0 grid grid-cols-2 font-sans selection:bg-zinc-500/50">
     <a href="/" class="w-full h-max col-span-2 container bg-orange-500">
       <h1 class="leading-none">Home</h1>
 
@@ -153,11 +153,11 @@
         <summary>
           <h1 class="leading-none">Contact</h1>
         </summary>
-        <div class="mt-[1em]">
-          <p>Contact</p>
+        <div class="mt-[1em] leading-tight">
+          <?= $site->contact()->kt() ?>
         </div>
       </details>
     </div>
   </header>
 
-  <main class="relative w-1/2 font-sans selection:bg-zinc-500/50">
+  <main class="relative w-1/2 font-sans selection:bg-zinc-500/50 pr-4">

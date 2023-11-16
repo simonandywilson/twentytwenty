@@ -958,6 +958,14 @@ details > summary::marker,
   padding: 0.75rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .font-sans {
   font-family: helvetica;
 }

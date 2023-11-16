@@ -22,15 +22,6 @@ columns:
         query: page.images.template('image')
         uploads:
           template: image
-      hero:
-        label: Hero Images
-        type: structure
-        required: false
-        max: 2
-        columns:
-          images: true
-        fields:
-          images: fields/cover
       essay:
         label: Essay
         type: pages

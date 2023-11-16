@@ -6,22 +6,11 @@ Cover: - file://qHyBLd2sDIA91xIn
 
 ----
 
-Circleone: - file://MCWAJvVgJSAsK2ba
+Circleone: - file://LTGJEsi1hIw5sSRW
 
 ----
 
-Circletwo: - file://LTGJEsi1hIw5sSRW
-
-----
-
-Hero:
-
-- 
-  images:
-    - file://LTGJEsi1hIw5sSRW
-- 
-  images:
-    - file://MCWAJvVgJSAsK2ba
+Circletwo: - file://MCWAJvVgJSAsK2ba
 
 ----
 
@@ -33,11 +22,22 @@ Partnername: The Lightbox, Woking
 
 ----
 
-Partnerurl: 
+Partnerurl: https://www.thelightbox.org.uk/wokings-story?gclid=EAIaIQobChMIqODcx_7IggMVwvjtCh12NQp9EAAYASAAEgK1-fD_BwE
 
 ----
 
-Text: [{"content":{"text":"<p>Otat lamus. Me dolum excerov idendaes illa accus et laborio necturitatus doluptat modi ulliquam, tem et voluptae verspis mi, id eum venihil molupta ssitatibus, quiaest revolut volupti niminctatia volor solo enienim quam inis evendi omnisin con pa veliquides molupta tiatius qui cum voluptio voleste mporeri velendelit earumqui odit odicime rehent pro temperi buscitae eaquam est harum num ea quodit magnaturem etur. Itat delit aut alis net parunt quiditione dolendae remporpos asit harcidebis sam re rem isime doloria epellab idem quas mollupt atibusti voloreris dolore ipis adit ab imoluptatis ma venisciis cor sim vit dolecus etur soluptio ipis utest eosam, si rent arcietur santo et, simporro mo beruptiunte prae. Itae rem rem lit que mossi temquaeperis inulpa se sapel iusantotatia net volorem rem harum acerundaero earciae niscia cus, officid molorae comnisciunt ulliaspedit venisinciis elliquam quati vollabo. Aligendiat eum deleces ipiducium rerferum quia nam que nus et aut rem quam vidit ommodiatur mil et la sunt, et audaepero quide volupta taquid mo cone voloreprepe pro omnimus adia doluptatus sus pedi idebita tquatet volum aut quatassus dolorem ut faccume et quidipit voluption nobitia sperum cum ad quate ad mint que volupta speres remolor itatibus ut labor. Borum fuga. Ide rem. Et excea seror aut aut reprat quat qui ut expligendion plaut anisquidion re, saperci dendae solupta tquam, corrorest quas et fugit que dera duci cor abo. Ut mil molorro officil iducias ex eum fugiam.</p>"},"id":"1032cb85-e241-400b-8520-2c14b07af87f","isHidden":false,"type":"text"}]
+Text: [{"content":{"location":"kirby","image":["file://LTGJEsi1hIw5sSRW"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bec6bf17-0399-44f1-8067-a9a4ba319092","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://MCWAJvVgJSAsK2ba"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2801b1f0-bda9-4edc-a605-4fbc70729acd","isHidden":false,"type":"image"},{"content":{"text":"<p>The rationale behind choosing these particular images is that they are illustrative of the process of research and making work during the 20/20 residency, leading up to the final commission. As I became intrigued by particular aspects of the collection, I began to create my own versions of particular objects. Bartman 1-3, (images 1,2, 4) are inspired by a late 16th stoneware jug imported from Germany showing ‘ Bartmann’ a bearded man.</p>"},"id":"1032cb85-e241-400b-8520-2c14b07af87f","isHidden":false,"type":"text"},{"content":{"images":["file://qHyBLd2sDIA91xIn","file://ttWAlZ7XQVByHElS"],"caption":"","ratio":"","crop":"false"},"id":"e54210c5-0548-433a-a0ab-e35eff69cfc1","isHidden":false,"type":"gallery"},{"content":{"text":"<p>The Palace’s toy horse (image 3) is inspired by a toy horse remnant excavated from the grounds of the former Woking Palace.</p><p>In images 3.) and 4.) I have been experimenting by placing fishing net debris with the ceramic pieces as I would like to explore combining ceramics with textiles.</p>"},"id":"1e0bf84c-b549-469d-aa0e-52ceacaccdbd","isHidden":false,"type":"text"},{"content":{"images":["file://S6oSeg94PRSKA2LS","file://8VZyJMyI9Sn4K8FF"],"caption":"","ratio":"","crop":"false"},"id":"3d76ccbe-5fc5-4af6-bf48-e6252b0a20ce","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Metal fragments, including a large key are part of the reserve collection at Heather Farm, a few miles away from the Lightbox gallery. I experimented with black clay to create small ceramic pieces as shown in images 5.) and 6.)</p>"},"id":"48afb7ed-f282-40fa-8422-6951dbb728c9","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://wBWDnDMLurhYo4mJ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f46848db-b749-4da1-a4ed-af1400c66fa8","isHidden":false,"type":"image"},{"content":{"text":"<p>I also felt drawn to the 15th century floor tiles from Valencia which are part of the Heritage collection at Woking Palace. These are plentiful in Woking palace but rare elsewhere in England. I initially made small water colour studies and then created sculptural forms based on these small studies. One of these is shown in image 7.</p>"},"id":"d34e8bf1-d23a-41dd-bb9f-56cf1080a15a","isHidden":false,"type":"text"},{"content":{"images":["file://8ONS7ZkG9m0yA4Sb","file://OCh28TqVNRJDhRZW"],"caption":"","ratio":"","crop":"false"},"id":"a5bcfb52-a0d7-4689-aa3d-f6b852751200","isHidden":false,"type":"gallery"},{"content":{"text":"<p>There are many oyster shells in the Heritage collection and also in the reserve collection. Shellfish were important in diet in Tudor times and were found in the kitchen area in the grounds of Woking Palace. I worked with various community groups as part of this residency. I created 3 ceramic sculptures based on oyster shells. Image 8 shows one of these works, inspired by a student’s drawing based on Islamic architechture. Image 8 shows a small piece where I have experimented with porcelain and black clay to create layers and patterns seen in shells.</p>"},"id":"8945db41-8ee5-4c85-960f-84fec8092af2","isHidden":false,"type":"text"}]
+
+----
+
+Hero:
+
+- 
+  images:
+    - file://LTGJEsi1hIw5sSRW
+- 
+  images:
+    - file://MCWAJvVgJSAsK2ba
 
 ----
 

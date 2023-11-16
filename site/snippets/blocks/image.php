@@ -48,7 +48,7 @@ $attrs = attr([
 <?php if ($srcValue): ?>
 <figure >
   <a <?= $attrs ?> >
-    <img src="<?= $srcValue ?>" alt="<?= esc($alt, 'attr') ?>" class="round">
+    <img src="<?= $srcValue ?>" alt="<?= esc($alt, 'attr') ?>" class="round w-full">
   </a>
 
   <?php if ($caption->isNotEmpty()): ?>
