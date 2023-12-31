@@ -20,7 +20,15 @@ columns:
           introduction:
             label: Introduction
             type:  textarea
-
+  recordings:
+    width: 1/2
+    sections:
+      recordings:
+        type: fields
+        fields:
+          recordings:
+            label: Recordings
+            type:  textarea
   contact:
     width: 1/2
     sections:

@@ -12,12 +12,14 @@ module.exports = {
       colors: {
         theme: {
           artists: "#75fb4c",
-          essays: "#92956e",
+          essays: "#D9E6D6",
           introduction: "#d8d7ca",
           contact: "#f4bbfb",
           text: "#f3fff1",
           figcaption: "#f3fff1",
-          home: "#f3fff1",
+          home: "#ff7d2f",
+          recordings: "#ffffff",
+          sponsors: "#ffffff",
         },
       },
       height: {

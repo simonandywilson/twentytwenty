@@ -13,7 +13,7 @@
 */
 ?>
 <?php if ($block->url()->isNotEmpty()): ?>
-<figure>
+<figure class="w-full">
   <span class="video" style="--w:16;--h:9">
     <?= video($block->url()) ?>
   </span>

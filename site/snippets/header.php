@@ -1,60 +1,22 @@
-<?php
-/*
-  Snippets are a great way to store code snippets for reuse
-  or to keep your templates clean.
-
-  This header snippet is reused in all templates.
-  It fetches information from the `site.txt` content file
-  and contains the site navigation.
-
-  More about snippets:
-  https://getkirby.com/docs/guide/templates/snippets
-*/
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-  <?php
-  /*
-    In the title tag we show the title of our
-    site and the title of the current page
-  */
-  ?>
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
-
-  <?php
-  /*
-    Stylesheets can be included using the `css()` helper.
-    Kirby also provides the `js()` helper to include script file.
-    More Kirby helpers: https://getkirby.com/docs/reference/templates/helpers
-  */
-  ?>
-    <?= css([
+  <?= css([
     'assets/style.css',
     'assets/lightbox.css',
     '@auto'
   ]) ?>
-  <?php
-  /*
-    The `url()` helper is a great way to create reliable
-    absolute URLs in Kirby that always start with the
-    base URL of your site.
-  */
-  ?>
   <!-- <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>"> -->
 </head>
 
 <body>
-
   <header class="fixed pl-4 w-1/2 right-0 grid grid-cols-2 font-sans selection:bg-zinc-500/50">
-    <a href="/" class="w-full h-max col-span-2 container bg-orange-500">
+    <a href="/" class="w-full h-max col-span-2 container bg-theme-home">
       <h1 class="leading-none">Home</h1>
-
     </a>
     <div class="w-full col-span-1">
       <details open class="w-full h-max bg-theme-artists rounded-2xl p-3 pointer-events-none">
@@ -87,7 +49,7 @@
                       <?php endif ?>
                       <?php if ($child->status() == "unlisted") : ?>
                         <h2 class="artist-link" data-artist-slug="<?= $child->slug() ?>">
-                          <p class="text-white cursor-default"><?= $child->title()->html() ?></p>
+                          <p class="text-black cursor-default"><?= $child->title()->html() ?></p>
                         </h2>
                       <?php endif ?>
                     </li>
@@ -130,7 +92,7 @@
                       <?php endif ?>
                       <?php if ($child->status() == "unlisted") : ?>
                         <h2 class="artist-link" data-artist-slug="<?= $child->slug() ?>">
-                          <p class="text-white cursor-default"><?= $child->essay()->toPage()->title()->html() ?></p>
+                          <p class="text-black cursor-default"><?= $child->essay()->toPage()->title()->html() ?></p>
                         </h2>
                       <?php endif ?>
                     </li>
@@ -141,23 +103,32 @@
           <?php endforeach ?>
         </nav>
       </details>
-      <details open class="bg-theme-introduction rounded-2xl p-3 secondary-details">
-        <summary>
-          <h1 class="leading-none">Introduction</h1>
+      <details class="bg-theme-recordings rounded-2xl secondary-details">
+        <summary class="p-3">
+          <h1 class="leading-none">Recordings</h1>
         </summary>
-        <div class="mt-[1em] leading-tight">
-          <?= $site->introduction()->kt() ?>
+        <div class="leading-tight px-3 pb-3">
+          <?= $site->recordings()->kt() ?>
         </div>
       </details>
-      <details class="bg-theme-contact rounded-2xl p-3 secondary-details">
-        <summary>
+      <details class="bg-theme-introduction rounded-2xl secondary-details">
+        <summary class="p-3">
+          <h1 class="leading-none">Introduction</h1>
+        </summary>
+        <div class="leading-tight px-3 pb-3">
+          <?= $site->introduction()->kt() ?>
+          <?php snippet('sponsors') ?>
+
+        </div>
+      </details>
+      <details class="bg-theme-contact rounded-2xl secondary-details">
+        <summary class="p-3">
           <h1 class="leading-none">Contact</h1>
         </summary>
-        <div class="mt-[1em] leading-tight">
+        <div class="leading-tight px-3 pb-3">
           <?= $site->contact()->kt() ?>
         </div>
       </details>
     </div>
   </header>
-
   <main class="relative w-1/2 font-sans selection:bg-zinc-500/50 pr-4">

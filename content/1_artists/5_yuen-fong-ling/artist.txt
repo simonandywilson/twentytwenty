@@ -14,10 +14,6 @@ Circletwo: - file://hOiQ7sn12QAZjcYT
 
 ----
 
-Hero: 
-
-----
-
 Essay: - page://UFWPQmF1rDoCBxiX
 
 ----
@@ -30,7 +26,11 @@ Partnerurl: https://www.sheffieldmuseums.org.uk/
 
 ----
 
-Text: 
+Text: [{"content":{"url":"https://www.youtube.com/watch?v=C0DPdy98e4c","caption":""},"id":"79a590c2-6096-4d19-9412-27690c48911a","isHidden":false,"type":"video"},{"content":{"text":"<p>Yuen Fong Ling is an artist curator based at Bloc Studios Sheffield, Fine Art Senior Lecturer and Post Graduate Research Tutor for Art and Design at Sheffield Hallam University. Graduated from MFA Glasgow School of Art (2005-7), and completed his PhD by Practice, “A Body of Relations: Reconfiguring the Life Class” at University of Lincoln 2016. Recently, Ling has received professional development from “Making Ways” Sheffield, “Platform Residency” at Site Gallery, with Freelands Artists Programme. Recent projects include “Towards Memorial” (2018-), and “The Human Memorial” (2020-) including exhibitions at Persistence Works, Sheffield, Freelands Foundation, London, Bury Art Museum, and commissions from SAFEDI Project (MMU, Axis, Social Art Network), and 20/20 Project from Decolonising Arts Institute, UAL.         </p><p>Ling has a performance and participatory based art practice that explores his biographical connections with permitted histories, people, places, and objects. Recent projects devised alternative forms of public monument and memorial making. This research has contributed to Commissioner evidence for Sheffield’s Race Equality Commission and Sheffield City Council’s Cultural Holdings Group to decolonising street names, statues and monuments. Ling was also part of the “Artist Working Group” for the Centre for Contemporary Chinese Art’s (CFCCA) strategic revisioning, and now contributes to the “ESEA Artists’ Futures” national town hall event, and report to develop policy for East and South-East Asian artists in the UK.     </p><p>Ling’s practice considers how race, gender, class, and sexuality (as a British born Chinese gay man from Salford) align with other historical personages to bridge the conjunctive gap between histories, stories, and places. Recently, he explored the making, gifting, and wearing of sandals once designed and handmade by gay socialist activist Edward Carpenter (1844 - 1929). Titled “Towards Memorial”, the Carpenter sandals became the protagonist in generating discussion, interviews, visual strategies that developed artworks, artefacts, exhibition design, and a series of films that drew the narrative together, to consider the sandals when gifted and worn, as an alternative form of public memorial. </p><p>Since COVID-19, the “Black Lives Matter” and “Rhodes Must Fall” movements have intensified, through protests and demonstrations by activists, wanting the removal of public statues relating to Britain’s colonial past. Ling began to align with this work critically, having developed research in alternative forms and methods for memorial making emphasising collaboration, co-design, and community participation. Simply driven by wanting to wrestle the conversation away from the ‘culture wars’ debate, party politics, and actively engage artists from ethnically diverse backgrounds into the discussion.  </p><p>As a result, the project “The Human Memorial” is part performance, part public engagement, part protest, prompted by the proposition of a mobile plinth and when, where it goes, and who it encounters. The film “The Empty Plinth” follows this process with a group of performers who respond through re-enactment, recreation, and play, and create alternative propositions for monuments and memorials, in sites linked to colonial street naming, across Sheffield. The 20/20 Project Artist Commission continues this work in the permanent collections at Sheffield Museums Trusts, pairing selected objects with performers, and sites, considering the scale and proximity of bodies of colour, in the public and private spaces of the city’s cultural heritage institutions.     </p>"},"id":"70ca552e-e6ae-4c15-a53d-d42472bf3248","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://CYU7aTo0355rW7NV"],"src":"","alt":"","caption":"\"Monumentalise\" Film Still, No.1-6 (2023), featuring Nathan Geering, Emma Paragreenat Kelham Island Museum, part of Sheffield Museums Trust. Production LUMO FILM.","link":"","ratio":"","crop":"false"},"id":"31701db4-c1ac-4a84-99d9-52ab2fcc85e8","isHidden":false,"type":"image"}]
+
+----
+
+Hero: 
 
 ----
 
