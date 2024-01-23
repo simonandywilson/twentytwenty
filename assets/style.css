@@ -744,7 +744,7 @@ iframe {
 
 .figcaption {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 255 241 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .pointer-events-none {
@@ -789,10 +789,6 @@ iframe {
 
 .top-0 {
   top: 0px;
-}
-
-.top-1\/2 {
-  top: 50%;
 }
 
 .top-\[0\.1rem\] {
@@ -847,6 +843,10 @@ iframe {
   aspect-ratio: 1 / 1;
 }
 
+.h-\[0\.4rem\] {
+  height: 0.4rem;
+}
+
 .h-\[150vh\] {
   height: 150vh;
 }
@@ -869,28 +869,16 @@ iframe {
   height: 100svh;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-\[0\.5rem\] {
-  height: 0.5rem;
-}
-
-.h-\[0\.4rem\] {
-  height: 0.4rem;
-}
-
 .max-h-\[calc\(50vh-1\.5vw\)\] {
   max-height: calc(50vh - 1.5vw);
 }
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-\[0\.4rem\] {
+  width: 0.4rem;
 }
 
 .w-\[150vw\] {
@@ -910,33 +898,8 @@ iframe {
   width: 100vw;
 }
 
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[0\.5rem\] {
-  width: 0.5rem;
-}
-
-.w-\[0\.4rem\] {
-  width: 0.4rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.translate-y-1\/2 {
-  --tw-translate-y: 50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-y-1\/2 {
@@ -992,6 +955,11 @@ iframe {
   border-radius: 9999px;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-theme-artists {
   --tw-bg-opacity: 1;
   background-color: rgb(3 255 0 / var(--tw-bg-opacity));
@@ -1020,11 +988,6 @@ iframe {
 .bg-theme-recordings {
   --tw-bg-opacity: 1;
   background-color: rgb(255 184 255 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .fill-red-500 {
@@ -1066,14 +1029,6 @@ iframe {
   font-family: helvetica;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
 .leading-none {
   line-height: 1;
 }
@@ -1089,14 +1044,6 @@ iframe {
 
 .underline {
   text-decoration-line: underline;
-}
-
-.decoration-black {
-  text-decoration-color: #000;
-}
-
-.decoration-from-font {
-  text-decoration-thickness: from-font;
 }
 
 .opacity-0 {

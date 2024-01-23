@@ -16,7 +16,7 @@ module.exports = {
           introduction: "#ffffff",
           contact: "#d8d7ca",
           text: "#f3fff1",
-          figcaption: "#f3fff1",
+          figcaption: "#ffffff",
           home: "#ff621f",
           recordings: "#ffb8ff",
 
