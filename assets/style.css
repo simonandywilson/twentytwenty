@@ -811,10 +811,6 @@ iframe {
   grid-column: span 2 / span 2;
 }
 
-.mb-\[1em\] {
-  margin-bottom: 1em;
-}
-
 .mt-\[1em\] {
   margin-top: 1em;
 }
@@ -988,6 +984,11 @@ iframe {
 .bg-theme-recordings {
   --tw-bg-opacity: 1;
   background-color: rgb(255 184 255 / var(--tw-bg-opacity));
+}
+
+.bg-theme-sponsors {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .fill-red-500 {

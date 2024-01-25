@@ -118,8 +118,6 @@
         </summary>
         <div class="leading-tight px-3 pb-3">
           <?= $site->introduction()->kt() ?>
-          <?php snippet('sponsors') ?>
-
         </div>
       </details>
       <details class="bg-theme-contact rounded-2xl secondary-details">
@@ -129,6 +127,15 @@
         <div class="leading-tight px-3 pb-3">
           <?= $site->contact()->kt() ?>
         </div>
+      </details>
+      <details open class="bg-theme-sponsors rounded-2xl p-3 secondary-details">
+        <summary>
+          <h1 class="leading-none">Sponsors</h1>
+        </summary>
+        <nav class="mt-[1em]">
+        <?php snippet('sponsors') ?>
+
+        </nav>
       </details>
     </div>
   </header>
