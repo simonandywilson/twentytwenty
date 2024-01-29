@@ -80,21 +80,15 @@
                     <li class="leading-tight">
                       <?php
                       if ($child->essay()->toPage()->isOpen()) {
-                        $class = 'artist-link block w-max underline';
+                        $class = 'artist-link block w-full underline';
                       } else {
-                        $class = 'artist-link block w-max hover:underline';
+                        $class = 'artist-link block w-full hover:underline';
                       }
                       ?>
                       <?php if ($child->status() == "listed") : ?>
                         <a class="<?php echo $class; ?>" data-artist-slug="<?= $child->slug() ?>" href="<?= $child->essay()->toPage()->url() ?>">
                           <h2><?= $child->essay()->toPage()->title()->html() ?></h2>
                         </a>
-                      <?php endif ?>
-                      <?php if ($child->status() == "unlisted") : ?>
-                        <!-- <h2 class="artist-link" data-artist-slug="<?= $child->slug() ?>">
-                          <p class="text-black cursor-default"><?= $child->essay()->toPage()->title()->html() ?></p>
-                        </h2> -->
-                      </br>
                       <?php endif ?>
                     </li>
                   <?php endforeach ?>

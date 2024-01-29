@@ -76,4 +76,8 @@
   .figcaption {
     @apply container bg-theme-figcaption;
   }
+
+  .underlineelement {
+    @apply line-through;
+  }
 }

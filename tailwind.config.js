@@ -14,13 +14,12 @@ module.exports = {
           artists: "#03ff00",
           essays: "#b9bd9b",
           introduction: "#ffffff",
-          contact: "#d8d7ca",
-          text: "#f3fff1",
-          figcaption: "#ffffff",
-          home: "#ff621f",
+          contact: "#bf86ff",
+          text: "#ffffff",
+          figcaption: "#b9bd9b",
+          home: "#ff4d00",
           recordings: "#ffb8ff",
-
-          sponsors: "#ffffff",
+          sponsors: "#e9ffb8",
         },
       },
       height: {

@@ -34,7 +34,11 @@ const circleImages = [
   ...document.getElementsByClassName("artist-circle"),
 ];
 
-[...document.getElementsByClassName("artist-link")].forEach((element) => {
+const artistLinks = [
+  ...document.getElementsByClassName("artist-link"),
+];
+
+artistLinks.forEach((element) => {
   ["mouseenter", "focus"].forEach((evt) =>
     element.addEventListener(
       evt,
@@ -52,6 +56,13 @@ const circleImages = [
             element.classList.remove('opacity-0');
           } else {
             element.classList.add('opacity-0');
+          }
+        });
+        artistLinks.forEach((element) => {
+          if (element.dataset.artistSlug === thisSlug) {
+            element.classList.add('underline');
+          } else {
+            element.classList.remove('underline');
           }
         });
       },
