@@ -54,7 +54,7 @@
   }
 
   .container {
-    @apply flex-1 round p-3 focus:outline-none focus-visible:ring-2 ring-black ring-inset;
+    @apply flex-1 rounded-2xl p-3 focus:outline-none focus-visible:ring-2 ring-black ring-inset;
   }
 
   .artist-background {
@@ -75,9 +75,5 @@
 
   .figcaption {
     @apply container bg-theme-figcaption;
-  }
-
-  .underlineelement {
-    @apply line-through;
   }
 }

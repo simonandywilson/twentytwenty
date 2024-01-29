@@ -20,6 +20,7 @@ module.exports = {
           home: "#ff4d00",
           recordings: "#ffb8ff",
           sponsors: "#e9ffb8",
+          menu: "#ff0100"
         },
       },
       height: {

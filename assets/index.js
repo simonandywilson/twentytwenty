@@ -1,14 +1,17 @@
 // Lightbox
-Array.from(document.querySelectorAll("[data-lightbox]")).forEach(element => {
+Array.from(document.querySelectorAll("[data-lightbox]")).forEach((element) => {
   element.onclick = (e) => {
     e.preventDefault();
-    const instance = basicLightbox.create(`<img src="${element.href}">`)
+    const instance = basicLightbox.create(`<img src="${element.href}">`);
     instance.show(() => {
-      instance.element().querySelector( '.basicLightbox__placeholder > *:first-child' ).focus();
+      instance
+        .element()
+        .querySelector(".basicLightbox__placeholder > *:first-child")
+        .focus();
     });
-    document.body.addEventListener('keypress', (e) => {
-      if (e.key === "Escape") instance.close()
-    })
+    document.body.addEventListener("keypress", (e) => {
+      if (e.key === "Escape") instance.close();
+    });
   };
 });
 
@@ -30,13 +33,9 @@ const backgroundImages = [
   ...document.getElementsByClassName("artist-background"),
 ];
 
-const circleImages = [
-  ...document.getElementsByClassName("artist-circle"),
-];
+const circleImages = [...document.getElementsByClassName("artist-circle")];
 
-const artistLinks = [
-  ...document.getElementsByClassName("artist-link"),
-];
+const artistLinks = [...document.getElementsByClassName("artist-link")];
 
 artistLinks.forEach((element) => {
   ["mouseenter", "focus"].forEach((evt) =>
@@ -46,23 +45,23 @@ artistLinks.forEach((element) => {
         const thisSlug = element.getAttribute("data-artist-slug");
         backgroundImages.forEach((element) => {
           if (element.dataset.artistSlug === thisSlug) {
-            element.classList.remove('opacity-0');
+            element.classList.remove("opacity-0");
           } else {
-            element.classList.add('opacity-0');
+            element.classList.add("opacity-0");
           }
         });
         circleImages.forEach((element) => {
           if (element.dataset.artistSlug === thisSlug) {
-            element.classList.remove('opacity-0');
+            element.classList.remove("opacity-0");
           } else {
-            element.classList.add('opacity-0');
+            element.classList.add("opacity-0");
           }
         });
         artistLinks.forEach((element) => {
           if (element.dataset.artistSlug === thisSlug) {
-            element.classList.add('underline');
+            element.classList.add("underline");
           } else {
-            element.classList.remove('underline');
+            element.classList.remove("underline");
           }
         });
       },
@@ -70,3 +69,29 @@ artistLinks.forEach((element) => {
     )
   );
 });
+
+const menu = document.getElementById("siteMenu");
+
+const toggleMenu = () => {
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+};
+
+const isMediumScreen = window.matchMedia("(min-width: 768px)");
+
+isMediumScreen.addEventListener("change", (e) => {
+  if (e.matches === true) {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+});
+
+window.onload = () => {
+  if (isMediumScreen.matches) {
+    menu.style.display = "block";
+  }
+};
