@@ -14,7 +14,7 @@
                     <ul>
                         <?php foreach ($children as $child) : ?>
                             <?php
-                                if ($child->essay()->exists()) :
+                                if ($child->essay()->toPage()) :
                             ?>
                                 <li class="leading-tight">
                                     <?php
