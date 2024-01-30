@@ -4,12 +4,12 @@ columns:
   artists:
     width: 1/2
     sections:
-      albums: sections/artists
+      artists: sections/artists
 
   essays:
     width: 1/2
     sections:
-      notes: sections/essays
+      essays: sections/essays
 
   introduction:
     width: 1/2

@@ -13,20 +13,24 @@
                 ?>
                     <ul>
                         <?php foreach ($children as $child) : ?>
-                            <li class="leading-tight">
-                                <?php
-                                if ($child->essay()->toPage()->isOpen()) {
-                                    $class = 'artist-link block w-full underline';
-                                } else {
-                                    $class = 'artist-link block w-full hover:underline';
-                                }
-                                ?>
-                                <?php if ($child->status() == "listed") : ?>
-                                    <a class="<?php echo $class; ?>" data-artist-slug="<?= $child->slug() ?>" href="<?= $child->essay()->toPage()->url() ?>">
-                                        <h2><?= $child->essay()->toPage()->title()->html() ?></h2>
-                                    </a>
-                                <?php endif ?>
-                            </li>
+                            <?php
+                                if ($child->essay()->exists()) :
+                            ?>
+                                <li class="leading-tight">
+                                    <?php
+                                    if ($child->essay()->toPage()->isOpen()) {
+                                        $class = 'artist-link block w-full underline';
+                                    } else {
+                                        $class = 'artist-link block w-full hover:underline';
+                                    }
+                                    ?>
+                                    <?php if ($child->status() == "listed") : ?>
+                                        <a class="<?php echo $class; ?>" data-artist-slug="<?= $child->slug() ?>" href="<?= $child->essay()->toPage()->url() ?>">
+                                            <h2><?= $child->essay()->toPage()->title()->html() ?></h2>
+                                        </a>
+                                    <?php endif ?>
+                                </li>
+                            <?php endif ?>
                         <?php endforeach ?>
                     </ul>
                 <?php endif ?>

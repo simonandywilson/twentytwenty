@@ -14,10 +14,6 @@ Circletwo: - file://qhG9HLdpe7SyKq6u
 
 ----
 
-Essay: - page://4PTlHBGN3UJi3NlO
-
-----
-
 Partnername: The Harris Museum, Preston
 
 ----
