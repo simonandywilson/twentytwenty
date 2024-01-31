@@ -7,6 +7,7 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <?= css([
     'assets/css/styles.css',
+    'assets/css/cookie-modal.css',
     '@auto'
   ]) ?>
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
