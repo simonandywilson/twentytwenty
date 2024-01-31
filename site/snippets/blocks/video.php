@@ -18,7 +18,7 @@
     <?= video($block->url()) ?>
   </span>
   <?php if ($block->caption()->isNotEmpty()): ?>
-  <figcaption class="video-caption"><?= $block->caption() ?></figcaption>
+  <figcaption class="figcaption"><?= $block->caption() ?></figcaption>
   <?php endif ?>
 </figure>
 <?php endif ?>

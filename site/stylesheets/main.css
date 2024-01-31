@@ -67,7 +67,7 @@
   }
 
   .figcaption {
-    @apply leading-tight container bg-theme-figcaption;
+    @apply leading-tight container bg-theme-figcaption text-sm;
   }
 
   .text-block {
