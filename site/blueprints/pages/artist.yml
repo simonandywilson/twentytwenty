@@ -26,7 +26,6 @@ columns:
         label: Essay
         type: pages
         multiple: false
-        required: true
         query: site.find('essays')
       partnername:
         label: Partner Name

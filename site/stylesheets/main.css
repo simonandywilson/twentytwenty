@@ -19,8 +19,8 @@
   }
 
   @font-face {
-    font-family: "helvetica";
-    src: url("fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
+    font-family: "Helvetica";
+    src: url("../fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
     font-display: auto;
     font-style: normal;
     font-weight: 500;
@@ -43,18 +43,15 @@
   iframe {
     width: 100%;
     aspect-ratio: 16/9;
-    border-radius: 1.5rem; 
+    border-radius: 1.5rem;
     overflow: hidden;
   }
+
 }
 
 @layer components {
-  .round {
-    @apply rounded-3xl;
-  }
-
   .container {
-    @apply flex-1 rounded-2xl p-3 focus:outline-none focus-visible:ring-2 ring-black ring-inset;
+    @apply flex-1 rounded-3xl p-3 focus:outline-none focus-visible:ring-2 ring-black ring-inset;
   }
 
   .artist-background {
@@ -69,11 +66,11 @@
     @apply absolute inset-0 w-full h-full object-cover;
   }
 
-  .block-type-text {
-    @apply p-3 rounded-3xl bg-theme-text;
+  .figcaption {
+    @apply leading-tight container bg-theme-figcaption;
   }
 
-  .figcaption {
-    @apply container bg-theme-figcaption;
+  .text-block {
+    @apply leading-tight p-3 rounded-3xl bg-theme-text;
   }
 }

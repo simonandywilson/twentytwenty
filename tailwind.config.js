@@ -1,12 +1,8 @@
 module.exports = {
-  content: [
-    "./site/templates/*.php",
-    "./site/snippets/*.php",
-    "./site/stylesheets/*.css",
-  ],
+  content: ['./site/**/*.{html,js,php}"'],
   theme: {
     fontFamily: {
-      sans: ["helvetica"],
+      sans: [`"Helvetica"`, "Helvetica"],
     },
     extend: {
       colors: {
@@ -17,17 +13,17 @@ module.exports = {
           contact: "#bf86ff",
           text: "#ffffff",
           figcaption: "#b9bd9b",
-          home: "#ff4d00",
+          home: "#fd8f38",
           recordings: "#ffb8ff",
           sponsors: "#e9ffb8",
-          menu: "#ff0100"
+          menu: "#ff0100",
         },
       },
       height: {
-        screen: ['100vh', '100svh'],
+        screen: ["100vh", "100svh"],
       },
       maxHeight: {
-        screen: ['100vh', '100svh'],
+        screen: ["100vh", "100svh"],
       },
     },
   },

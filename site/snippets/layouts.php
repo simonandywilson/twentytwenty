@@ -1,6 +1,13 @@
 <section>
   <?php foreach ($field->toBlocks() as $block) : ?>
-    <div id="<?= $block->id() ?>" class="block-type-<?= $block->type() ?> leading-tight">
+    <?php
+      if ($block->type() === "text") {
+        $class = 'text-block';
+      } else {
+        $class = "";
+      }
+    ?>
+    <div id="<?= $block->id() ?>" class="<?php echo $class; ?>">
       <?= $block ?>
     </div>
   <?php endforeach ?>

@@ -1,20 +1,3 @@
-// Lightbox
-Array.from(document.querySelectorAll("[data-lightbox]")).forEach((element) => {
-  element.onclick = (e) => {
-    e.preventDefault();
-    const instance = basicLightbox.create(`<img src="${element.href}">`);
-    instance.show(() => {
-      instance
-        .element()
-        .querySelector(".basicLightbox__placeholder > *:first-child")
-        .focus();
-    });
-    document.body.addEventListener("keypress", (e) => {
-      if (e.key === "Escape") instance.close();
-    });
-  };
-});
-
 // Menu
 const details = document.querySelectorAll("details.secondary-details");
 

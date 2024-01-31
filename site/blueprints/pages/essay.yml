@@ -20,6 +20,9 @@ columns:
           author:
             label: Author
             type: text
+          pdf:
+            label: PDF
+            type: files
   - width: 2/3
     fields:
       text:

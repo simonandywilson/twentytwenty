@@ -1,4 +1,4 @@
-<svg class="w-full h-auto" id="a" xmlns="http://www.w3.org/2000/svg" width="66.01" height="17.01" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.01 17.01">
+<svg id="a" xmlns="http://www.w3.org/2000/svg" width="66.01" height="17.01" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.01 17.01">
     <defs>
         <clipPath id="b">
             <rect y="0" width="66.01" height="17.01" fill="none" stroke-width="0" />

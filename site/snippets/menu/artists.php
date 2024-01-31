@@ -1,5 +1,5 @@
-<details open class="w-full h-max bg-theme-artists rounded-2xl p-3 pointer-events-none container">
-    <summary>
+<details open class="w-full h-max bg-theme-artists rounded-2xl p-3 pointer-events-none container max-w-full has-[:focus-visible]:ring-2 ring-black">
+    <summary class="focus:outline-none">
         <h1 class="leading-none">Artists</h1>
     </summary>
     <nav class="mt-[1em] pointer-events-auto">
@@ -18,12 +18,12 @@
                                 if ($child->isOpen()) {
                                     $class = 'artist-link block w-max underline';
                                 } else {
-                                    $class = 'artist-link block w-max hover:underline';
+                                    $class = 'artist-link block w-max hover:underline focus:outline-none focus-visible:underline group';
                                 }
                                 ?>
                                 <?php if ($child->status() == "listed") : ?>
                                     <a class="<?php echo $class; ?>" data-artist-slug="<?= $child->slug() ?>" href="<?= $child->url() ?>">
-                                        <h2 class="w-full"><?= $child->title()->html() ?> <span class="relative inline-block w-[0.4rem] h-[0.4rem] top-[0.1rem] -translate-y-1/2 bg-black rounded-full"></span></h2>
+                                        <h2 class="w-full"><?= $child->title()->html() ?> <span class="relative inline-block w-[0.4rem] h-[0.4rem] top-[0.1rem] -translate-y-1/2 bg-black rounded-full group-focus-visible:bg-white"></span></h2>
                                     </a>
                                 <?php endif ?>
                                 <?php if ($child->status() == "unlisted") : ?>

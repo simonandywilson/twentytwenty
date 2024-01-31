@@ -1,23 +1,23 @@
 <?php snippet('header') ?>
 <article>
-    <div class="w-full grid grid-cols-2">
+    <div class="w-full grid grid-cols-1 lg:grid-cols-2">
         <div class="w-full flex-1">
             <h1 class="container bg-theme-artists leading-none"><?= $page->title()->html() ?></h1>
             <?php
             if ($page->partnername()->exists()) :
             ?>
                 <a href="<?= $page->partnerurl() ?>" class="container block w-full flex-1 h-max bg-theme-artists">
-                    <h2 class="leading-none">
+                    <h2 class="leading-tight">
                         → <?= $page->partnername() ?>
                     </h2>
                 </a>
             <?php endif ?>
         </div>
         <?php
-        if ($page->essay()->exists()) :
+        if ($page->essay()->toPage()) :
         ?>
             <a href="<?= $page->essay()->toPage()->url() ?>" class="container w-full flex-1 h-max bg-theme-essays">
-                <h3 class="leading-none">→ <?= $page->essay()->toPage()->title()->html() ?></h3>
+                <h3 class="leading-tight">→ <?= $page->essay()->toPage()->title()->html() ?></h3>
             </a>
         <?php endif ?>
     </div>

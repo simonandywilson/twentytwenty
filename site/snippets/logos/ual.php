@@ -1,6 +1,6 @@
 
 
-<svg class="w-full h-auto" xmlns="http://www.w3.org/2000/svg" width="100" height="18.505" viewBox="0 0 100 18.505">
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="18.505" viewBox="0 0 100 18.505">
             <defs>
               <clipPath id="a">
                 <path fill="none" stroke-width="0" d="M0 0h100v18.505H0V0z" />
