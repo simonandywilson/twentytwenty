@@ -1,7 +1,7 @@
 <?php
 if (!$site->recordings()->isEmpty()) :
 ?>
-    <details class="bg-theme-recordings secondary-details container max-w-full has-[:focus-visible]:ring-2 ring-black">
+    <details class="w-full bg-theme-recordings rounded-2xl p-3 secondary-details container max-w-full has-[:focus-visible]:ring-2 ring-black">
         <summary class="focus:outline-none">
             <h1 class="leading-none">Recordings</h1>
         </summary>
@@ -10,3 +10,7 @@ if (!$site->recordings()->isEmpty()) :
         </div>
     </details>
 <?php endif ?>
+
+
+
+

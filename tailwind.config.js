@@ -12,7 +12,7 @@ module.exports = {
           introduction: "#ffffff",
           contact: "#bf86ff",
           text: "#ffffff",
-          figcaption: "#b9bd9b",
+          figcaption: "#e8e8e8",
           home: "#fd8f38",
           recordings: "#ffb8ff",
           sponsors: "#e9ffb8",

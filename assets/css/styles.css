@@ -743,7 +743,7 @@ iframe {
 
 .figcaption {
   --tw-bg-opacity: 1;
-  background-color: rgb(185 189 155 / var(--tw-bg-opacity));
+  background-color: rgb(232 232 232 / var(--tw-bg-opacity));
   font-size: 0.875rem;
   line-height: 1.25rem;
   line-height: 1.25;
@@ -1183,11 +1183,18 @@ iframe {
   }
 }
 
-.\[\&\>svg\]\:h-8>svg {
+.\[\&\>a\>svg\]\:h-8>a>svg {
   height: 2rem;
 }
 
-.\[\&\>svg\]\:w-max>svg {
-  width: -moz-max-content;
-  width: max-content;
+.\[\&\>a\>svg\]\:w-auto>a>svg {
+  width: auto;
+}
+
+.hover\:\[\&\>a\]\:underline>a:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:\[\&\>p\>a\]\:underline>p>a:hover {
+  text-decoration-line: underline;
 }
