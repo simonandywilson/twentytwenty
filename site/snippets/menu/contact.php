@@ -1,9 +1,9 @@
 <?php
 if (!$site->contact()->isEmpty()) :
 ?>
-  <details class="w-full bg-theme-contact rounded-2xl p-3 secondary-details container max-w-full has-[:focus-visible]:ring-2 ring-black">
+  <details class="w-full bg-theme-contact rounded-3xl p-3 secondary-details container max-w-full has-[:focus-visible]:ring-2 ring-black -mt-[1px] -ml-[1px]">
     <summary class="focus:outline-none">
-      <h1 class="leading-none">Contact</h1>
+      <h1 class="leading-tight">Contact</h1>
     </summary>
     <div class="leading-tight mt-[1em] hover:[&>p>a]:underline">
       <?= $site->contact()->kt() ?>

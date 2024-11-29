@@ -30,6 +30,10 @@ Text: [{"content":{"image":["file://wLyRvriZguoXoEiR"]},"id":"3ca4b7f8-f7cf-4587
 
 ----
 
+Partnerreflection: [{"content":{"text":"<p>test</p>"},"id":"21e7bbb1-c2ff-4a6d-9da5-e6616d4c5c29","isHidden":false,"type":"text"}]
+
+----
+
 Hero: 
 
 ----

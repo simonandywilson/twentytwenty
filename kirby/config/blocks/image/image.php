@@ -1,14 +1,19 @@
 <?php
 
-$image = $block->image()->toFile();
-$alt     = $image->alt();
-$caption = $image->caption();
-$crop    = $image->crop()->isTrue();
-$link    = $image->link();
-$ratio   = "auto";
-$src     = $image->url();
+/** @var \Kirby\Cms\Block $block */
+$alt     = $block->alt();
+$caption = $block->caption();
+$crop    = $block->crop()->isTrue();
+$link    = $block->link();
+$ratio   = $block->ratio()->or('auto');
+$src     = null;
 
-
+if ($block->location() == 'web') {
+	$src = $block->src()->esc();
+} elseif ($image = $block->image()->toFile()) {
+	$alt = $alt->or($image->alt());
+	$src = $image->url();
+}
 
 ?>
 <?php if ($src): ?>

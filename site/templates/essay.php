@@ -1,20 +1,35 @@
 <?php snippet('header') ?>
 <article>
-    <div class="w-full grid grid-cols-2">
-        <div class="w-full flex-1">
-            <?php if ($page->artist()->isNotEmpty()) : ?>
-                <a href="<?= $page->artist()->toPage()->url() ?>" class="group focus:outline-none">
-                    <h2 class="container bg-theme-artists leading-none group-focus-visible:ring-2 ring-black">→ <?= $page->artist()->toPage()->title()->html() ?></h2>
-                </a>
-            <?php endif ?>
-        </div>
-        <div class="w-full flex-1">
-            <h1 class="container bg-theme-essays leading-tight"><?= $page->title()->html() ?></h1>
+    <div class="w-full grid grid-cols-1 md:grid-cols-2">
+        <?php
+            if ($page->artist()->isNotEmpty()):
+                ?>
+            <a href="<?= $page->artist()->toPage()->url() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px]">
+                <h3 class="leading-tight">→ <?= $page->artist()->toPage()->title()->html() ?></h3>
+            </a>
+            <?php else: ?>
+            <div class="w-full h-full"></div>
+        <?php endif ?>
+
+        <?php
+            if ($page->title()->html()):
+                ?>
+            <h1 class="container bg-theme-essays leading-tight -mt-[1px] has-[:focus-visible]:ring-2 ring-black md:-ml-[1px]">
+                <span class="leading-tight">→ <?= $page->title()->html() ?></h3>
+            </a>
+            <?php else: ?>
+            <div class="w-full h-full"></div>
+        <?php endif ?>
+        <div class="w-full h-full"></div>
+
+
+
+        <div class="w-full flex-1 -mt-[1px]">
             <?php if ($page->author()->isNotEmpty()) : ?>
                 <h2 class="container bg-theme-essays leading-tight"><?= $page->author()->html() ?></h2>
             <?php endif ?>
             <?php if ($page->pdf()) : ?>
-                <a class="block w-full container bg-theme-essays leading-tight" href="<?= $page->pdf()->toFile()->url() ?>" download>Download PDF</a>
+                <a class="block w-full container bg-theme-essays leading-tight -mt-[1px] has-[:focus-visible]:ring-2 ring-black" href="<?= $page->pdf()->toFile()->url() ?>" download>Download PDF</a>
             <?php endif ?>
         </div>
     </div>

@@ -14,11 +14,7 @@ Circletwo:
 
 ----
 
-Hero: 
-
-----
-
-Essay: - page://9EyxZkUT5N3ZfWqP
+Essay: 
 
 ----
 
@@ -31,6 +27,14 @@ Partnerurl:
 ----
 
 Text: 
+
+----
+
+Partnerreflection: [{"content":{"text":"<p>test</p>"},"id":"598273cf-8933-48f6-a43a-16fefa02d685","isHidden":false,"type":"text"}]
+
+----
+
+Hero: 
 
 ----
 

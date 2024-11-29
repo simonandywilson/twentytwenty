@@ -42,3 +42,11 @@ columns:
           - image
           - gallery
           - video
+      partnerreflection:
+        label: Partner Reflection
+        type: blocks
+        fieldsets:
+          - text
+          - image
+          - gallery
+          - video

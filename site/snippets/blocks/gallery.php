@@ -3,6 +3,7 @@ $caption = $block->caption();
 ?>
 <figure>
   <ul class="grid grid-cols-2">
+    <?php $counter = 0; ?>
     <?php foreach ($block->images()->toFiles() as $image) : ?>
       <li>
         <figure>
@@ -14,12 +15,13 @@ $caption = $block->caption();
             "class"    => "rounded-3xl"
           ]) ?>
           <?php if ($image->caption()->isNotEmpty()) : ?>
-            <figcaption class="figcaption">
+            <figcaption class="figcaption <?= ($counter % 2 === 0) ? '' : '-ml-[1px]' ?>">
               <?= $image->caption() ?>
             </figcaption>
           <?php endif ?>
         </figure>
       </li>
+      <?php $counter++; ?>
     <?php endforeach ?>
   </ul>
   <?php if ($caption->isNotEmpty()) : ?>

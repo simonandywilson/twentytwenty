@@ -51,7 +51,7 @@
 
 @layer components {
   .container {
-    @apply flex-1 rounded-3xl p-3 focus:outline-none focus-visible:ring-2 ring-black ring-inset;
+    @apply flex-1 rounded-3xl p-3 focus:outline-none focus-visible:ring-2 ring-black ring-inset border border-black max-w-full;
   }
 
   .artist-background {
