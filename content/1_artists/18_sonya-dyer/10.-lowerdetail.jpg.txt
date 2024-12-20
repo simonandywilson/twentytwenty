@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Lower ‘head’ which has been cast in resin and painted blue/green, with spike detail - rubbery spikes that have been placed on top. It is resting on a grey cloth.
+
+----
+
+Uuid: YwSIzU5rqx2VEtU6
+
+----
+
+Template: blocks/image

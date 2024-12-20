@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Christopher Samuel looking at the oil painting ‘The Healing of the Blind of Jericho’ by Nicolas Poussin from 1650 in the Birmingham Museum and Art Gallery stores.
+
+----
+
+Uuid: e4AeM08HZUJ4VYS4
+
+----
+
+Template: blocks/image

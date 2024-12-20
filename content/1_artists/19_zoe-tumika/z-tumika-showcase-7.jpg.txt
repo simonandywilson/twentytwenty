@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A frontal view of a completed ceramic sculpture with abstract extensions. The base is smooth and cream-coloured, while the top is adorned with yellow, red, and black patterns and text.
+
+----
+
+Uuid: G7rConqJ6zVhxh9t
+
+----
+
+Template: blocks/image

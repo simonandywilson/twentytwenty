@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A meme from instagram. There is a photograph in which hands are in the process of highlighting everything on a double page spread of a textbook. Over the image, black text reads ‘everything is important’. The words ‘everything’ is capitalised.
+
+----
+
+Uuid: skn0TrIsFatAKebZ
+
+----
+
+Template: image

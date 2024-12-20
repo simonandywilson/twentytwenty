@@ -1,0 +1,13 @@
+Caption: Decolonisation, meme found on emotional _support_lesbian instagram account
+
+----
+
+Alt: A meme from instagram. A cartoon illustration of two stalls. One stall has a sign that reads Exhibitions about Decolonisation. There are lots of people queuing for this stall and the stall holder looks jovial. The other stall has a sign that reads Decolonisation, no one is queuing for this stall and the stall holder looks fed up.
+
+----
+
+Uuid: g4w6Sk14yDR6W6LM
+
+----
+
+Template: blocks/image

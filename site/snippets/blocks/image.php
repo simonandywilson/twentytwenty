@@ -17,7 +17,7 @@ $src      = $image->url();
     ]) ?>
     <?php if ($caption->isNotEmpty()) : ?>
       <figcaption class="figcaption">
-        <?= $caption ?>
+        <?= $caption->kt() ?>
       </figcaption>
     <?php endif ?>
   </figure>

@@ -1,0 +1,41 @@
+Title: Sarah Maple
+
+----
+
+Cover: - file://rtYv5XyeoNdWy91t
+
+----
+
+Circleone: - file://WWfBeBYETILinMYy
+
+----
+
+Circletwo: - file://FwN0tJv3LL12zFq5
+
+----
+
+Essay: 
+
+----
+
+Partnername: Bradford Museums and Galleries
+
+----
+
+Partnerurl: https://bradfordmuseums.org/
+
+----
+
+Text: [{"content":{"text":"<p>This is my first time working closely with a museum collection. I had several visits to the galleries and the opportunity to look in the storage and archives. At first this felt like an overwhelming task as there are almost a million items in Bradford Museums and Galleries collection.</p>"},"id":"3e03b104-04af-4b7f-bd15-5d7c4dbe556e","isHidden":false,"type":"text"},{"content":{"image":["file://FHFlwCejCWLsOg4e"]},"id":"a331303b-4339-4848-98f4-01ce978876c7","isHidden":false,"type":"image"},{"content":{"text":"<p>Although I had various areas of interest, I decided to focus\r\non the Belle Vue collection which holds a vast number of studio portraits. The\r\nmajority are of migrants to Bradford in the 50’s and 60’s. I instantly felt a\r\nstrong connection to this archive as the only existing photograph of my\r\nGrandparents together was taken in one of these studios in the 1950’s.  One of the main areas of interest in my\r\npractise is migration to Britain and how the British Empire has affected what\r\nshapes Britain today. I was able to reflect on this in greater depth and\r\ndecided I wanted to tell a story about the issues affecting second/third\r\ngeneration migrants to Britain now.  As I\r\ncould not use images from the archive in the work itself, I chose instead to\r\nincorporate the aesthetics of the Belle Vue studio into the work. I decided to make\r\na video piece on Mother Tongues and how many second/ third generation migrants\r\ncannot speak theirs and cannot communicate with family. I was interested in\r\nthis potential loss of identity, stories and history. I felt this would be\r\nrelatable in Bradford which has a large South Asian community. I reached out to\r\nBradford residents on this subject via social media and was amazed by the\r\nnumber of responses I received.  On\r\nreflection, with such a personal topic, I would have preferred to have\r\ncommunicated in person but due to my pregnancy, I had to speed up this process\r\nand many of my conversations were held over the phone or via email interviews.\r\nWhen the exhibition opens, I hope to explore the subject with the Bradford community\r\nin person. I also hope to show this work in different locations and continue\r\nthis conversation.</p>"},"id":"4059318c-cbfd-42ce-8cb5-fc1be0e9f82b","isHidden":false,"type":"text"},{"content":{"images":["file://j1lbcUVBdYye3UcD","file://W3EBevdc702swflb"],"caption":"","ratio":"16/9","crop":"true"},"id":"b6801ece-1ea4-4f29-8f24-dff3edad5089","isHidden":false,"type":"gallery"},{"content":{"text":"<p>I enjoyed the experience of working closely with curators and\r\ndiscovering how works are acquired into collections. There are some areas I\r\nwill explore further after 20/20. For example, I learnt that although donations\r\nfrom large collections are welcome, the donor’s taste can then come to\r\ndominate/shape the collection. Problematically, there are also some objects\r\nwhich do not have any information with them.  There are also some physically large,\r\nunmovable pieces in the gallery.  I\r\nreflected on how the gallery can become hostage to these works and what can be\r\ndone to explore this through curation. This is why I felt it important to do an\r\nadditional performance work in the gallery space and collection vaults.  In a contemporary Punjabi dress and 10 metre\r\nplait, I documented myself passively looking at the objects in the galleries\r\nwith the plait snaking behind me, dominating the space. I will explore these\r\nsubjects further in my future practise.</p>"},"id":"8ce02b5c-4100-42bb-881c-f8b6259ebd24","isHidden":false,"type":"text"},{"content":{"image":["file://WWfBeBYETILinMYy"]},"id":"ecc5a078-d1e0-485a-b884-30d7b2fa490c","isHidden":false,"type":"image"},{"content":{"text":"<p>The project has allowed me the time and space to develop my\r\nvideo work stylistically. I was able to employ a team for the first time to\r\nhelp me realise the visuals. This experience has developed my ability with\r\nvideo and I am excited for this step forward in my practise.</p>"},"id":"7e976e38-dd9d-4fc6-907e-e725e1775eef","isHidden":false,"type":"text"},{"content":{"image":["file://FwN0tJv3LL12zFq5"]},"id":"a84b9009-5d83-4e46-a4c3-c703a107acc6","isHidden":false,"type":"image"},{"content":{"text":"<p>Addressing decolonisation is heavy and additionally I was\r\nexploring this with the imminent birth of my child. My thoughts were\r\nconcentrated on how future generations will experience collections and see\r\nthemselves reflected. I am interested in how we pass on legacies and positively\r\nmove forward in diversifying collections. My pregnancy also forced me to speed\r\nup the process, so I was working on a shorter timeframe. I had great support\r\nwith this from the 20/20 team and from Bradford. It has helped me to know what\r\nsort of support and care I can receive and what I should expect from an\r\ninstitution. It was very helpful to have a code of conduct/manifesto from\r\n20/20. As decolonisation is an emotional topic, taking care of yourself is\r\nvital. I felt safe to be vulnerable in this project and to acknowledge that.\r\nHaving the support and respect of the team has allowed that space and for this\r\nwork to exist.</p>"},"id":"ea259b95-3929-42c7-ae35-22c69af0c8f3","isHidden":false,"type":"text"},{"content":{"image":["file://rtYv5XyeoNdWy91t"]},"id":"1b05a792-682c-44ae-bbd5-dbdc289ea807","isHidden":false,"type":"image"},{"content":{"image":["file://GJm9QgPuwgQkWne7"]},"id":"0c8460eb-321d-44ec-a8b2-14c872012dc1","isHidden":false,"type":"image"},{"content":{"image":["file://g9NpWPveaxwLllom"]},"id":"acb450c7-dd73-4020-93d2-ea5ae242ca4a","isHidden":false,"type":"image"},{"content":{"image":["file://njzVFxviiERDVWwj"]},"id":"3be3b597-9e28-4a85-910b-33cf8710092c","isHidden":false,"type":"image"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Uuid: prlfjsTAp1DH8wNT

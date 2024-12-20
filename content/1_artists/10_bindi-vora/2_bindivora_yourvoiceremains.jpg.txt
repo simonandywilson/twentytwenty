@@ -1,0 +1,13 @@
+Caption: Bindi Vora, *Your voice remains, whilst we continue dreaming*, 2024. Courtesy of the artist.
+
+----
+
+Alt: A golden silhouette and a line drawing of a young girl are collaged onto a black-and-white image. The composition includes a cut-out, colourful vintage postcard of a street scene in India, along with black circular shapes and lines.
+
+----
+
+Uuid: xWVQ0hR4qOe8yR3C
+
+----
+
+Template: blocks/image

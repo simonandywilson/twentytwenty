@@ -1,0 +1,13 @@
+Caption: Forever, taken from ‘Wyken Slough to the Rose & Crown, Bell Green, Coventry’ by shawry1970 on YouTube
+
+----
+
+Alt: A picture of a public memorial in front of some shops and a tree. The memorial consists of pink balloons that spell out the word ‘forever’, more balloons and bouquets of flowers.
+
+----
+
+Uuid: ViXKRHVQJ5fQnZ3H
+
+----
+
+Template: blocks/image

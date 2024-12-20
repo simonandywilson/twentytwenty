@@ -1,0 +1,13 @@
+Caption: ‘Marble’, ‘Check’ and ‘Stone’ test print swatches. Image: Holly Graham.
+
+----
+
+Alt: A close-up image of three overlapping fabric swatches: a navy, orange, teal and yellow marbled design, a navy and red check design, and a speckled stone-like navy design.
+
+----
+
+Uuid: vkpbVyyuXIzPXArO
+
+----
+
+Template: image

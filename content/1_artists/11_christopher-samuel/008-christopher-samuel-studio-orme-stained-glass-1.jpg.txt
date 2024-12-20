@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A close up of a lightbox at Studio Orme with examples of stained glass on it, and a book about stained glass techniques.
+
+----
+
+Uuid: Ms1Z86hJcfWQyyye
+
+----
+
+Template: blocks/image

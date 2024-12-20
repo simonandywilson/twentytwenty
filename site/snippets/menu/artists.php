@@ -14,8 +14,12 @@
                     <ul>
                         <?php foreach ($children as $child) : ?>
                             <li class="leading-tight">
-                                <?php ?>
-                                    <a class="artist-link block w-max hover:underline focus:outline-none focus-visible:underline group" data-artist-slug="<?= $child->slug() ?>" href="<?= $child->url() ?>">
+                                <?php 
+                                $hasContent = $child->hasChildren() || $child->text()->isNotEmpty();
+                                ?>
+                                    <a class="artist-link block w-max <?= $hasContent ? 'hover:underline' : 'opacity-50' ?> focus:outline-none focus-visible:underline group" 
+                                       data-artist-slug="<?= $child->slug() ?>" 
+                                       <?= $hasContent ? 'href="' . $child->url() . '"' : '' ?>>
                                         <h2 class="w-full"><?= $child->title()->html() ?>
                                             <?php if ($child->isOpen()) : ?>
                                                 <span class="relative inline-block w-[0.4rem] h-[0.4rem] top-[0.1rem] -translate-y-1/2 bg-black rounded-full group-focus-visible:bg-white"></span>

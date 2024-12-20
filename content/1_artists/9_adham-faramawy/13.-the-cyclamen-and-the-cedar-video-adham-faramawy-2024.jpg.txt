@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: A dancer in an orange outfit stretches their arms upwards amidst lush green foliage. The dancer’s body is partially blended with the textured trunk of a tree, and a rainbow-like light streak appears across the centre. Text at the bottom reads: “A chest so full and green, my love, it sings!”
+
+----
+
+Uuid: K9ICl7s3kK88s6yy
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: Bindi Vora, *I dreamt of lost vocabularies*, 2024. Courtesy of the artist.
+
+----
+
+Alt: A large, iridescent megaphone-shaped object with a thick, multi-coloured plaited fabric spilling from the inside in shades of red, pink, orange, and yellow with beaded chain.
+
+----
+
+Uuid: sLA8w4T3FCo8Yqxz
+
+----
+
+Template: blocks/image

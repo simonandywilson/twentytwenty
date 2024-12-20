@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two people are outdoors near a green cedar tree. A stone sculpture of a face is superimposed over the scene. One dancer wears orange, the other blue. The text reads: “Shame invites the sun.”
+
+----
+
+Uuid: AwRc5Ok4wROw3Bfo
+
+----
+
+Template: blocks/image

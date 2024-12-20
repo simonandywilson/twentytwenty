@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: A layered image blending a close-up of cyclamen flowers with two people dancing. One wears an orange outfit, and the other a blue one. The text overlay reads: “Cyclamen are eaten by the caterpillars of the gothic moth.”
+
+----
+
+Uuid: qJYjqv7bZnVg2uIe
+
+----
+
+Template: blocks/image

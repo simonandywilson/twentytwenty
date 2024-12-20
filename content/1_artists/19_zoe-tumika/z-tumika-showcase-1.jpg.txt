@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A calm sandy beach with the ocean to the right and a vibrant sky filled with blue, pink, and orange hues. Waves gently lap the shore, and the coastline stretches into the distance with a silhouette of dunes or hills.
+
+----
+
+Uuid: R2klXyYNwxhJ0MZL
+
+----
+
+Template: blocks/image

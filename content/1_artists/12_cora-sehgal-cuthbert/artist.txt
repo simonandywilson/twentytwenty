@@ -1,0 +1,45 @@
+Title: Cora Sehgal Cuthbert
+
+----
+
+Cover: - file://skn0TrIsFatAKebZ
+
+----
+
+Circleone: - file://zDSgzPggx7J0hmcF
+
+----
+
+Circletwo: - file://ViXKRHVQJ5fQnZ3H
+
+----
+
+Essay: 
+
+----
+
+Partnername: The Herbert
+
+----
+
+Partnerurl: https://www.theherbert.org/
+
+----
+
+Text: [{"content":{"image":["file://zDSgzPggx7J0hmcF"]},"id":"09c8860e-7d58-4878-8a70-75174d68e168","isHidden":false,"type":"image"},{"content":{"text":"<p>The 20/20 residency has been hard, sad, lovely and beautiful! Below are some reflections on it.</p><p>Before the 20/20 project, I thought museum collections were organised very neatly in a way that would make sense of life and history. Turns out they’re not. On the whole, they seem to be just as confusing as life is!</p><p>The staff I’ve worked with at the Herbert are lovely, and have been actively engaged in my never-ending questions, ranging from ‘what does decolonising mean for you?’ to ‘what’s your star sign?’. I would defo work with a museum again if they were as open as the staff I’ve worked with at the Herbert.</p>"},"id":"4766f602-fefc-4afa-aea4-18f55a84d7c7","isHidden":false,"type":"text"},{"content":{"image":["file://ViXKRHVQJ5fQnZ3H"]},"id":"01f9c0e9-a302-4534-b5bd-9c4912eea8a4","isHidden":false,"type":"image"},{"content":{"text":"<p>I think the residency decolonised my own practice. I’ve been less extractive, mainly in regards to myself: I’ve been rushing less and resting more. As the residency is with a museum, I think I assumed that I should be doing academic research for this project. However, I’ve taken academic knowledge off the pedestal, and have been listening to the knowledge that my intuition brings more. I’ve resisted the urge to be linear and to categorise things; instead I’ve let the research guide me and unfold in whatever direction(s) it chooses to. I’m getting better at opening myself up and being less defensive. I’ve worked with generous family members, mentors, musicians and artists. (Collaboration does not come easily to me – I’m quite guarded so this is pretty big!) I’m learning not to over rationalise everything, or be super precious with my work and put pressure on myself; my work and my existence will never be the end; life will keep on going.</p>"},"id":"d00b7532-2048-4ccd-879c-9eafbf860fe7","isHidden":false,"type":"text"},{"content":{"image":["file://6aIQ44LAQN0EYqkB"]},"id":"d15a1b0c-4fe3-4cc9-b69b-98f943ea6719","isHidden":false,"type":"image"},{"content":{"text":"<p>I think the residency has helped the Herbert decolonise in terms of how they categorise things. They currently have an exhibition on called <em>Collecting Coventry</em>. I noticed that objects from South Asia and Jamaica are lumped together in their own separate display. All of the other Western objects in the exhibition are organised by what they were used for. I suggested that a less colonial way of displaying the objects from South Asia and Jamaica would be to pay proper attention to what the objects were and their purpose so they could be integrated into the rest of the displays instead of being all sectioned off. They took this on board and have integrated them now!</p>"},"id":"5062406a-6485-4c00-93c0-740573550285","isHidden":false,"type":"text"},{"content":{"image":["file://g4w6Sk14yDR6W6LM"]},"id":"4375f81a-12c6-44c2-ac0f-968c82d2a517","isHidden":false,"type":"image"},{"content":{"text":"<p>I hope my work for this residency will continue to raise questions of how museums categorise, and how their categories can often centre a white British viewpoint and box in all other non-white identities. I think it will also raise questions as to what is typically deemed important in museum collections. I’m centring oral histories, which are usually used in supplementary ways to give context to displays. The oral histories are ephemeral manifestations of lived experience, not academic knowledge or historical records. They’re often dismissed as things in their own right. But I think they’re one of the most important things in the Herbert. Through them, people have so generously given their life stories to the museum and the public! I think centring the oral histories, manifestations of lived experience, undefinable and often dismissed is decolonial in that it subverts the hierarchy of historical documentation associated with regimes of colonial powers.</p>"},"id":"ef140580-9b3e-4837-8905-0bd33bf43d7d","isHidden":false,"type":"text"},{"content":{"image":["file://NrtIY3XITj1dyAoc"]},"id":"6b99cb1d-65d2-4436-9126-ed8d5a6ce3fa","isHidden":false,"type":"image"},{"content":{"text":"<p>I want to note that this residency has taken place during a time of genocide against Palestinians. This genocide is a concrete manifestation of colonisation, happening in real time. At several points during this residency, all of the above has felt futile in the face of this. I don’t have any answers, I just want to share the doubts I have as to how much decolonising in the art world is real. (I am doubting both institutions and myself as an artist here.) Once, I asked a friend and mentor why we should go on living and creating while this genocide is happening. They said, if the people of Palestine are still able to love and have moments of joy, we have a duty to carry on and continue living and loving too. Free Palestine and all countries and people who are being and have been colonised (and all the colonisers too tbh, because they seem to be imprisoned by power and ego). No one’s free until all of us are free.</p>"},"id":"d07922f2-1be4-490a-9d8f-c8194e5930c5","isHidden":false,"type":"text"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Partner: 
+
+----
+
+Uuid: EJzRA8iefuakOl4p

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A wooden-framed artwork with layered, textured fabric featuring a large green plant with intricate leaves and patterns. Behind the translucent fabric, a red plant-like shape and other layered artwork elements are visible.
+
+----
+
+Uuid: EsC83VXMjqjhw1sD
+
+----
+
+Template: blocks/image

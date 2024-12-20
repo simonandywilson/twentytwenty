@@ -1,0 +1,13 @@
+Caption: Bindi Vora, *The powers surge, keeping the ghost inside*, 2024. Courtesy of the artist.
+
+----
+
+Alt: A framed artwork hangs on a gallery wall, featuring a collage of translucent drawings, silhouetted figures, circular shapes, lines, and the recurring word 'Asian.' It is paired with a hanging metal sculpture that includes an orange plaited flower and a miniature teddy bear.
+
+----
+
+Uuid: EmuvO6mtv2LRAYKf
+
+----
+
+Template: blocks/image

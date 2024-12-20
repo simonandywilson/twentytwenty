@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A group of people sit in a gallery room with red walls and framed paintings. Some participants hold sketchbooks and pencils, engaging in a drawing activity while others smile and interact.
+
+----
+
+Uuid: IJteDPhQE7cY0tAM
+
+----
+
+Template: blocks/image

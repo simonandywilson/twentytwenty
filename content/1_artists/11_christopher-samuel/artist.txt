@@ -1,0 +1,41 @@
+Title: Christopher Samuel
+
+----
+
+Cover: - file://Nb43lfOgkKBI3KgX
+
+----
+
+Circleone: - file://e4AeM08HZUJ4VYS4
+
+----
+
+Circletwo: - file://R9jfBfQI01Hu4tQA
+
+----
+
+Essay: 
+
+----
+
+Partnername: Birmingham MuseumTrust
+
+----
+
+Partnerurl: 
+
+----
+
+Text: [{"content":{"image":["file://e4AeM08HZUJ4VYS4"]},"id":"06dd0cdf-54c7-4339-98c1-05643f72d1c1","isHidden":false,"type":"image"},{"content":{"text":"<p>My name is Christopher Samuel.</p><p>I’m an artist who makes work about disability and identity politics.</p><p>As a Black, disabled man from a working class family, I usually find that my history and my story is absent from most museums, galleries and archives.</p><p>Nobody to date, it seems, has seen fit to preserve my history. And to be missing from such important and influential collections and spaces is to be invisible.</p><p>The opportunity to work with Birmingham MuseumTrust (BMT) as part of the 20/20 program of residencies run by UAL: Decolonising the Arts Institute was the perfect platform for me to address these absences.</p>"},"id":"2f1a9cd9-ec0a-42d2-84a1-acbd3f209ec7","isHidden":false,"type":"text"},{"content":{"image":["file://R9jfBfQI01Hu4tQA"]},"id":"3df44f2a-8132-488e-925f-cf299e749671","isHidden":false,"type":"image"},{"content":{"text":"<p>I was initially interested in working with Birmingham Museums Trust because of their collection of objects related to the Windrush generation and histories of colonialism and Caribbean migration, all of which have a direct link to my own family history.</p><p>I wanted to research how the lives of black and disabled people migrating into or living in Birmingham have been recorded, catalogued or archived in the existing archive and collection, and what those artefacts say about their real lived experiences.</p>"},"id":"0b2203f6-1a99-43a9-a0d2-3af7eb85bc4d","isHidden":false,"type":"text"},{"content":{"image":["file://Q3gWWcPyCT94C5ZS"]},"id":"8dbdaaab-45f8-44fa-9a85-bbf9cb8e8302","isHidden":false,"type":"image"},{"content":{"text":"<p>As a disabled person, I'm always curious to see how any big organisation or museum or gallery works – and works with me.</p><p>Both BMT and 20/20 were amazing from the get go.</p><p>Emma McMullen (BMT Collections Access Officer (Loans)) and Victoria Osborne (BMT Senior Curator of Art) have supported me throughout; making sure I had ample amounts of support from other BMT team members in different departments, working with me to identify, locate and understanding different items within their collection and how things are catalogued, finding answers for any questions I might ask – even strange ones!</p>"},"id":"fff28cd0-07f6-4a2a-a473-af866412a9c2","isHidden":false,"type":"text"},{"content":{"image":["file://FyhjiirFuvTd46kr"]},"id":"dbc0d96a-4020-4247-81fe-ce4638d1d741","isHidden":false,"type":"image"},{"content":{"text":"<p>BMT’s collection is vast – and overwhelming.</p><p>But as I began to explore, I realised quite quickly that there was little to nothing historic relating directly to the lives of disabled black people in and around Birmingham in the current collection – especially not as first hand accounts.</p><p>Once again, my story has gone unrecorded.</p><p>So that was the driving force for me to use my residency to search for and engage with other people's lived experiences related to the black disabled experience in and around Birmingham.</p>"},"id":"5b5e51a7-55a0-49d6-a27f-8aa8c105b64e","isHidden":false,"type":"text"},{"content":{"image":["file://mJRjM6NqTOfP31nI"]},"id":"3a706ef4-bbca-4d06-8755-b13ea7136f05","isHidden":false,"type":"image"},{"content":{"text":"<p>I spoke to dozens of different people within the organisation and outside of it to try and connect with the community. BMT’s Co-CEOs Sara Wajid and Zak Mensah set up events for me to speak with influential members of the Birmingham community.</p><p>But making real community connections was challenging in the timescale – especially coming from an organisation which does not already have existing ties with the Black disabled community.</p><p>It was a lot of work, and often led to frustrating dead ends.</p><p>However, I was eventually able to connect with some amazing disabled people of colour from the local area who were willing to share their stories, and who were open to bringing their experiences into the museum - a brave step when you are breaking new ground somewhere which previously felt not inclusive of your lived experience.</p>"},"id":"e0ab4be3-1bd1-4e48-8226-b5cf9142c44c","isHidden":false,"type":"text"},{"content":{"image":["file://4HDOVyBVIKhxHgj3"]},"id":"ca20bdfd-932d-47a7-bc02-ca433b213b49","isHidden":false,"type":"image"},{"content":{"text":"<p>Some of these incredible individuals have helped to address the gaps in the museum’s collection by allowing me to record their oral histories, which will now sit permanently within the collection.</p><p>I am working to make new acquisitions of personal photographs and artefacts into the collection to enhance their stories.</p><p> And alongside that I have created a number of drawings and prints inspired by their stories. And I am working with Stained Glass artist Claire Orme at Studio Orme to create a stained glass artwork that will be a direct response to the conversations I’ve had and oral histories I’ve been collecting.</p>"},"id":"2b0f493f-7e46-49c7-b39c-d5179c83df88","isHidden":false,"type":"text"},{"content":{"image":["file://Ms1Z86hJcfWQyyye"]},"id":"aa00c15b-1593-4517-83f0-a029db272cbc","isHidden":false,"type":"image"},{"content":{"text":"<p>I hope the work that I've been doing, and the community connections that I've just started to build, will help to begin a shift in representation of the disabled experience (specifically the local, black disabled experience) being seen in a space and in a way that's never been done before.</p><p>I hope visitors will get to see what the disabled black experience is like for those who live in Birmingham, and that the community begins to see that they are not second thought.</p><p>The work is a direct statement about how important it is for them to be represented within the museum.</p>"},"id":"b60ed35e-3ead-4404-b98a-7b4a7c6ef28c","isHidden":false,"type":"text"},{"content":{"image":["file://WtebBdkKOy8uXFV8"]},"id":"cf3477d6-5bac-4172-9724-20c5272dcb22","isHidden":false,"type":"image"},{"content":{"text":"<p>This project is just part of an amazing change that Birmingham Museums Trust are currently in the process of implementing to become more representative and inclusive of the diverse community they serve.</p><p>BMT staff have mentored &amp; supported me and my practice for this residency – enabling me to be more ambitious.</p><p>Through them I have made connections with local decision makers who can advocate for the same things I care about – allowing conversations and change to happen.</p><p>I know that I’ve only just scratched the surface and I intend to continue to build on the community links I’ve made to create a bigger body of research and work in the years to come.</p>"},"id":"e23b813f-bfdc-44a0-96f5-8f91f58c6cd9","isHidden":false,"type":"text"},{"content":{"image":["file://kRP70FYNUZXPtNez"]},"id":"d92d26d0-8e13-4c2d-9dce-71c217258f54","isHidden":false,"type":"image"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Uuid: 5mKOU62ChGTloeBu

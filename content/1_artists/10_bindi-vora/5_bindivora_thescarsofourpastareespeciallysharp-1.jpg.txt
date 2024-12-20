@@ -1,0 +1,13 @@
+Caption: Bindi Vora, *The scars of our past are especially sharp*, 2024. Courtesy of the artist.
+
+----
+
+Alt: A historic column supported a cut-out diamond-patterned structure. A seated figure appears overlaid with another image, and a stack of suitcases is shown with text layered on top.
+
+----
+
+Uuid: KvWceRmxczQlaLCF
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: Cyclamen and Primula, Winifred Nicholson, 1923
+
+----
+
+Alt: A close-up of a framed painting of two potted plants by Winifred Nicholson, cyclamen and primula, sitting on a windowsill. The artwork uses soft, pastel tones with visible brushstrokes.
+
+----
+
+Uuid: TcIHqV4EnxFEATA8
+
+----
+
+Template: blocks/image

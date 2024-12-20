@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: A framed painting of a flower arrangement featuring red, yellow, and white blooms is leaning against a white wall near a wooden chair and a clay pot.
+
+----
+
+Uuid: Sf2vwiNRPEuoPuNr
+
+----
+
+Template: blocks/image

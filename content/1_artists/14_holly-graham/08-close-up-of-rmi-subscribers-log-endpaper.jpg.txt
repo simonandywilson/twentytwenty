@@ -1,0 +1,13 @@
+Caption: Close-up of end-paper in ‘Royal Manchester Institution: Share Registers’, 1823. Manchester Central Library & Archive. Image courtesy of the artist.
+
+----
+
+Alt: A close-up of a blue, green, red, and yellow paper-marbled surface.
+
+----
+
+Uuid: NBwcysujEBFL4P4V
+
+----
+
+Template: blocks/image

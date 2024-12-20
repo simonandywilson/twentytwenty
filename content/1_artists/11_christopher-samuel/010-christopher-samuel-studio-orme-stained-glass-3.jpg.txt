@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A small sample piece of Christopher Samuel’s stained glass produced at Studio Orme by Claire Orme. The image on the glass is black and white and shows the head of a black man looking up with a halo of light around him.
+
+----
+
+Uuid: kRP70FYNUZXPtNez
+
+----
+
+Template: blocks/image

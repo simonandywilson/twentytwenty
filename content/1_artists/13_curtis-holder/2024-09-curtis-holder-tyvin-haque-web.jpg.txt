@@ -1,0 +1,13 @@
+Caption: Curtis Holder, *Tyvin Haque*, 2024, coloured pencil and acrylic gouache on paper © Curtis Holder
+
+----
+
+Alt: A delicate, layered pencil drawing of a person with long, curly hair sitting with their hands clasped on their lap. The person wears a floral-patterned top, bright pink trousers, and white shoes. Their face is calm, with eyes closed and a small red bindi on their forehead. A faint, ghostly duplicate of their figure appears in the background, creating a sense of movement or reflection. The artwork is rendered in soft, overlapping pencil strokes on a light background.
+
+----
+
+Uuid: o4RLLdzPEmoorRoI
+
+----
+
+Template: blocks/image

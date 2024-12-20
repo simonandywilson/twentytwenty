@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: An artist sits on a wooden bench in a gallery room with red walls, surrounded by large framed paintings. The artist, wearing glasses, a black vest, and red and beige trainers, holds pencils and actively works on a sketchpad balanced on their lap. The scene is calm and focused, with the classic artwork in the background complementing the setting
+
+----
+
+Uuid: ondv3rjYJEplHQy9
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: Text taken from 'Educational Needs of Asian Children in the Context of Multiracial Education in Wolverhampton: A Survey of Parents Views and Attitudes, 1977–1978' by Naranjan Singh Noor and S. S. Khalsa. Published by the Indian Workers' Association (GB). Part of the Virk Collection at The Herbet.
+
+----
+
+Alt: A picture of text written on a typewriter. The text reads ‘3. Do you think that your children are experiencing a crisis of identity and are suffering from rootlessness?’
+
+----
+
+Uuid: 6aIQ44LAQN0EYqkB
+
+----
+
+Template: blocks/image

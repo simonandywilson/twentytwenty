@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: Two dancers, one in blue and one in orange, are captured mid-performance in a room with a white sofa, framed artwork, and a large clay sculpture in the background. Text at the bottom reads: “it’s exhausting to be a guest.”
+
+----
+
+Uuid: dcyCEaMNDS0WZvb1
+
+----
+
+Template: blocks/image

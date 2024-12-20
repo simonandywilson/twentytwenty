@@ -1,0 +1,45 @@
+Title: Adham Faramawy
+
+----
+
+Cover: - file://nz3zMOwrEurUpiEV
+
+----
+
+Circleone: - file://1zvmNpfb8dXGwuiy
+
+----
+
+Circletwo: - file://AIsvu3MlofWma65s
+
+----
+
+Essay: 
+
+----
+
+Partnername: Kettle’s Yard
+
+----
+
+Partnerurl: https://www.kettlesyard.cam.ac.uk
+
+----
+
+Text: [{"content":{"image":["file://Sf2vwiNRPEuoPuNr"]},"id":"4f5ee085-3ed7-4e9e-848a-0664b9b3f554","isHidden":false,"type":"image"},{"content":{"text":"<p>On my first visit to Kettle’s Yard at the start of my residency, I discovered that Jim and Helen Ede, the founders of the space, now a ‘house museum’ and gallery, had lived in colonial Morocco from 1936 to 1952.</p>"},"id":"5c16b3c5-e9af-405d-8838-959daf16df7e","isHidden":false,"type":"text"},{"content":{"image":["file://z9R4PGvjQJfRGf14"]},"id":"860a49ea-7807-4f93-b7e4-3df0ecc7820d","isHidden":false,"type":"image"},{"content":{"text":"<p>One of the ways that the Ede’s defined themselves was as hosts, as friends to artists, as collectors who enjoyed sharing art in a relaxed domestic setting. So, I asked the curators where the work by Moroccan artists was held, and it turned out that there was none. The Ede’s, I was informed, collected craft, earthenware and wood furniture as well as some homecraft textiles, but no artworks.</p>"},"id":"5098006a-0c72-4373-9efb-96746c6d06a9","isHidden":false,"type":"text"},{"content":{"image":["file://TcIHqV4EnxFEATA8"]},"id":"eaf729dc-b400-4b15-b974-bad3a630a6fa","isHidden":false,"type":"image"},{"content":{"text":"<p>As a North African artist this peaked my attention. How could it be that this couple, famed for collecting artwork by British Modernists who they called friends, hadn’t collected North African art during such a long stay at such a culturally significant time in the region?</p>"},"id":"6b39533f-2f8d-4124-a570-9fe821d0a684","isHidden":false,"type":"text"},{"content":{"image":["file://qJYjqv7bZnVg2uIe"]},"id":"860c3b7b-f051-49ac-a0fe-9c1a67bf5f3d","isHidden":false,"type":"image"},{"content":{"text":"<p>I was allowed to access the collection and read Jim Ede’s unpublished memoire and the diaries he kept in Morocco. It seemed the Ede’s had lived in a house called Whitestone, near Tangier, and did in fact host there a great deal. Signatures in their guest book include many European and American names of note, but the diary chronicling a long-term project where they invited British servicemen from a barracks in Gibraltar to stay with them every weekend, mentioned only one Moroccan name, that of a domestic worker, and not always in the kindest of terms. Towards the end of the manuscript the diary recounts a shocking, racially charged incident that doesn’t paint Jim Ede in the best of lights.</p>"},"id":"c2f77c83-c630-47bb-9e6b-9e8e049f1a4c","isHidden":false,"type":"text"},{"content":{"image":["file://dcyCEaMNDS0WZvb1"]},"id":"9f7cda4b-50f9-4aa1-a47b-adaa8cbd008e","isHidden":false,"type":"image"},{"content":{"text":"<p>As part of my research I wanted to familiarise myself with Cambridge, so I walked around Kettle’s Yard and was struck by bright magenta flowers in the church yard next door. It was October and I hadn’t seen winter blooms before. I studied the plant and found out it was a cyclamen. Curator, Guy Haywood, told me that there was a painting hung in the downstairs extension by Winifred Nicholson titled ‘Cyclamen and Primula’ (1923), and that Jim had been gifted the flower by Winifred, planted it in the garden and it had likely self-seeded in the church yard.</p>"},"id":"9be689b5-2bb4-4a17-9c10-d9ec6b9d3baf","isHidden":false,"type":"text"},{"content":{"images":["file://AwRc5Ok4wROw3Bfo","file://1zvmNpfb8dXGwuiy"],"caption":"The Cyclamen and the Cedar, video, Adham Faramawy, 2024","ratio":"","crop":"false"},"id":"cdad240e-a232-496d-aeaf-68ba75d7206e","isHidden":false,"type":"gallery"},{"content":{"text":"<p>The flower for me, became a symbol of Jim and Helen Ede’s friendship with Winifred and Ben Nicholson, and the painting told that story. I had proposed to study the cut flowers in the house as an entry point into thinking about the politics of host and guest, and here already I was being presented with a material hierarchy.</p>"},"id":"5e9ae022-900d-47e8-bcda-2e0c067c2a2c","isHidden":false,"type":"text"},{"content":{"image":["file://AIsvu3MlofWma65s"]},"id":"b8c53daa-818c-48ca-af4c-f531923441fc","isHidden":false,"type":"image"},{"content":{"text":"<p>The objects bought in Morocco, the amphora, the cedar tables and the informal low seating copied from the Arab majlis, sitting as craft alongside the domestically scaled British Modernist Masterpieces. What initially I’d understood as a nod to European Modernist design, I was now seeing as quotation of historical North African tradition.</p>"},"id":"dec9c7b6-1950-4938-8bc3-0e88987d9577","isHidden":false,"type":"text"},{"content":{"image":["file://XbmktW8VaDmecieM"]},"id":"e38d23e8-5857-41fb-b586-279a2b1d95ca","isHidden":false,"type":"image"},{"content":{"text":"<p>I wanted to address this gap in the collection and in the story of Kettle’s Yard, so I invited Moroccan artist Hicham Gardaf to collaborate on a film screening of Moroccan artist films, centred on his piece ‘<em>In Praise of Slowness</em>’ (2021), a beautiful meditation on the work of a door-to-door bleach seller in his home of Tangier. Together we curated a screening which we titled ‘<em>The Daghour was always in Bloom’</em>, after a sequence from Abdessamad El Montassir’s (2021) video ‘<em>Galb’Echaouf</em> ‘. The work uses the daghour plant as both a symbol and metaphor to highlight the resilience inherent in the North African Saharawi body.</p>"},"id":"e23631d9-d604-43fe-9b8a-1ac892f330c1","isHidden":false,"type":"text"},{"content":{"image":["file://2Uzv7bw3Fw9LM0Mz"]},"id":"b8f475da-272f-44a5-94a5-7326875de305","isHidden":false,"type":"image"},{"content":{"text":"<p>Bringing together these works with Nadir Bouhmouch’s<em> ‘Timnadin N Rif’</em> (2017) and Izza Gemini’s ‘<em>Aïta’</em> (1988), the four films all use sound, song and gesture to explore notions of resilience and relationships to land and nationhood, migration and indigeneity. The screening gave me a chance to explore and share ideas and provided a sense of closeness and kinship.</p>"},"id":"fa2fc5d2-7699-4dde-a374-b30067a06d78","isHidden":false,"type":"text"},{"content":{"image":["file://K9ICl7s3kK88s6yy"]},"id":"98ac748e-e680-4204-9f98-7d0b7db3084f","isHidden":false,"type":"image"},{"content":{"text":"<p>It felt important to decentre my own work for the screening, but I also I continued my research and wrote a script, which then became a video work that I titled ‘<em>The Cyclamen and the Cedar</em>’. The work uses images of these two plants and quote’s Jim Ede’s own words to explore the racial and material hierarchy I found in the collection at Kettle’s Yard as well as the complex relationship I had to the residency as a North African in the house.</p>"},"id":"dbdba78c-3f3f-410d-be06-54419b6ccbb7","isHidden":false,"type":"text"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Partner: 
+
+----
+
+Uuid: ZxYOCUcJ9CXYWa4g

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A wooden frame holding a painted artwork of a person’s face and hand. The hand holds a large, red and green plant resembling a pod. The background features intricate plants, including pink and blue flowers.
+
+----
+
+Uuid: z838uQicK43YZdpK
+
+----
+
+Template: blocks/image

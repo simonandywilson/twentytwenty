@@ -24,7 +24,7 @@
             <div class="w-full h-full"></div>
         <?php endif ?>
         <?php
-            if ($page->partnerreflection()->exists()):
+            if ($page->partnerreflection()->exists() && $page->partnerreflection()->isNotEmpty()):
                 ?>
             <a href="#partner-reflection" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
                 <h3 class="leading-tight">↓ Partner Reflection</h3>
@@ -36,7 +36,7 @@
     </div>
     <?php snippet("layouts", ["field" => $page->text()]) ?>
     <?php
-        if ($page->partnerreflection()->exists()):
+        if ($page->partnerreflection()->exists() && $page->partnerreflection()->isNotEmpty()):
             ?>
         <div class="w-full h-full mt-8">
             <h2 class="container bg-theme-essays leading-tight" id="partner-reflection">Partner Reflection</h2>

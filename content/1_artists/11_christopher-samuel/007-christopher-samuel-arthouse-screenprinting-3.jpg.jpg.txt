@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two screenprints produced by Christopher Samuel at Arthouse Print Studio. They are different colourways of the same image - a black man with a halo of light sits in a wheelchair, surrounded by people reaching out to touch him.
+
+----
+
+Uuid: 4HDOVyBVIKhxHgj3
+
+----
+
+Template: blocks/image

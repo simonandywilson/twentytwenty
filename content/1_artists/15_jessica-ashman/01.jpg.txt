@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A studio space showcasing multiple mixed-media artworks. In the centre, a wooden frame holds a painting of a face and hand grasping a red plant pod. To the left, a translucent fabric artwork features a woman holding a bowl with a fiery golden aura surrounding her head. Behind and above, additional painted fabric works depict vibrant plants, flowers, and figures. The scene is layered, with an unfinished wooden ladder and fabric pieces adding texture and depth. A green and white painted cloth with “DUP” in bold black letters is partially visible in the foreground.
+
+----
+
+Uuid: x0Rb3CDkHWJMmYYa
+
+----
+
+Template: image

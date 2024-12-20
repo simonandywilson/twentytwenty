@@ -1,0 +1,13 @@
+Caption: Pattern book at Platt Hall, Manchester Art Gallery Collection. Image: Holly Graham.
+
+----
+
+Alt: Two white gloved hands leaf through an antique ledger containing floral patterns.
+
+----
+
+Uuid: uQh7fTXaHUnGhers
+
+----
+
+Template: blocks/image

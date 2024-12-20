@@ -1,0 +1,45 @@
+Title: Curtis Holder
+
+----
+
+Cover: - file://o4RLLdzPEmoorRoI
+
+----
+
+Circleone: - file://Jo6uJpWEnBs4DOEo
+
+----
+
+Circletwo: - file://oJHcIFgtlOwtMFTB
+
+----
+
+Essay: 
+
+----
+
+Partnername: Leeds Art Gallery
+
+----
+
+Partnerurl: https://museumsandgalleries.leeds.gov.uk/
+
+----
+
+Text: [{"content":{"image":["file://o4RLLdzPEmoorRoI"]},"id":"f3b9b3ac-c52a-488e-8d41-bf4c7d772841","isHidden":false,"type":"image"},{"content":{"text":"<p>My proposal for the 20/20 residency was to work with Leeds Art Gallery, its collection, staff and visitors, and eight sitters from the local community and Global Majority in Leeds to create a series of large multilayered portraits. I wanted to use the artworks in the gallery as a conversation starter to examine the repercussions of colonisation and the resulting dismantling of other cultures. Dialogue among our own communities and with the wider community is fundamental to begin healing from the trauma of the past and to move towards mutual understanding. This project aimed to bring together all voices connected with our shared colonial past to create something new and optimistic together.</p>"},"id":"e4c0c900-361d-49c5-b526-b6d79727df82","isHidden":false,"type":"text"},{"content":{"text":"<p>My intention was to find eight sitters who were confident and motivated to engage in deep dialogue about the decolonisation of art, through the lens of their own experiences. As well as sharing in personal, reflective conversations during the sittings, the sitters were also asked to create their own responses to the project, and to contribute to a short film documentary about the process. This required honesty, bravery, and a distinct point of view, helping me to understand how the impact of colonisation has affected, and continues to affect, individuals within the Leeds community.</p>"},"id":"849d4507-ac9e-4f87-bddf-1b4b38e39189","isHidden":false,"type":"text"},{"content":{"image":["file://oJHcIFgtlOwtMFTB"]},"id":"212691b6-9105-48a2-bac1-306217c6b92f","isHidden":false,"type":"image"},{"content":{"text":"<p>The support of the gallery was instrumental in helping me discover people who had links to the gallery, through workshops and community connections. This lead me to finding eight sitters for the portraits who were open and engaged with regard to the subject matter. It is a task that would have taken much longer to make happen if I had done it alone.</p>"},"id":"e16ded82-7c65-445a-8147-12c76ee1e5dc","isHidden":false,"type":"text"},{"content":{"images":["file://r2131CMAPT4EWKJN","file://IJteDPhQE7cY0tAM","file://Nd16PwksAsMKyKZo","file://4xGb6m1RO0HyGbg5"],"caption":"Initial conversations with my sitters, held in the Ziff Gallery, where we confronted works that they felt needed discussion, sometimes opening up difficult conversations about the imagery in front of us, and how it related to them as individuals from the Global Majority.","ratio":"","crop":"false"},"id":"324aaa85-bed2-4a62-bf9a-c10a62829a71","isHidden":false,"type":"gallery"},{"content":{"text":"<p>One thing I had not anticipated was how vast the community surrounding the gallery and its collection would be. I found engaging and working with different community projects extremely rewarding. The diverse nature of the gallery’s public programming and workshops meant I had the opportunity to connect with a diverse range of people, from the parent and toddler group to the dementia and their carers workshop. The fact that so many people were willing to collaborate with me was overwhelmingly positive, and provides evidence that an ongoing exploration these histories and stories could continue after this residency.</p>"},"id":"f34de3ab-d414-4d05-b38b-15aa808b7e10","isHidden":false,"type":"text"},{"content":{"images":["file://Jo6uJpWEnBs4DOEo","file://ondv3rjYJEplHQy9"],"caption":"Drawings showing more relaxed highlights of our conversations in the studio setting, where private and intimate discussions about the subject matter took place. These drawings were fluid, as I sought to capture the essence of the individuals. I also asked my sitters to choose works from the collection that inspired them or gave them a feeling of positive change. I drew their encounters with these works to see how the drawings might change.","ratio":"","crop":"false"},"id":"3f172457-46b7-40fd-9d67-1f245ecd1166","isHidden":false,"type":"gallery"},{"content":{"text":"<p>In terms of personal development, the residency has been a lynchpin in helping me understand the process of my own practice. It has also reaffirmed my innate ability to communicate deeply with my subjects, my sense of curiosity, and my long-held belief that the act of drawing can have a far-reaching impact beyond the final artworks themselves.</p>"},"id":"ae2628f8-9069-4a86-90b4-d3a4ffe2740a","isHidden":false,"type":"text"},{"content":{"text":"<p>The residency has also provided the opportunity to bring a proposal to life from start to finish, addressing many questions on the topic of racial injustices in UK museums and galleries, and offering a insight into this subject through the eyes of individuals who were open to the concept.</p>"},"id":"5f768df7-0f43-4daf-9dec-17b5c15a2515","isHidden":false,"type":"text"},{"content":{"image":["file://CatmWKnStAsVcJIQ"]},"id":"728365c8-bb24-4342-9dc4-6fcd070d0a79","isHidden":false,"type":"image"},{"content":{"text":"<p>Working collaboratively with staff and curators at Leeds Art Gallery has given me an understanding of the workings of a government-run gallery, its advantages, and some of its challenges. I gained a real sense of the intricate and interwoven nature of the work, and the critical importance of collaboration. When it works well, it is a real force for positive community change, influencing how the public engages with art.</p>"},"id":"4dbc827c-b220-4578-9891-f1831ee92d16","isHidden":false,"type":"text"},{"content":{"text":"<p>The experience at Leeds Art Gallery has had a cascading effect of opportunities. I have made connections with the curators and staff, their extended network, and the wider creative community of Leeds. This community is responsible for making the city a vibrant creative hub, and I now feel I will always welcome to participate in it.</p>"},"id":"2f1cfbd8-7c9a-41ab-ae5a-48fc8b6a6d5a","isHidden":false,"type":"text"},{"content":{"text":"<p>The 20/20 project with UAL’s Decolonising Arts Institute has given me a clear route forward for my next body of work, and for future projects. I feel more confident when it comes to organising and prioritising aspects of my artistic process. Moving forward, I can structure my process into more defined stages, almost like a framework, while still retaining the instinctive emotional engagement with my subjects which is fundamental to the conversations I have and the work I create. The residency has been transformative, both practically and emotionally.</p>"},"id":"12bf9bf3-972f-4a93-9c52-f8332a2ad825","isHidden":false,"type":"text"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Partner: 
+
+----
+
+Uuid: Mjl3GoPv2sxw50eN

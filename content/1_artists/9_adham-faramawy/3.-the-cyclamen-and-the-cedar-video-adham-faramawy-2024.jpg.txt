@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: Two people are seated on the floor in a bright room, performing a synchronised dance-like movement with their arms stretched upwards. One wears a blue outfit and the other a burnt-orange one. The room features a round table, chairs, and a large window with white blinds. The subtitle reads ‘and she wasted away from loneliness'
+
+----
+
+Uuid: z9R4PGvjQJfRGf14
+
+----
+
+Template: blocks/image

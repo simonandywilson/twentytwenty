@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: Two dancers in bright outdoor greenery, one wearing orange and the other blue, are captured mid-movement with their arms raised. Sunlight filters through the leaves. Text at the bottom reads: “Picture me wishing this for you.”
+
+----
+
+Uuid: 2Uzv7bw3Fw9LM0Mz
+
+----
+
+Template: blocks/image

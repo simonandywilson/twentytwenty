@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A misty view of a city square near “Govan Cross Shopping Centre.” The foreground has wet brick pavement, and the area appears quiet, with silhouettes of statues and a few vehicles in the distance.
+
+----
+
+Uuid: MwZ5pjEgwzXoJ3qi
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Christopher Samuel washing a screenprinting screen at Arthouse Print Studio
+
+----
+
+Uuid: mJRjM6NqTOfP31nI
+
+----
+
+Template: blocks/image

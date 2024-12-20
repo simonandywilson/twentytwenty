@@ -8,13 +8,12 @@ module.exports = {
       colors: {
         theme: {
           menu: "#ffffff",
-          artists: "#F9FAFB",
-          essays: "#F1F3F5",
-          introduction: "#E9EBEE",
-          contact: "#E1E4E8",
-          recordings: "#D9DCE1",
-          sponsors: "#D1D5DB",
-
+          artists: "#F4F4F4",
+          essays: "#E8E8E8",
+          introduction: "#DDDDDD",
+          contact: "#D2D2D2",
+          recordings: "#C6C6C6",
+          sponsors: "#bbbbbb",
           text: "#ffffff",
           figcaption: "#ffffff",
           home: "#ffffff",

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A close-up view of a ceramic sculpture featuring bold yellow, red, and orange painted patterns. A prominent handle-like structure is painted with the word “BLACK” in green.
+
+----
+
+Uuid: Rzx0VKHtF5Inbrp1
+
+----
+
+Template: blocks/image

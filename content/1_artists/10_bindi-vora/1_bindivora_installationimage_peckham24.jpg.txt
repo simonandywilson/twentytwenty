@@ -1,0 +1,13 @@
+Caption: Installation image from *Back to the Future* at Peckham 24, May 2024. Photo: Deniz Guzell
+
+----
+
+Alt: A gallery wall features five framed photographs against a pink, collage-style wallpaper with a repeating image of a women, line drawings of figures and geometric shapes.
+
+----
+
+Uuid: 1IlIgmKhVzsKD5Ta
+
+----
+
+Template: blocks/image

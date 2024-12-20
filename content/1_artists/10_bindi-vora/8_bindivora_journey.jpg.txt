@@ -1,0 +1,13 @@
+Caption: Bindi Vora, from the series *સફર (journey)*, 2024. Courtesy of the artist.
+
+----
+
+Alt: A gallery wall displays four framed artworks, each featuring a collage of translucent drawings, silhouetted figures, circular shapes, lines, and the recurring word 'Asian.' Each artwork is paired with a hanging sculpture made of colourful fabric and various miniature objects.
+
+----
+
+Uuid: vnROB0CaC9cGRjfP
+
+----
+
+Template: blocks/image

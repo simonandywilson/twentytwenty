@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Christopher Samuel painting on a sample piece of stained glass at Studio Orme. He is drawing a sunflower.
+
+----
+
+Uuid: WtebBdkKOy8uXFV8
+
+----
+
+Template: blocks/image

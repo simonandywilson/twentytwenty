@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A fabric artwork featuring a woman and lush plants. The woman, painted in dark tones, is surrounded by vibrant red flowers and green foliage, framed by a painted border of deep green hues.
+
+----
+
+Uuid: N2hSnZG0YawfBOT7
+
+----
+
+Template: image

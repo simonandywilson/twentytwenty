@@ -59,7 +59,11 @@
   }
 
   .artist-circle {
-    @apply absolute w-full h-full overflow-hidden motion-safe:transition-opacity motion-safe:duration-500;
+    @apply absolute z-10 w-full h-full overflow-hidden motion-safe:transition-opacity motion-safe:duration-500;
+  }
+
+  .artist-circle-default {
+    @apply absolute z-0 w-full h-full overflow-hidden motion-safe:transition-opacity motion-safe:duration-500;
   }
 
   .artist-circle-img {
@@ -72,5 +76,9 @@
 
   .text-block {
     @apply leading-tight p-3 rounded-3xl bg-theme-text;
+  }
+
+  .ul {
+    @apply underline;
   }
 }

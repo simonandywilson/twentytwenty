@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A calm lake surrounded by forested hills under an overcast sky. The water reflects the muted light, and a small tree-covered island stands out in the middle of the lake.
+
+----
+
+Uuid: YOT9XbUC4uYMcXdD
+
+----
+
+Template: blocks/image

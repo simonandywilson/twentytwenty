@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: Two dancers move energetically in a light-filled room surrounded by wooden furniture and framed landscape paintings. A textured overlay resembling water ripples is applied to the image.
+
+----
+
+Uuid: AIsvu3MlofWma65s
+
+----
+
+Template: blocks/image

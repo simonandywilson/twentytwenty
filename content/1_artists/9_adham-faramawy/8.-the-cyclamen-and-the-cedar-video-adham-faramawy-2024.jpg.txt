@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: An outdoor scene with two dancers stretching backwards in unison near the cedar tree. The stone sculpture remains superimposed on the left side.
+
+----
+
+Uuid: 1zvmNpfb8dXGwuiy
+
+----
+
+Template: blocks/image

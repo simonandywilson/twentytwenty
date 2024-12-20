@@ -16,11 +16,11 @@
 <body>
   <header class="sticky top-0 w-full font-sans z-50 selection:bg-zinc-500/50 md:fixed md:w-[50vw] md:right-0 ">
     <button onclick="toggleMenu()" class="sticky top-0 z-[100] container bg-theme-menu leading-tight w-full max-w-full md:hidden">Menu</button>
-    <div class="hidden w-full max-w-[100vw] h-[calc(100vh-40px)] overflow-y-scroll right-0 rounded-2xl md:h-screen md:pl-4 md:block lg:max-w-2xl" id="siteMenu">
+    <div class="hidden w-full max-w-[100vw] h-[calc(100vh-40px)] overflow-y-scroll right-0 rounded-2xl md:h-screen md:pl-4 md:block lg:max-w-2xl" id="site-menu">
       <a href="/" class="w-full h-max block rounded-3xl p-3 secondary-details container bg-theme-home max-w-full has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px]">
         <h1 class="leading-tight">Home</h1>
       </a>
-      <div class="w-full grid grid-cols-2">
+      <div class="w-full grid grid-cols-2" id="site-menu-content">
         <div class="w-full col-span-2 lg:col-span-1">
           <?php snippet('menu/artists') ?>
         </div>

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A clay piece featuring abstract shapes on a round ceramic plate. The hand holding the plate shows the scale of the sculpture, with tools and equipment visible in the workshop background.
+
+----
+
+Uuid: EeEqsHVzkcVhcPNq
+
+----
+
+Template: blocks/image

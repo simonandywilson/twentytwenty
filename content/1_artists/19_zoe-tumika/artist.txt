@@ -1,0 +1,41 @@
+Title: Zoë Tumika
+
+----
+
+Cover: - file://oHhCSZa0QPsQTBR8
+
+----
+
+Circleone: - file://YUm8ySM739kWqW0t
+
+----
+
+Circletwo: - file://Rzx0VKHtF5Inbrp1
+
+----
+
+Essay: 
+
+----
+
+Partnername: MIMA
+
+----
+
+Partnerurl: https://mima.art/
+
+----
+
+Text: [{"content":{"image":["file://oHhCSZa0QPsQTBR8"]},"id":"81a7ccb1-feb0-4e1f-80f2-04e59144585d","isHidden":false,"type":"image"},{"content":{"text":"<p><em>In this writing I refer to genocide, war, Transatlantic Slavery, anti-Blackness and racism</em>.</p><p>The earliest parts of the residency involved me spending a significant amount of time in Middlesbrough and Middlesbrough Institute of Modern Art (MIMA) engaging in a range of activities which I consider – separately and collectively – to be forms of listening. As the residency went on, this listening continued at various sites, including the traditional lands of the Wurundjeri peoples, the traditional lands of the Wiradjuri peoples, Glasgow and the west coast of Scotland. Water and memory and time travel and knowing.</p><p>James Cook of North Yorkshire played a key role in the ‘discovering’ of the lands we commonly refer to as Australia, in 1768. This expedition would precede the colonising of these lands and the resulting genocide of Aboriginal peoples and Torres Strait Islanders, who in 2023 constituted less than 4% of the population. In North Yorkshire and Cleveland, pubs, museums, streets, houses and a hospital are named after Cook. In fact, the very building which houses MIMA and Teesside University’s School of Arts and Creative Industries’ wood and metal workshops is called the Cook Building. In 1993, Middlesbrough Borough Council unveiled a monumental sculpture which romantically laments the letters which Cook wrote on his ‘travels’. Local steel workers were employed to fabricate the public artwork, which sits outside of MIMA’s building.</p><p>Glasgow is a city with decadent sandstone buildings, and grand facades are a mainstay in its architecture. My studio is located in an area of Glasgow that neighbours an area called the Merchant City. From the 1750s, this part of the city was home to tobacco merchants who stayed here in their – still present – mansions, making their money from enslaved Africans’ labour. In primary school, our class was presented with colouring-in sheets of Tobacco Lords. This would have been in the early 2000s. Colour the hat black, robe red and leave the shirt white. Again, through name familiarity, street names (for example Buchanan Street, or where, only in name, Jamaica Street transforms into Union Street) and statues re-present a ‘what has happened’.</p><p>The above is not a new concept to me; we’ve <em>been</em> critically engaging. However, what has come through this residency period, of research and making, is the loudness of what is felt.</p><p>While I was in Wiradjuri country, two events took place:</p><p>– the Australian Indigenous Voice referendum, with voting taking place on 14 October 2023</p><p>– the Israeli invasion of Gaza in the occupied territories of Palestine, with bombing commencing on 7 October 2023 followed by ground operations commencing on 13 October 2023</p><p>Distinct events, centring on different geological positions, plotted points on various temporal curves/lines.</p><p>[?]</p><p>THE TRICKSTER, THE PROTECTOR and THE FRIEND emerge as counter-narrators in their spirit; entities which slickly navigate this-wise and other-wise.</p>"},"id":"5f163706-049e-40a1-8955-e571c067dd38","isHidden":false,"type":"text"},{"content":{"image":["file://Rzx0VKHtF5Inbrp1"]},"id":"bb6ede6d-bba4-448e-95f0-65e588794554","isHidden":false,"type":"image"},{"content":{"text":"<p>Decolonial practice\r\nmust work against anti-Blackness. In these institutional, colonial\r\nestablishments, being Black is felt in a particular key. I also witness a\r\nlegibility lent to my lightness; the proximity to whiteness is afforded a\r\nsystemic legibility. How will I corrupt this?</p>"},"id":"9264300d-ce36-4074-ab5a-c1e80a4ad142","isHidden":false,"type":"text"},{"content":{"images":["file://R2klXyYNwxhJ0MZL","file://YOT9XbUC4uYMcXdD"],"caption":"","ratio":"","crop":"false"},"id":"09a1aa16-0be1-4003-98c9-d651e99099f3","isHidden":false,"type":"gallery"},{"content":{"image":["file://MwZ5pjEgwzXoJ3qi"]},"id":"e9999fea-2f1b-4613-b930-b94b0c476a9a","isHidden":false,"type":"image"},{"content":{"text":"<p>Artist, writer and\r\neducator Adjoa Armah speaks to smuggling with the character of forcefulness\r\nand, for me, this becomes a useful thought device. Blackness – especially – in\r\nthis context, cannot be uncoupled from smuggling. Through the colonial lens,\r\nour personhood and corporeality were to be transformed to objects, to be held\r\nin hold, goods to be triangulated across the Atlantic. The embodied memory of\r\nsmuggle remains; how it actually feels to move in these spaces (institutional\r\nprogramme, space, this island) as a Black person, an illicit presence. Then\r\nthere’s what the smuggled smuggle. What can I illicit, can I by force, into\r\nthis space. Then there’s a knowing that the illicit presence is only one\r\nregister, and a register organised and managed with specific colonial\r\nintentions.</p>"},"id":"9b7b3493-bd28-4fb1-be51-d2400a6cb442","isHidden":false,"type":"text"},{"content":{"image":["file://YUm8ySM739kWqW0t"]},"id":"29e970b4-323a-48cc-b5d7-6f8a38f2c62c","isHidden":false,"type":"image"},{"content":{"text":"<p>In Glasgow – and this may be across Scotland too – the word ‘how’ often replaces the word ‘why’, while linguistically still holding the meaning of ‘why’. ‘How?’ asks:</p><p>– in what way or manner; by what means</p><p>– for what reason or purpose</p>"},"id":"10d9a80d-b0f5-4dc9-8c42-476abbf75b30","isHidden":false,"type":"text"},{"content":{"image":["file://EeEqsHVzkcVhcPNq"]},"id":"95fe86d5-c77a-49f7-bd94-7d5a57fd8739","isHidden":false,"type":"image"},{"content":{"text":"<p>The resource provided by this project, however, has significantly enabled my practice to engage with its foundational fluidity. It has provided me with the trio of time, cash and space which I’ve then been able to use in ways that speak specifically to my processes and ethics. Other types of resources have been gifted to me, shared by or forged with my Black and POC co-conspirators, peers and guides over many years. Having agency over my production budget allowed me to effectively feed back into that ecology.</p><p>Throughout the 20/20 project were Network Meetings, constituted by the Decolonising Arts Institute team, host collection representatives and the commissioned artists. These were agenda meetings which tended to start with an update from present artists, followed by responses (from the institutions and artists) to pre-provided material. The ‘Performance as Artist’ is already being considered, the artists are most likely freelancers and the institutions commission arts programmes (i.e. provide work). The added dynamic of the institutional representatives being overwhelmingly white and all artists being Black or People of Colour is both illustrative and impactful. A feedback loop [?]</p>"},"id":"f4617924-1ea8-4d53-a4e8-ed88f1155ff6","isHidden":false,"type":"text"},{"content":{"image":["file://G7rConqJ6zVhxh9t"]},"id":"2887608c-eade-468b-8c01-96131d248958","isHidden":false,"type":"image"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Uuid: 2FGRCoCKM7nK6bo8

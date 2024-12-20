@@ -1,0 +1,45 @@
+Title: Sonya Dyer
+
+----
+
+Cover: - file://ji41c6YNVBKNjvZB
+
+----
+
+Circleone: - file://sKN5AnV6ihSK8Lo0
+
+----
+
+Circletwo: - file://YwSIzU5rqx2VEtU6
+
+----
+
+Essay: 
+
+----
+
+Partnername: The Box Plymouth
+
+----
+
+Partnerurl: https://www.theboxplymouth.com/
+
+----
+
+Text: [{"content":{"image":["file://YwSIzU5rqx2VEtU6"]},"id":"c9210ec7-67a2-4bbf-8cc8-40c085854161","isHidden":false,"type":"image"},{"content":{"text":"<p>For the 20/20 commission I was based at The Box in Plymouth. The Box is a large-scale museum, gallery and archive which contains the accumulated collections of several different museums encompassing areas including Natural History, Media, Fine Art.</p>"},"id":"ea1a1598-b5ce-46b6-aefc-c92c9ddfc4b4","isHidden":false,"type":"text"},{"content":{"image":["file://ji41c6YNVBKNjvZB"]},"id":"6d4e1eb6-7029-43ad-af3c-04f45e57068b","isHidden":false,"type":"image"},{"content":{"text":"<p>On my first visit I was introduced to a range of curators from different aspect of The Box’s programme. I was immediately drawn to the Natural History collection and was particularly intrigued by the ‘pickles’ – preserved marine specimens in formaldehyde.</p>"},"id":"84b80448-c3cc-4981-961a-de1cf6740cee","isHidden":false,"type":"text"},{"content":{"images":["file://0e5dRCkBdU4tUt8V","file://pkVTAsWj5CdMKcqb"],"caption":"","ratio":"","crop":"false"},"id":"94fff505-bb97-4ac4-9f54-c96a04ec33cd","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Sarah Marden, the Natural History\r\nCurator was incredibly generous with her time and knowledge on subsequent\r\nvisits. I was able to visit the stores (only a relatively modest proportion of\r\nthe museum’s holdings are on display), learning about just how many specimens\r\nthey have and how time consuming it is to preserve them. I was able to learn so\r\nmuch from Sarah’s expertise.</p>"},"id":"c372616f-ce6d-4c15-ae2a-e56ccd5ff654","isHidden":false,"type":"text"},{"content":{"image":["file://IseNElxWZJ4LpDxg"]},"id":"8b77b245-cdec-43de-8765-76ad92f8c25e","isHidden":false,"type":"image"},{"content":{"text":"<p>I also became interested in the museum display cases themselves and the ways museums categorise and organise specimens, which speaks to colonial imperatives to rank, grade and label, to control what is deemed ‘strange.’ The Box has an extraordinary series of encased sea creatures on display – fish, eels, crabs, all kinds of things I hadn’t seen before. They looked otherworldly. I spent a lot of time enjoying being surrounded by them.</p>"},"id":"c2b6f1ed-432b-41ca-b9ff-2e3df0f27dca","isHidden":false,"type":"text"},{"content":{"images":["file://SV6CV3GjLANEW7x2","file://sO0OScpJPsDAFhmB"],"caption":"","ratio":"","crop":"false"},"id":"30265686-c291-4b5f-bcd5-58ca12effd1c","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Conversations with other members of staff also\r\nopened up discussion around a phenomenon fishermen in Plymouth Sounds were\r\nexperiencing where octopus are overtaking the ‘native’ lobster due to global\r\nwarming. This led to some questions, were native lobsters facing extinction?\r\nWhat other species were in the same position?</p>"},"id":"5dde7f32-6332-480a-b02a-e8e980b01dde","isHidden":false,"type":"text"},{"content":{"image":["file://sKN5AnV6ihSK8Lo0"]},"id":"6bff838e-5713-4e4d-be61-ad7261fb89ab","isHidden":false,"type":"image"},{"content":{"text":"<p>The history on display is also a record of a\r\nchanging ecosystem as evidenced in the waters around Plymouth. The global story\r\nof climate catastrophe is also a local story. I wanted to explore this further.</p>"},"id":"4e3a36a7-de7c-4c70-9a3d-cfec9ffcb623","isHidden":false,"type":"text"},{"content":{"image":["file://sLbCJc5zuBkHxP2O"]},"id":"2d65c7b5-ddea-4fec-80c7-fc8ff1c0e619","isHidden":false,"type":"image"},{"content":{"text":"<p>I decided to make a sculptural object, inspired\r\nby a list of extinct and near extinct sea creatures that Sarah had share with\r\nme. My commission is a hybrid ‘monster’ composed of various parts deriving from\r\nthese sea animals facing extinction. It was important that the object could\r\npotentially sit within the existing collection, that it looked similar but\r\npotentially a bit ‘off.’ By placing the object in a museum-style display case,\r\nthe sculpture can find its place within the museological conventions that institutions\r\nsuch as The Box reproduce.</p>"},"id":"ec342e67-a3ba-4995-9196-a7ffcff67492","isHidden":false,"type":"text"},{"content":{"image":["file://JArvY9vZlnH2Gcv8"]},"id":"b78a10ef-1b79-4fd7-9938-b68b265c701c","isHidden":false,"type":"image"},{"content":{"text":"<p>During this residency I was also introduced to\r\nAsh Ghaliadi and the work of Radical Ecology, a non-profit based in the South\r\nWest working internationally across culture, research and policy for\r\nenvironmental justice.</p>"},"id":"01492271-426c-4032-a3e4-9e7bdd263f0e","isHidden":false,"type":"text"},{"content":{"text":"<p>Radical Ecology invited me to participate in a seminar event they ran at The Box in 2023 as part of their Black Atlantic Weekend.. I created a video,<em> Pseudomorph </em>(2023), based on footage I shot during my visits to Plymouth, reflecting on the story of the ‘invading’ octopus within the context of migration. This event and the range of speakers that participated undoubtedly contributed to the development of my final commission for The Box.</p><p>This period of time has allowed space for me to develop a new direction for a practice, continuing my interest in world building, speculation and the fantastical with the environment at the heart of everything. My sculpture is called <em>hybrida composita</em> (2024).</p>"},"id":"ec179822-2ff2-467c-97f2-205e2559de91","isHidden":false,"type":"text"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Partner: 
+
+----
+
+Uuid: dOHs5FHWioWhvbn1

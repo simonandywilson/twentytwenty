@@ -1,0 +1,13 @@
+Caption: The Cyclamen and the Cedar, video, Adham Faramawy, 2024
+
+----
+
+Alt: A transparent, layered image showing dancers performing in a minimalist white room. Text at the bottom says: “We’re all one you say.”
+
+----
+
+Uuid: XbmktW8VaDmecieM
+
+----
+
+Template: blocks/image

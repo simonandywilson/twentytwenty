@@ -1,0 +1,13 @@
+Caption: ‘Royal Manchester Institution: Names of Parties who have Assented to Pay the Annual Guinea’, 1826-55. Manchester Central Library & Archive. Image: Holly Graham.
+
+----
+
+Alt: A cropped image showing the middle portion of the front cover of a large book. The cover is decorated with blue speckled marbled paper, and has a dark red leather binding along its spine. A white sticker on the middle of the front cover reads: ‘Royal Manchester Institution: Names of Parties who have Assented to Pay the Annual Guinea’. The book rests on grey canvas material – an archive book cushion.
+
+----
+
+Uuid: sibJP4MqKhDMdZVx
+
+----
+
+Template: blocks/image

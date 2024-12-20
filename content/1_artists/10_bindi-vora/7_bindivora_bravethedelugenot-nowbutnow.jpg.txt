@@ -1,0 +1,13 @@
+Caption: Bindi Vora, *Brave The Deluge. Not Now. But Now*, 2024. Courtesy of the artist.
+
+----
+
+Alt: An eye-shaped base with a repeating image and an iridescent strip features a protruding historic column rising from the centre
+
+----
+
+Uuid: LtE9SS6zGXELoMdl
+
+----
+
+Template: blocks/image

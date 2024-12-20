@@ -12,14 +12,14 @@ columns:
         label: Circle One
         type: files
         multiple: false
-        query: page.images.template('image')
+        query: page.images
         uploads:
           template: image
       circletwo:
         label: Circle Two
         type: files
         multiple: false
-        query: page.images.template('image')
+        query: page.images
         uploads:
           template: image
       essay:

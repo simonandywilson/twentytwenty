@@ -1,0 +1,49 @@
+Title: Jessica Ashman
+
+----
+
+Cover: - file://x0Rb3CDkHWJMmYYa
+
+----
+
+Circleone: - file://N2hSnZG0YawfBOT7
+
+----
+
+Circletwo: - file://djBgCdOmPOLsPfgh
+
+----
+
+Essay: 
+
+----
+
+Partnername: Bristol Museum and Art Gallery
+
+----
+
+Partnerurl: https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery
+
+----
+
+Text: [{"content":{"image":["file://x0Rb3CDkHWJMmYYa"]},"id":"c94ef927-8d4f-497b-82a4-021caf7ecd71","isHidden":false,"type":"image"},{"content":{"text":"<p>I’m currently in residence with Bristol Museum and Art Gallery (BMAG), responding to a few archival collections. One being a series of watercolour paintings of the flowers and fauna of Jamaica, from Rev. John Lindsay; a Scottish Priest, serving the Church of England.  He was active in Jamaica during the 1700s, having married into a plantation owning family. Another collection is of dried flowers from Jamaica dating back to the late 1700’s by Dr. Arthur Broughton. I’ve also been looking at various artefacts surrounding the BECC (British Empire and Commonwealth Collection), specifically a series of letters from a Pharmacist called John Small, who moved to Jamaica in the 1850’s to aid his cousin run a medical practice but ended up establishing a coconut plantation. These letters document his life in Jamaica.</p>"},"id":"9dcceca0-aba8-4042-bf64-607b5602908b","isHidden":false,"type":"text"},{"content":{"image":["file://o87GwpMF2wVoFqg4"]},"id":"3676bab8-9bae-4c18-83aa-bb641a2b43cb","isHidden":false,"type":"image"},{"content":{"text":"<p>Both of these archives speak to something I’m intensely curious about; the idea of abundance, paradise and “utopias”. For Lindsay and Broughton, Jamaica seemed to be a potential foot-in-the door to the fame of the botanical academic world. Linsday appealed to the House of Assembly in Jamaica to get his drawings published and failed. Broughton was more successful, with an indigenous Jamaican Orchid named after him (<em>Cassia Broughtonii ). </em>For Small, Jamaica was a land full of business and therefore, financial, opportunity. One of his letters back home exclaimed Jamaica was a land “of milk and honey”. My focus at BMAG was to look past the colonialist’s ideas of abundance and think of how the flowers and vegetables drawn and discussed were used as tools of rebellion and resistance for the enslaved people of the island. How did the wilds of Jamaica create ‘abundance’, paradises and ways of offering hope and freedom for the oppressed, if at all?</p>"},"id":"5a86ec66-6240-4419-9c6c-3f2f5b2eeabd","isHidden":false,"type":"text"},{"content":{"image":["file://N2hSnZG0YawfBOT7"]},"id":"e5914057-b5dc-47fa-a98a-cc9f7022bb17","isHidden":false,"type":"image"},{"content":{"text":"<p>Working with BMAG with this vision in mind has been an overwhelmingly positive experience. My ideas were embraced whole heartedly by the staff I worked with, when I was concerned how ideas rejecting the might of colonialism would be received in a large institution. Curator of Art, Julia Carver, and Steven Bradley, Exhibitions and Display Manager have been guiding me through this research journey, offering advice without any pressure into a pushing a narrative I might have been uncomfortable with. Working with Rhian Rowson, Curator of Biology, has been a particular joy. Rowson’s energy and enthusiasm into decolonising the archive is infectious and has been immensely helpful in understanding the often confusing world of biology archives. The hospitality and help of Jayne Pucknell and Frances Davies over at the BECC department was pivotal in exploring how Bristol’s Caribbean carnival, St. Paul’s Festival, could connect to themes of resistance and Jamaican folklore in my research.</p>"},"id":"1ae1d18c-d7c9-4024-8f30-0521ec818587","isHidden":false,"type":"text"},{"content":{"image":["file://mCypO5v8jyvWOmNx"]},"id":"46429959-ccd9-409f-bd9f-ad62a83e9c62","isHidden":false,"type":"image"},{"content":{"text":"<p>I can’t speak to the career possibilities of the 20/20\r\nresidency just yet; I’m still in the making stage! The results of my research\r\nso far are currently being formalised into the physical. I am creating several\r\ninstallation pieces that use silk paintings, acrylic, animation as well as a\r\nsoundscape and series of performances. The current plan is for the exhibit to\r\nopen in Feb 2025.</p>"},"id":"2ded5d84-3095-4915-bd14-aa13c48a19a4","isHidden":false,"type":"text"},{"content":{"images":["file://z838uQicK43YZdpK","file://wSlKN6DSvlIPBOlG"],"caption":"","ratio":"3/2","crop":"true"},"id":"c01b8226-ca12-4b5b-ba98-6ec851357fc4","isHidden":false,"type":"gallery"},{"content":{"text":"<p>However, I <i>can </i>speak to how this residency has made\r\nme realise the importance time and space gives to process. Like most emerging\r\nartists working today, a scarcity mindset prevails over my practice. There’s\r\nnever enough time. Never enough space. Never enough support. Never enough\r\nmoney! However, whilst this residency hasn’t exactly solved all of these\r\nperennial issues it has given me the grace to explore process in a way I have\r\nnever have before. This space has allowed me to dissect the connections between\r\nmy making and the research in a way that feels meaningful and nourishing to my\r\nfuture practice.</p>"},"id":"40ecd17f-fc31-4ca2-976a-6e38022cc4ab","isHidden":false,"type":"text"},{"content":{"image":["file://djBgCdOmPOLsPfgh"]},"id":"5edde71d-c3d8-4fdb-9afa-1f287e3a80f2","isHidden":false,"type":"image"},{"content":{"text":"<p>Finally, as someone whose project is really trying to speak to the power of human resistance through nature, the 20/20 residency has also opened my eyes to how archival re-imagining can feel like a quiet rebellion. Delving into the stores of BMAG has really opened the possibilities to how many ancestral stories are hidden or need to be re-imagined and how the light of archival importance must be shone elsewhere. To be part of this resistance, pulling these stories out of the dark, is an honour and a privilege.</p>"},"id":"b9991db8-184f-4199-8b89-77adacd5fa85","isHidden":false,"type":"text"},{"content":{"image":["file://EsC83VXMjqjhw1sD"]},"id":"6bc52e82-0933-495d-b32a-065b7de98808","isHidden":false,"type":"image"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Partner:
+
+- 
+  partnername: Partner
+  partnerurl: ""
+
+----
+
+Uuid: pqB7Dbw8ujIk5Tim

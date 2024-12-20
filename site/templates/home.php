@@ -18,7 +18,7 @@
                 <?php
                 $index = $child->indexOf($children);
                 ?>
-                <div <?php e($index > 0, 'class="artist-circle opacity-0"') ?> data-artist-slug="<?= $child->slug() ?>" class="artist-circle">
+                <div class="artist-circle opacity-0" data-artist-slug="<?= $child->slug() ?>">
                   <?php if ($child->circleone()->isNotEmpty() && $child->status() == "listed") : ?>
                     <img class="artist-circle-img" src="<?= $child->circleone()->toFile()->resize($width = 750)->url() ?>" alt="<?= $child->circleone()->toFile()->alt()->esc() ?>">
                   <?php else : ?>
@@ -30,6 +30,13 @@
                   <?php endif ?>
                 </div>
               <?php endforeach ?>
+              <div class="artist-circle-default">
+                <div class="w-full h-full">
+                      <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000.014">
+                        <path d="M500 119.974c209.543 0 380.026 170.469 380.026 380.026S709.543 880.026 500 880.026 119.974 709.543 119.974 500 290.443 119.974 500 119.974M500 0C224.289 0 0 224.289 0 500s224.289 500.014 500 500.014S1000 775.711 1000 500 775.711 0 500 0" />
+                      </svg>
+                    </div>
+              </div>
             <?php endif ?>
           <?php endif ?>
         <?php endforeach ?>
@@ -54,7 +61,7 @@
                 <?php
                 $index = $child->indexOf($children);
                 ?>
-                <div <?php e($index > 0, 'class="artist-circle opacity-0"') ?> data-artist-slug="<?= $child->slug() ?>" class="artist-circle">
+                <div class="artist-circle opacity-0" data-artist-slug="<?= $child->slug() ?>">
                   <?php if ($child->circletwo()->isNotEmpty() && $child->status() == "listed") : ?>
                     <img class="artist-circle-img" src="<?= $child->circletwo()->toFile()->resize($width = 750)->url() ?>" alt="<?= $child->circletwo()->toFile()->alt()->esc() ?>">
                   <?php else : ?>
@@ -66,6 +73,13 @@
                   <?php endif ?>
                 </div>
               <?php endforeach ?>
+              <div class="artist-circle-default">
+                <div class="w-full h-full">
+                      <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000.014">
+                        <path d="M500 119.974c209.543 0 380.026 170.469 380.026 380.026S709.543 880.026 500 880.026 119.974 709.543 119.974 500 290.443 119.974 500 119.974M500 0C224.289 0 0 224.289 0 500s224.289 500.014 500 500.014S1000 775.711 1000 500 775.711 0 500 0" />
+                      </svg>
+                    </div>
+              </div>
             <?php endif ?>
           <?php endif ?>
         <?php endforeach ?>
@@ -95,7 +109,7 @@
           <?php
           $index = $child->indexOf($children);
           ?>
-          <img <?php e($index > 0, 'class="artist-background opacity-0"') ?> data-artist-slug="<?= $child->slug() ?>" class="artist-background" src="<?= $child->cover()->toFile()->resize($width = 500)->url() ?>" alt="<?= $child->cover()->toFile()->alt()->esc() ?>">
+          <img class="artist-background opacity-0" data-artist-slug="<?= $child->slug() ?>" src="<?= $child->cover()->toFile()->resize($width = 500)->url() ?>" alt="<?= $child->cover()->toFile()->alt()->esc() ?>">
         <?php endforeach ?>
       <?php endif ?>
     <?php endif ?>

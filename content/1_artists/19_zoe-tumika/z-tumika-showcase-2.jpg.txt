@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A raw clay ceramic piece on a pottery wheel. The sculpture has intricate, curving elements at the top resembling abstract shapes, still in its unpainted stage.
+
+----
+
+Uuid: oHhCSZa0QPsQTBR8
+
+----
+
+Template: blocks/image

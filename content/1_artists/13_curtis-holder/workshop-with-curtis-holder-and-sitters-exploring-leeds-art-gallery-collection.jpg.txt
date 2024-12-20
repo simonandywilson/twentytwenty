@@ -1,0 +1,9 @@
+Caption: 
+
+----
+
+Uuid: r2131CMAPT4EWKJN
+
+----
+
+Template: blocks/image

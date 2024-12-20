@@ -18,6 +18,9 @@ const backgroundImages = [
 
 const circleImages = [...document.getElementsByClassName("artist-circle")];
 
+const circleImagesDefault = [...document.getElementsByClassName("artist-circle-default")];
+
+
 const artistLinks = [...document.getElementsByClassName("artist-link")];
 
 artistLinks.forEach((element) => {
@@ -42,10 +45,13 @@ artistLinks.forEach((element) => {
         });
         artistLinks.forEach((element) => {
           if (element.dataset.artistSlug === thisSlug) {
-            element.classList.add("underline");
+            element.classList.add("ul");
           } else {
-            element.classList.remove("underline");
+            element.classList.remove("ul");
           }
+        });
+        circleImagesDefault.forEach(element => {
+          element.classList.add("opacity-0");
         });
       },
       false
@@ -53,7 +59,29 @@ artistLinks.forEach((element) => {
   );
 });
 
-const menu = document.getElementById("siteMenu");
+const siteMenuContent = document.getElementById("site-menu-content");
+
+const resetMenuState = () => {
+  backgroundImages.forEach(element => {
+    element.classList.add("opacity-0");
+  });
+  circleImages.forEach(element => {
+    element.classList.add("opacity-0");
+  });
+  artistLinks.forEach(element => {
+    element.classList.remove("ul");
+  });
+  circleImagesDefault.forEach(element => {
+    element.classList.remove("opacity-0");
+  });
+};
+
+// Add both mouseleave and blur event listeners to the menu content
+["mouseleave", "blur"].forEach(evt => {
+  siteMenuContent.addEventListener(evt, resetMenuState);
+});
+
+const menu = document.getElementById("site-menu");
 
 const toggleMenu = () => {
   if (menu.style.display === "block") {
@@ -77,4 +105,5 @@ window.onload = () => {
   if (isMediumScreen.matches) {
     menu.style.display = "block";
   }
+  resetMenuState();
 };

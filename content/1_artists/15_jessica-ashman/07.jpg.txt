@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A painted fabric artwork depicting a woman holding a bowl of fruits, with a fiery, golden aura surrounding her head. The woman’s expression is calm, her hands carefully presenting the bowl.
+
+----
+
+Uuid: djBgCdOmPOLsPfgh
+
+----
+
+Template: image

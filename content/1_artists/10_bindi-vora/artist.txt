@@ -1,0 +1,41 @@
+Title: Bindi Vora
+
+----
+
+Cover: - file://fgM2BPyvLKrbnTzM
+
+----
+
+Circleone: - file://KvWceRmxczQlaLCF
+
+----
+
+Circletwo: - file://sLA8w4T3FCo8Yqxz
+
+----
+
+Essay: 
+
+----
+
+Partnername: Ulster Museum
+
+----
+
+Partnerurl: https://www.ulstermuseum.org/
+
+----
+
+Text: [{"content":{"image":["file://1IlIgmKhVzsKD5Ta"]},"id":"3d79589a-efc5-4dc0-ae0b-ee2866d971de","isHidden":false,"type":"image"},{"content":{"text":"<p>As I have begun defining my practice, provocations have become a speculative way to navigate the spaces where answers do not exist. Using these mechanisms to probe, question or attempt to decipher histories have propelled this body of work into new mediums and new forms, but have ultimately raised more questions. The tensions inherent in making change, and how we might approach histories as an active practice, have underpinned these ideas of resistance and resilience that recur in my work.</p>"},"id":"7add7b87-9ba3-4004-9369-1a1f3ecab059","isHidden":false,"type":"text"},{"content":{"image":["file://xWVQ0hR4qOe8yR3C"]},"id":"76813aa4-42a5-4953-8f03-fc98615db59b","isHidden":false,"type":"image"},{"content":{"image":["file://Tu82ROW9VuSBphu2"]},"id":"1b3800ca-3383-4490-b545-96be01f94917","isHidden":false,"type":"image"},{"content":{"text":"<p>The initial stages of my research into the\r\ncollection holdings at Ulster Museum became a journey to locate myself through\r\nthe objects as a Kenyan, Indian, Ugandan, diasporic being. Throughout the\r\nresearch phase I was given a lot of freedom to navigate the material based on\r\nmy search terms, get lost in the database and find new paths to interrogate.\r\nWhen digging deeper into the terminology and how some of the objects have been\r\ncategorised, the term ‘Asian’ was recurring. This seems to encompass a far wider\r\nrepresentation of South Asian communities that would have been part of colonial\r\nBritish India. Although I had hoped to see more collection objects – such as\r\nthe brass cooking pot from India (c.1950s) or the selection of Indian miniature\r\npaintings depicting the Indian Mutiny (c.1861) – that perhaps referenced a more\r\ncontemporary culture of migration of South Asians in Ireland, or even the\r\nconnection of diasporic communities, it became apparent that there was a gap. I\r\nlearned quite quickly that many of the objects that represented people like me\r\nwere represented as colonial memorabilia collected on expeditions, given as\r\ngifts but mostly rendered invisible. I have drawn parallels of how divisions,\r\ncategorisations and the invisible object have created silos that exist in a\r\nphysical sense, perhaps mirroring aspects of my identity and how I have felt\r\ngrowing up. These opacities are really the genesis for wanting to create a\r\nsense of belonging, a kind of extended self-portrait in which my diasporic\r\nidentity could be represented through my visual language and exist in a public\r\ncollection.</p>"},"id":"24e4007d-0a53-485d-b672-54457c6aa6a1","isHidden":false,"type":"text"},{"content":{"images":["file://KvWceRmxczQlaLCF","file://sLA8w4T3FCo8Yqxz","file://LtE9SS6zGXELoMdl"],"caption":"","ratio":"","crop":"false"},"id":"1b432c61-dad5-43e2-aa47-c8392ca80ecb","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Earlier this year, I had an opportunity to present a small chapter of the work at Peckham24, a grassroots photography festival in London. As I was conceptualising what the display could look like, I remember the early conversations I had with Anna Liesching at Ulster Museum who spoke eloquently about ‘troubling the collection’ and taking up space among the relic objects. Her encouragement echoes in the larger-than-life wallpaper <em>Expressions in Your Histories, Overshadow My Memories</em>.<em> </em>Repetition, shape and colour become textures to reiterate the powerful gestures inherent in the archive. It also coincided with the first time I could give language to and articulate the work I had been making for a very special recording with the inimitable Gem Fletcher for <a href=\"https://shows.acast.com/themessytruth/episodes/bindi-vora-live-at-peckham-24\" rel=\"noreferrer\">The Messy Truth podcast</a>.</p>"},"id":"41c3a2b1-9330-4219-956b-84e77b18b38d","isHidden":false,"type":"text"},{"content":{"image":["file://vnROB0CaC9cGRjfP"]},"id":"06549021-0525-4261-89ef-1aee3a294945","isHidden":false,"type":"image"},{"content":{"images":["file://EmuvO6mtv2LRAYKf","file://fq4Qjf98e5F4xJT7"],"caption":"","ratio":"","crop":"false"},"id":"a0256267-cab6-4523-a86d-5fcb40b67060","isHidden":false,"type":"gallery"},{"content":{"text":"<p>By trying, failing and trying again with the\r\ntime, freedom and, for the first time, resources to invest in my practice, on\r\nmy terms, I have been able to push my practice into so many new realms and\r\noccupy space solely as an artist. By synthesising these conversations and\r\ncolliding the ideas across each of the chapters of work, my hope is that these\r\nworks become a touchstone for conversations around diasporic identities and\r\nactually what it means to be scattered and woven into many new textures and\r\ncommunities. The encouragement throughout this process from Anna Liesching, the\r\nMuseum team, as well as Martine Rouleau, Ramatoulie Bobb and susan pui san lok\r\nhas been invaluable in this journey. As I sit down now, on a very grey\r\nSeptember morning, I realise the adrenaline of making and finding this new\r\nvisceral language that has a tongue of sounds, words and visual material is,\r\nfor the moment, so held inside me that I am eager to share it beyond this\r\nresidency. Slowing down to reflect on the making and thinking that has\r\noccurred, I know the shifts within my practice have been seismic. This\r\ngargantuan body of work spans photography, collage, sculpture, painting and\r\ndrawing: 19 new works across four chapters now exist as a representation of the\r\nrigour of the residency.</p>"},"id":"79dcb49c-79bf-4440-85b0-0ee9c98acdfb","isHidden":false,"type":"text"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Uuid: pl9p8SVb8pWDqGVY

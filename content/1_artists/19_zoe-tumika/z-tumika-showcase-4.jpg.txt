@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A painted ceramic piece with curved extensions and intricate shapes, featuring a yellow painted “eye” and green text reading “GEOGRAPHY.” The sculpture is covered with red, yellow, and black abstract markings.
+
+----
+
+Uuid: YUm8ySM739kWqW0t
+
+----
+
+Template: blocks/image

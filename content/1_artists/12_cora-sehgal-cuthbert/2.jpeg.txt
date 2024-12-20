@@ -1,0 +1,13 @@
+Caption: Culturepot at Coventry Market, 2024, taken by me
+
+----
+
+Alt: A photo of a sign for a hair and beauty shop. The sign reads ‘Culturepot Hair & Beauty Products For All Cultures’. Underneath this sign there is a smaller one which says ‘Optimum Care’. On top of the photo, around the ‘Optimum Care’ sign there is a red love heart emoji, an emoji of people hugging and an emoji of two open hands, palms upwards.
+
+----
+
+Uuid: zDSgzPggx7J0hmcF
+
+----
+
+Template: blocks/image
