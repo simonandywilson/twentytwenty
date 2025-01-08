@@ -1,0 +1,13 @@
+Caption: Into the Unknown
+
+----
+
+Alt: a newly arrived south asian migrant in the 1960s walks into the woods next to a canal with his south asian wife behind him with factories in the background, as if a painting
+
+----
+
+Uuid: 7oUGnm5oK2TgLMYt
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: On weekends immigrants used public houses for baths; we see long queues around the outside of the building.
+
+----
+
+Uuid: rpNUEveixq78ZA6r
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: Shadow of Industry: A Desi Night
+
+----
+
+Alt: 1960s. a punjabi migrant in the black country stands in an alleyway late at night, barely lit. in the distance are industrial factories.
+
+----
+
+Uuid: EhYmZ6hwnTMjv7ob
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: Mother Earth in the Black Country
+
+----
+
+Alt: landscape painting of industrial black country. one lone south asian woman stands beside a fire in the middle. She is mother earth.
+
+----
+
+Uuid: tGkt4qHPZNHnFIuh
+
+----
+
+Template: blocks/image

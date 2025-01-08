@@ -1,0 +1,45 @@
+Title: Billy Dosanjh
+
+----
+
+Cover: - file://ijm8eA83pcOSF89y
+
+----
+
+Circleone: - file://DwNauNW0xy6VyfM6
+
+----
+
+Circletwo: - file://5vPgb7NdRK7F6W4T
+
+----
+
+Essay: 
+
+----
+
+Partnername: Wolverhampton Art Gallery
+
+----
+
+Partnerurl: https://www.wolverhamptonart.org.uk/
+
+----
+
+Text: [{"content":{"image":["file://EhYmZ6hwnTMjv7ob"]},"id":"97c2474d-6183-4ea9-9066-0f6c7e1f890f","isHidden":false,"type":"image"},{"content":{"text":"<p>Working with the UAL team and Wolverhampton Art Gallery has been eye-opening. The residency deepened my understanding of the histories that surround us, revealing biases embedded in our systems. It also highlighted the challenges museums and galleries face today in representing diverse narratives.</p>"},"id":"1e1da162-601c-4d70-ae6b-b3fc9e1e381b","isHidden":false,"type":"text"},{"content":{"text":"<p>My choice to collaborate with the gallery stems from a deep connection to the region. I spent many Fridays in their basement archives, reflecting on their permanent collection, scrutinising how their label works, and considering the institution’s public persona. As time went on, I became engrossed in uncovering hidden histories—specifically, the stories of empire workers who migrated to the Black Country in the 1950s and 1960s. The gallery holds treasured 19th and 20th century landscape paintings of the area, including works by Edwin Butler Bayliss. What was missing in them?</p>"},"id":"7bcceba9-c5fc-4a34-a668-e0f518680d0f","isHidden":false,"type":"text"},{"content":{"image":["file://8HKacBLf9g1wQOef"]},"id":"be9133e8-7118-43b8-91a2-5b7e0acfb2ed","isHidden":false,"type":"image"},{"content":{"text":"<p>I also contemplated the Black Country’s role in the Industrial Revolution. The technological innovations from this region gave the British Empire a significant edge in global extraction practices. This led me to wonder: Is today’s tech innovation—with the computer chip as the modern foundry—set to repeat similar patterns? Will the digital “system,” due to inherent biases, marginalise certain cultures and realities as it absorbs information, overlooking what it doesn't “see”?</p>"},"id":"93e6be36-25ef-4574-a370-184fde7fdabf","isHidden":false,"type":"text"},{"content":{"image":["file://ijm8eA83pcOSF89y"]},"id":"ea3c72d3-a4e6-4f2e-8690-4f3e46952ace","isHidden":false,"type":"image"},{"content":{"text":"<p>To explore these questions, I collaborated with software engineers to build a database of images. We included scans from the gallery’s permanent collection—now in the public domain—and ethically sourced images from my archives of mid-20th-century empire workers. We meticulously tagged each image to train a machine learning model, which I leased. This model generated new visuals based on prompts from the residency and local anecdotes I've long wanted to see in image form. The resulting artworks are the product of careful experimentation while the technology we’ve used is timestamped as Summer 2024.</p>"},"id":"87678a34-ed02-4cd0-b0f6-fe10856b66e5","isHidden":false,"type":"text"},{"content":{"image":["file://7oUGnm5oK2TgLMYt"]},"id":"f1cdd261-45e2-46c8-911d-5e96db26f86b","isHidden":false,"type":"image"},{"content":{"text":"<p>To infuse the pieces with a deeper sense of time, I worked with photopolymer intaglio printing techniques – very hands and a way of bringing carbon-based inks and steel plates into the mix. This blend of historical materials and modern technology bridges past and present, highlighting the recurring nature of innovation and its cultural impacts.</p>"},"id":"359a5c06-0de7-4a33-8582-af47a1735388","isHidden":false,"type":"text"},{"content":{"image":["file://tGkt4qHPZNHnFIuh"]},"id":"aa43454c-5836-45fb-97bb-e4d142dfeabc","isHidden":false,"type":"image"},{"content":{"text":"<p>Other creative outputs include a three-dimensional\nsculpture of a 19th century foundry producing computer chips that incorporates\naudio soundbites and inner lights as a standalone work. And artist film\ndocumenting my creative journey from personal reflections to broader political\nand planetary themes.</p>"},"id":"b8ea68ac-a738-4968-af4c-69accaba95c3","isHidden":false,"type":"text"},{"content":{"image":["file://rpNUEveixq78ZA6r"]},"id":"df70574b-de31-407c-bb5c-81939c4c1f80","isHidden":false,"type":"image"},{"content":{"text":"<p>The project, titled “Endz of the Earth,” will initially be exhibited at Wolverhampton Art Gallery in Summer 2025. The extensive research and deep engagement with my cohort have taken an emotional toll I didn’t anticipate. Reexamining a world I thought I knew has been both challenging and rewarding.</p><p>Looking ahead, I plan to apply this approach to other historical periods where artistic depictions of European civility starkly contrast with the truths we now recognise. My goal is to interrogate these narratives and use new technologies to “gift” the system with stories and worlds that have largely been absent from mainstream discourse.</p>"},"id":"522eb275-fdcd-4eeb-81e5-2ab0481ae14a","isHidden":false,"type":"text"}]
+
+----
+
+Partnerreflection: 
+
+----
+
+Hero: 
+
+----
+
+Partner: 
+
+----
+
+Uuid: AdJWFQXLSSDEPWsN

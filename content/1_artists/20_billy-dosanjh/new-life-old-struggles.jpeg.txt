@@ -1,0 +1,13 @@
+Caption: New Life, Old Struggles
+
+----
+
+Alt: In a sterile ward of Sandwell Hospital during early evening, a South Asian woman in scrubs holds a quiet newborn, while the mother lies in bed with a forlorn expression. A young man in an ill-fitting suit stands by the window, angrily gazing at the distant construction of high-rises and industrial development.
+
+----
+
+Uuid: 8HKacBLf9g1wQOef
+
+----
+
+Template: blocks/image

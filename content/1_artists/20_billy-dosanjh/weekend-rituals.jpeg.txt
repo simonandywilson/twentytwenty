@@ -1,0 +1,13 @@
+Caption: Shadow of Progress
+
+----
+
+Alt: 1960s, Sandwell. and Indian man and woman bow their heads in a field. They are in grief. in the distance we see factories billowing smoke as the skyline is a sunset pink
+
+----
+
+Uuid: ijm8eA83pcOSF89y
+
+----
+
+Template: blocks/image
