@@ -15,5 +15,5 @@ return [
         'denyAll' => 'Reject all',
         'acceptAll' => 'Accept all',
         'save' => 'Save',
-    ] 
+    ],
 ];

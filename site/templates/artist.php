@@ -1,15 +1,16 @@
 <?php snippet('header') ?>
+<h1 class="sr-only">Main Content</h1>
 <article>
     <div class="w-full grid grid-cols-1 lg:grid-cols-2">
-        <h1 class="container bg-theme-artists leading-tight max-md:-mt-[1px]">
+        <h2 class="container bg-theme-artists leading-tight max-md:-mt-[1px]">
             <span class="leading-tight"><?= $page->title()->html() ?></span>
-        </h1>
+        </h2>
         
         <?php
             if ($page->essay()->toPage()):
                 ?>
-            <a href="<?= $page->essay()->toPage()->url() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
-                <h3 class="leading-tight">→ <?= $page->essay()->toPage()->title()->html() ?></h3>
+            <a href="<?= $page->essay()->toPage()->url() ?>" autofocus class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
+                <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->essay()->toPage()->title()->html() ?></h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>
@@ -17,8 +18,8 @@
         <?php
             if ($page->partnername()->exists()):
                 ?>
-            <a href="<?= $page->partnerurl() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px]">
-                <h3 class="leading-tight">→ <?= $page->partnername() ?></h3>
+            <a href="<?= $page->partnerurl() ?>" <?= !$page->essay()->toPage() ? 'autofocus' : '' ?> class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px]">
+                <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->partnername() ?></h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>
@@ -26,8 +27,8 @@
         <?php
             if ($page->partnerreflection()->exists() && $page->partnerreflection()->isNotEmpty()):
                 ?>
-            <a href="#partner-reflection" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
-                <h3 class="leading-tight">↓ Partner Reflection</h3>
+            <a href="#partner-reflection" <?= (!$page->essay()->toPage() && !$page->partnername()->exists()) ? 'autofocus' : '' ?> class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
+                <h3 class="leading-tight"><span aria-hidden="true">↓</span> Partner Reflection</h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>
@@ -39,7 +40,7 @@
         if ($page->partnerreflection()->exists() && $page->partnerreflection()->isNotEmpty()):
             ?>
         <div class="w-full h-full mt-8">
-            <h2 class="container bg-theme-essays leading-tight" id="partner-reflection">Partner Reflection</h2>
+            <h3 class="container bg-theme-essays leading-tight" id="partner-reflection">Partner Reflection</h3>
             <?php snippet("layouts", ["field" => $page->partnerreflection()]) ?>
         </div>
     <?php endif ?>

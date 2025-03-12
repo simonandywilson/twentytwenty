@@ -6,3 +6,5 @@ fields:
     type: url
   caption:
     type: writer
+  transcript:
+    type: textarea

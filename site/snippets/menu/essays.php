@@ -1,6 +1,6 @@
 <details open class="w-full bg-theme-essays rounded-3xl p-3 secondary-details container max-w-full has-[:focus-visible]:ring-2 ring-black -mt-[1px] md:-ml-[1px]">
     <summary class="focus:outline-none">
-        <h1 class="leading-tight">Essays</h1>
+        <h2 class="leading-tight">Essays</h2>
     </summary>
     <nav class="mt-[1em]">
         <?php foreach ($site->children()->listed() as $item) : ?>
@@ -17,14 +17,19 @@
                                 if ($child->essay()->toPage()) :
                             ?>
                                 <li class="leading-tight">
-                                  
                                     <?php if ($child->status() == "listed") : ?>
-                                        <a class="artist-link block w-full hover:underline focus:outline-none focus-visible:underline group" data-artist-slug="<?= $child->slug() ?>" href="<?= $child->essay()->toPage()->url() ?>">
-                                            <h2><?= $child->essay()->toPage()->title()->html() ?>
+                                        <a class="artist-link block w-full hover:underline focus:outline-none focus-visible:underline group" 
+                                           data-artist-slug="<?= $child->slug() ?>" 
+                                           href="<?= $child->essay()->toPage()->url() ?>"
+                                           <?php if ($child->essay()->toPage()->isOpen()) : ?>
+                                           aria-current="page"
+                                           <?php endif ?>>
+                                            <h3><?= $child->essay()->toPage()->title()->html() ?>
                                                 <?php if ($child->essay()->toPage()->isOpen()) : ?>
-                                                    <span class="relative inline-block w-[0.4rem] h-[0.4rem] top-[0.1rem] -translate-y-1/2 bg-black rounded-full group-focus-visible:bg-white"></span>
+                                                    <span class="relative inline-block w-[0.4rem] h-[0.4rem] top-[0.1rem] -translate-y-1/2 bg-black rounded-full" 
+                                                          aria-hidden="true"></span>
                                                 <?php endif ?>
-                                            </h2>
+                                            </h3>
                                         </a>
                                     <?php endif ?>
                                 </li>

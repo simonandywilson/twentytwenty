@@ -1,4 +1,4 @@
-<a href="https://freelandsfoundation.co.uk/">
+<a href="https://freelandsfoundation.co.uk/" aria-label="Freelands Foundation" class="outline-none focus-visible:ring-2 ring-black ring-offset-2">
     <svg id="a" xmlns="http://www.w3.org/2000/svg" width="66.01" height="17.01" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.01 17.01">
         <defs>
             <clipPath id="b">

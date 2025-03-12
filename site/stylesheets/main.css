@@ -47,6 +47,27 @@
     overflow: hidden;
   }
 
+  .accessibility ul {
+    list-style-type: disc;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+
+  .accessibility h2 {
+    font-size: 1.3em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+  }
+  .accessibility h3 {
+    font-size: 1.125em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+  }
+
+  .accessibility a {
+    text-decoration: underline;
+  }
+
 }
 
 @layer components {

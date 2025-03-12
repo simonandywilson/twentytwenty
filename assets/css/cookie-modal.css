@@ -18,6 +18,7 @@
   margin: 15vh auto 0;
   pointer-events: auto;
   border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 400px) {
   .cookie-modal__content {
@@ -27,8 +28,8 @@
 }
 .cookie-modal__title {
   font-size: 1rem;
-  font-weight: 600;
   margin-bottom: 1em;
+  text-decoration: underline;
 }
 .cookie-modal__text {
   margin-bottom: 20px;
@@ -36,6 +37,11 @@
 }
 .cookie-modal__text a {
   text-decoration: underline;
+  color: #0056b3;
+}
+.cookie-modal__text a:hover,
+.cookie-modal__text a:focus {
+  text-decoration: none;
 }
 .cookie-modal__options {
   margin-bottom: 1em;
@@ -47,6 +53,7 @@
 }
 .cookie-modal__options > * {
   width: calc(50% - 30px);
+  margin-bottom: 10px;
 }
 @media (min-width: 400px) {
   .cookie-modal__options > * {
@@ -79,14 +86,16 @@
 }
 .cookie-modal__checkbox:checked {
   background-color: #000;
+  box-shadow: 0 0 0 0 calc(2px + 0px) black;
 }
-.cookie-modal__checkbox:checked:focus {
+.cookie-modal__checkbox:checked:focus-visible {
   outline: none;
-  background-color: grey;
+  box-shadow: 0px 0px 0px 3px #2b7fff;
 }
-.cookie-modal__checkbox:focus {
+.cookie-modal__checkbox:focus-visible {
   outline: none;
-  border-color: grey;
+  border-color: black;
+  box-shadow: 0px 0px 0px 3px #2b7fff;
 }
 .cookie-modal__check {
   position: absolute;
@@ -98,6 +107,7 @@
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  pointer-events: none;
 }
 .cookie-modal__check svg {
   stroke: #fff;
@@ -123,6 +133,9 @@
   color: #000;
   border-radius: 1.5rem;
   line-height: 1;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
 }
 @media (min-width: 400px) {
   .cookie-modal__button {
@@ -134,12 +147,13 @@
   background-color: #000;
   color: #fff;
 }
-.cookie-modal__button.primary:focus {
-  background-color: grey;
-}
-.cookie-modal__button:focus {
+.cookie-modal__button:focus-visible {
   outline: none;
-  border-color: grey;
+  border-color: black;
+  box-shadow: 0px 0px 0px 3px #2b7fff;
+}
+.cookie-modal__button:hover {
+  opacity: 0.9;
 }
 .cookie-modal__button.hide {
   display: none;

@@ -42,6 +42,7 @@ columns:
           - image
           - gallery
           - video
+          - list
       partnerreflection:
         label: Partner Reflection
         type: blocks
@@ -50,3 +51,4 @@ columns:
           - image
           - gallery
           - video
+          - list

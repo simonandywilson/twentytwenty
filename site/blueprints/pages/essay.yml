@@ -32,3 +32,4 @@ columns:
           - image
           - gallery
           - video
+          - list

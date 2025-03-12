@@ -10,3 +10,6 @@ fields:
     label: field.blocks.video.caption
     type: writer
     inline: true
+  transcript:
+    type: textarea
+    inline: true

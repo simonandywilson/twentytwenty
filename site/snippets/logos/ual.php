@@ -1,4 +1,4 @@
-<a href="https://www.arts.ac.uk/">
+<a href="https://www.arts.ac.uk/" aria-label="University of the Arts London" class="outline-none focus-visible:ring-2 ring-black ring-offset-2">
   <svg xmlns="http://www.w3.org/2000/svg" width="100" height="18.505" viewBox="0 0 100 18.505">
     <defs>
       <clipPath id="a">

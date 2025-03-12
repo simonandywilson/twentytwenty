@@ -3,6 +3,8 @@
     <?php
       if ($block->type() === "text") {
         $class = 'text-block';
+      } else if ($block->type() === "list") {
+        $class = 'text-block [&_ul]:list-disc [&_ol]:list-decimal pl-6';
       } else {
         $class = "";
       }
@@ -11,4 +13,4 @@
       <?= $block ?>
     </div>
   <?php endforeach ?>
-  <section>
+</section>

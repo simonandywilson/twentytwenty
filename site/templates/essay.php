@@ -1,11 +1,12 @@
 <?php snippet('header') ?>
+<h1 class="sr-only">Main Content</h1>
 <article>
     <div class="w-full grid grid-cols-1 md:grid-cols-2">
         <?php
             if ($page->artist()->isNotEmpty()):
                 ?>
-            <a href="<?= $page->artist()->toPage()->url() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px]">
-                <h3 class="leading-tight">→ <?= $page->artist()->toPage()->title()->html() ?></h3>
+            <a href="<?= $page->artist()->toPage()->url() ?>" autofocus class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px]">
+                <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->artist()->toPage()->title()->html() ?></h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>
@@ -14,9 +15,9 @@
         <?php
             if ($page->title()->html()):
                 ?>
-            <h1 class="container bg-theme-essays leading-tight -mt-[1px] has-[:focus-visible]:ring-2 ring-black md:-ml-[1px]">
-                <span class="leading-tight">→ <?= $page->title()->html() ?></h3>
-            </a>
+            <h2 class="container bg-theme-essays leading-tight -mt-[1px] has-[:focus-visible]:ring-2 ring-black md:-ml-[1px]">
+                <span class="leading-tight"><span aria-hidden="true">→</span> <?= $page->title()->html() ?></span>
+            </h2>
             <?php else: ?>
             <div class="w-full h-full"></div>
         <?php endif ?>
@@ -26,10 +27,10 @@
 
         <div class="w-full flex-1 -mt-[1px]">
             <?php if ($page->author()->isNotEmpty()) : ?>
-                <h2 class="container bg-theme-essays leading-tight"><?= $page->author()->html() ?></h2>
+                <h3 class="container bg-theme-essays leading-tight"><?= $page->author()->html() ?></h3>
             <?php endif ?>
             <?php if ($page->pdf()) : ?>
-                <a class="block w-full container bg-theme-essays leading-tight -mt-[1px] has-[:focus-visible]:ring-2 ring-black" href="<?= $page->pdf()->toFile()->url() ?>" download>Download PDF</a>
+                <a class="block w-full container bg-theme-essays leading-tight -mt-[1px] has-[:focus-visible]:ring-2 ring-black" <?= !$page->artist()->isNotEmpty() ? 'autofocus' : '' ?> href="<?= $page->pdf()->toFile()->url() ?>" download aria-label="Download PDF of <?= $page->title()->html() ?>">Download PDF</a>
             <?php endif ?>
         </div>
     </div>

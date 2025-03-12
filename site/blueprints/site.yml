@@ -38,3 +38,13 @@ columns:
           contact:
             label: Contact
             type:  textarea
+
+  accessibility:
+    width: 1/2
+    sections:
+      accessibility:
+        type: fields
+        fields:
+          accessibility:
+            label: Accessibility Statement
+            type:  textarea
