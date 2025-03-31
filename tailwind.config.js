@@ -2,7 +2,7 @@ module.exports = {
   content: ['./site/**/*.{html,js,php}"'],
   theme: {
     fontFamily: {
-      sans: [`"Helvetica"`, "Helvetica"],
+      sans: [`"HelveticaNeueLTPro"`],
     },
     extend: {
       colors: {
@@ -13,7 +13,8 @@ module.exports = {
           introduction: "#DDDDDD",
           contact: "#D2D2D2",
           recordings: "#C6C6C6",
-          sponsors: "#bbbbbb",
+          accessibility: "#bbbbbb",
+          sponsors: "#b1b1b1",
           text: "#ffffff",
           figcaption: "#ffffff",
           home: "#ffffff",

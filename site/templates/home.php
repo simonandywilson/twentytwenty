@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<h1 class="sr-only">Main Content</h1>
+<h1 class="sr-only"><a href="#" autofocus id="main-content">Main Content</a></h1>
 <div class="relative w-full h-screen flex flex-col gap-[3vw]" tabindex="-1">
   <div class="relative max-h-[calc(50vh-1.5vw)]">
     <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="578.5988" viewBox="0 0 1000 578.5988" class="w-full h-full object-contain" preserveAspectRatio="xMaxYMin meet" role="img" aria-label="Decorative number 2">

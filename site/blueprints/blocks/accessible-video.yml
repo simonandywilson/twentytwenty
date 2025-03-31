@@ -1,0 +1,13 @@
+name: Accessible Video
+icon: video
+label: "{{ videoId }}"
+preview: blocks/accessible-video
+fields:
+  videoId:
+    type: text
+    label: Video ID
+    placeholder: idfGOk2T9rI
+  caption:
+    type: text
+    label: Caption
+    placeholder: Add a caption for the video

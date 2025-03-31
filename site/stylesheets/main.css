@@ -19,11 +19,20 @@
   }
 
   @font-face {
-    font-family: "Helvetica";
-    src: url("../fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
+    font-family: 'HelveticaNeueLTPro';
+    src: url("../fonts/HelveticaNeueLTPro-Md.woff2") format("woff2");
     font-display: auto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
+    font-stretch: normal;
+  }
+
+  @font-face {
+    font-family: 'HelveticaNeueLTPro';
+    src: url("../fonts/HelveticaNeueLTPro-Hv.woff2") format("woff2");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
     font-stretch: normal;
   }
 
@@ -66,6 +75,11 @@
 
   .accessibility a {
     text-decoration: underline;
+  }
+
+  a {
+    text-decoration: underline;
+    
   }
 
 }

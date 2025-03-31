@@ -31,5 +31,5 @@ columns:
           - text
           - image
           - gallery
-          - video
+          - accessible-video
           - list

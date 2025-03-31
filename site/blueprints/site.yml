@@ -11,40 +11,31 @@ columns:
     sections:
       essays: sections/essays
 
-  introduction:
+  menus:
     width: 1/2
     sections:
-      introduction:
+      menus:
         type: fields
         fields:
           introduction:
             label: Introduction
-            type:  textarea
-  recordings:
-    width: 1/2
-    sections:
-      recordings:
-        type: fields
-        fields:
+            type: textarea
           recordings:
             label: Recordings
-            type:  textarea
-  contact:
-    width: 1/2
-    sections:
-      contact:
-        type: fields
-        fields:
+            type: textarea
           contact:
             label: Contact
-            type:  textarea
+            type: textarea
+          accessibility:
+            label: Accessibility
+            type: textarea
 
-  accessibility:
+  accessibilitystatement:
     width: 1/2
     sections:
-      accessibility:
+      accessibilitystatement:
         type: fields
         fields:
-          accessibility:
+          accessibilitystatement:
             label: Accessibility Statement
-            type:  textarea
+            type: textarea

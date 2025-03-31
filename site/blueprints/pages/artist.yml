@@ -41,7 +41,7 @@ columns:
           - text
           - image
           - gallery
-          - video
+          - accessible-video
           - list
       partnerreflection:
         label: Partner Reflection
@@ -50,5 +50,5 @@ columns:
           - text
           - image
           - gallery
-          - video
+          - accessible-video
           - list

@@ -1,15 +1,15 @@
 <?php snippet('header') ?>
-<h1 class="sr-only">Main Content</h1>
+<h1 class="sr-only"><a href="#" autofocus id="main-content">Main Content</a></h1>
 <article>
     <div class="w-full grid grid-cols-1 lg:grid-cols-2">
         <h2 class="container bg-theme-artists leading-tight max-md:-mt-[1px]">
-            <span class="leading-tight"><?= $page->title()->html() ?></span>
+            <span class="leading-tight font-bold"><?= $page->title()->html() ?></span>
         </h2>
         
         <?php
             if ($page->essay()->toPage()):
                 ?>
-            <a href="<?= $page->essay()->toPage()->url() ?>" autofocus class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
+            <a href="<?= $page->essay()->toPage()->url() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
                 <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->essay()->toPage()->title()->html() ?></h3>
             </a>
             <?php else: ?>
@@ -18,7 +18,7 @@
         <?php
             if ($page->partnername()->exists()):
                 ?>
-            <a href="<?= $page->partnerurl() ?>" <?= !$page->essay()->toPage() ? 'autofocus' : '' ?> class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px]">
+            <a href="<?= $page->partnerurl() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px]">
                 <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->partnername() ?></h3>
             </a>
             <?php else: ?>
@@ -27,7 +27,7 @@
         <?php
             if ($page->partnerreflection()->exists() && $page->partnerreflection()->isNotEmpty()):
                 ?>
-            <a href="#partner-reflection" <?= (!$page->essay()->toPage() && !$page->partnername()->exists()) ? 'autofocus' : '' ?> class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
+            <a href="#partner-reflection" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
                 <h3 class="leading-tight"><span aria-hidden="true">↓</span> Partner Reflection</h3>
             </a>
             <?php else: ?>

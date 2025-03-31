@@ -18,13 +18,13 @@
     <button onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false" class="sticky top-0 z-[100] container bg-theme-menu leading-tight w-full max-w-full md:hidden">Menu</button>
     <div class="hidden w-full max-w-[100vw] h-[calc(100vh-40px)] overflow-y-scroll right-0 rounded-2xl md:h-screen md:pl-4 md:block lg:max-w-2xl" id="site-menu">
       <?php if ($page->template()->name() !== 'home'): ?>
-        <a href="#main" class="block rounded-3xl p-3 secondary-details container bg-theme-home max-w-full has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px] sr-only focus-visible:static focus-visible:p-3 focus-visible:h-max focus-visible:w-full focus-visible:block">
-            <h1 class="leading-tight">Skip to main content</h1>
+        <a href="#main-content" class="block rounded-3xl p-3 secondary-details container bg-theme-home max-w-full has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px] sr-only focus-visible:static focus-visible:p-3 focus-visible:h-max focus-visible:w-full focus-visible:block">
+            <h1 class="leading-tight font-bold">Skip to main content</h1>
         </a>
       <?php endif ?>
       <h1 class="sr-only">Menu</h1>
       <a href="/" class="w-full h-max block rounded-3xl p-3 secondary-details container bg-theme-home max-w-full has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px]">
-        <h2 class="leading-tight">Home</h2>
+        <h2 class="leading-tight font-bold">Home</h2>
       </a>
       <div class="w-full grid grid-cols-2" id="site-menu-content">
         <div class="w-full col-span-2 lg:col-span-1">
@@ -35,11 +35,12 @@
           <?php snippet('menu/recordings') ?>
           <?php snippet('menu/introduction') ?>
           <?php snippet('menu/contact') ?>
+          <?php snippet('menu/accessibility') ?>
           <?php snippet('menu/sponsors') ?>
         </div>
       </div>
     </div>
   </header>
-  <main class="relative w-full font-sans selection:bg-zinc-500/50 md:pr-4 md:w-1/2" id="main">
+  <main class="relative w-full font-sans selection:bg-zinc-500/50 md:pr-4 md:w-1/2">
 
 

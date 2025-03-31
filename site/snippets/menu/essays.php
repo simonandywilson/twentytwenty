@@ -1,6 +1,6 @@
 <details open class="w-full bg-theme-essays rounded-3xl p-3 secondary-details container max-w-full has-[:focus-visible]:ring-2 ring-black -mt-[1px] md:-ml-[1px]">
     <summary class="focus:outline-none">
-        <h2 class="leading-tight">Essays</h2>
+        <h2 class="leading-tight font-bold">Essays</h2>
     </summary>
     <nav class="mt-[1em]">
         <?php foreach ($site->children()->listed() as $item) : ?>

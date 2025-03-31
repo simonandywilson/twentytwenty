@@ -1,6 +1,6 @@
 <details open class="w-full h-max bg-theme-artists rounded-3xl p-3 pointer-events-none container max-w-full has-[:focus-visible]:ring-2 ring-black -mt-[1px]">
     <summary class="focus:outline-none">
-        <h2 class="leading-tight">Artists</h2>
+        <h2 class="leading-tight font-bold">Artists</h2>
     </summary>
     <nav class="mt-[1em] pointer-events-auto">
         <?php foreach ($site->children()->listed() as $item) : ?>
