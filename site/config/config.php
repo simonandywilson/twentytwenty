@@ -16,4 +16,7 @@ return [
         'acceptAll' => 'Accept all',
         'save' => 'Save',
     ],
+    'panel' =>[
+        'install' => true
+    ]
 ];

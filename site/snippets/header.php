@@ -12,7 +12,6 @@
   ]) ?>
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 </head>
-
 <body>
   <header class="sticky top-0 w-full font-sans z-50 selection:bg-zinc-500/50 md:fixed md:w-[50vw] md:right-0 ">
     <button onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false" class="sticky top-0 z-[100] container bg-theme-menu leading-tight w-full max-w-full md:hidden font-bold">Menu</button>
