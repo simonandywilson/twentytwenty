@@ -67,6 +67,7 @@
     text-decoration: underline;
     margin-bottom: 1em;
   }
+
   .accessibility h3 {
     font-size: 1.125em;
     text-decoration: underline;
@@ -75,11 +76,6 @@
 
   .accessibility a {
     text-decoration: underline;
-  }
-
-  a {
-    text-decoration: underline;
-    
   }
 
 }
@@ -110,10 +106,14 @@
   }
 
   .text-block {
-    @apply leading-tight p-3 rounded-3xl bg-theme-text;
+    @apply leading-tight p-3 rounded-3xl bg-theme-text [&_a]:text-focus;
   }
 
   .ul {
     @apply underline;
+  }
+
+  .text-focus {
+    @apply [&_a]:underline focus:[&_a]:outline-none focus-visible:[&_a]:ring-2 [&_a]:ring-black [&_a]:ring-offset-1;
   }
 }

@@ -5,7 +5,7 @@ if (!$site->accessibility()->isEmpty()) :
         <summary class="focus:outline-none">
             <h2 class="leading-tight font-bold">Accessibility</h1>
         </summary>
-        <div class="leading-tight mt-[1em] ">
+        <div class="leading-tight mt-[1em] text-focus">
             <?= $site->accessibility()->kt() ?>
         </div>
     </details>

@@ -5,7 +5,7 @@ if (!$site->introduction()->isEmpty()) :
         <summary class="focus:outline-none">
             <h2 class="leading-tight font-bold">Introduction</h1>
         </summary>
-        <div class="mt-[1em] leading-tight">
+        <div class="mt-[1em] leading-tight text-focus">
             <?= $site->introduction()->kt() ?>
         </div>
     </details>

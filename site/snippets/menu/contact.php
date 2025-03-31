@@ -5,7 +5,7 @@ if (!$site->contact()->isEmpty()) :
     <summary class="focus:outline-none">
       <h2 class="leading-tight font-bold">Contact</h1>
     </summary>
-    <div class="leading-tight mt-[1em] focus:[&>p>a]:outline-none hover:[&>p>a]:underline focus-visible:[&>p>a]:underline">
+    <div class="leading-tight mt-[1em] text-focus">
       <?= $site->contact()->kt() ?>
     </div>
   </details>
