@@ -1,0 +1,25 @@
+Title: Fabulous Musics
+
+----
+
+Cover: - file://TSLY6XsxlmNNPowc
+
+----
+
+Artist: - page://OuFEMRLGb3l7GPgm
+
+----
+
+Author: Christine Kirubi
+
+----
+
+Pdf: - file://tlAj1tn8etueHMPG
+
+----
+
+Text: [{"content":{"text":"<p>Please find below an extract from ‘Fabulous Musics’. This essay is best experienced by the attached PDF, which allows you to read it in the intended format. We encourage all readers to download the essay to read the work in its entirety.</p>"},"id":"e5c9339a-a43b-45a7-94b6-8f52da0a5abb","isHidden":false,"type":"text"},{"content":{"text":"<p>‘a toll must still be exacted, and so Oretha sounds it from the objects themselves. refusing the key as her primary tool, she reaches for the soft-faced mallet, the microphone, inspired by the reclining, attendant figures, their tiny, watchful ears listening from within the hold of the archive. life has been deferred here, too far beyond the museum’s remit and constitution to pull it back into the flash—’</p>"},"id":"4e6eddda-45fd-4124-b463-ee7bde3028f6","isHidden":false,"type":"text"}]
+
+----
+
+Uuid: 69ynxd1TpgSDN7yP

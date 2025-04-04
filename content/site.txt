@@ -24,14 +24,6 @@ Email: (email: contact@2020.arts.ac.uk text:  contact@2020.arts.ac.uk)
 
 ----
 
-Accessibility: View the accessibility statement for 2020 (link: /accessibility text: here).
-
-----
-
-Accessibilitystatement: test
-
-----
-
 Text:
 
 - 

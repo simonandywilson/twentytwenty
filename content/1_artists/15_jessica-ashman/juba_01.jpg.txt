@@ -1,0 +1,13 @@
+Caption: Photo courtesy of the artist: Jessica Ashman
+
+----
+
+Alt: Close-up of a textile artwork showing two Black female figures interacting with an oversized tree. One is perched on a thick branch, looking outward with a firm expression. The other is kneeling at the base of the tree, dressed in white, with plants growing around her. The background includes pumpkin-like forms and vivid turquoise sky, with roots of the tree spreading into the earth.
+
+----
+
+Uuid: xw7LtvPasJpgdjms
+
+----
+
+Template: image

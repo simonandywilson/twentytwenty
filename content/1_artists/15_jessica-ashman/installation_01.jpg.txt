@@ -1,0 +1,13 @@
+Caption: Photo courtesy of the artist: Jessica Ashman
+
+----
+
+Alt: A vibrant mixed-media installation featuring five vertical fabric panels hanging side-by-side. The outer panels depict Black figures in nature scenes—kneeling by plants, sitting by roots, or climbing trees. The central panel shows a powerful central figure surrounded by foliage, animals, and two circular womb-like spaces containing curled human figures. The background panels have swirling red root patterns, and coloured light projections illuminate fabric shapes on the floor, creating a dynamic, immersive scene.
+
+----
+
+Uuid: wkcykWBgotv9bb9f
+
+----
+
+Template: blocks/image

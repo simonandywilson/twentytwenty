@@ -1,0 +1,13 @@
+Caption: Photo courtesy of the artist: Jessica Ashman
+
+----
+
+Alt: Textile piece with handwritten-style black text on a cream background, layered over painterly red, orange, and purple abstract strokes. The writing appears poetic and incantatory, referencing “Antidote Cocoons,” “John Crow,” “eternal freedom,” and “the God Tree.” The textile hangs against a green gallery wall, next to a small plaque.
+
+----
+
+Uuid: tQ1rHXrn4xv4GfDQ
+
+----
+
+Template: blocks/image

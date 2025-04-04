@@ -14,7 +14,7 @@ Circletwo: - file://FwN0tJv3LL12zFq5
 
 ----
 
-Essay: 
+Essay: - page://Qn8Km8VDu8D0jLif
 
 ----
 
@@ -30,7 +30,7 @@ Text: [{"content":{"text":"<p>This is my first time working closely with a museu
 
 ----
 
-Partnerreflection: 
+Partnerreflection: [{"content":{"text":"<p>Bradford District Museums and Galleries</p><p>Lowri Jones, Curator of Collections<br>James Steward, Museums and Galleries Manager</p><p></p><p>Bradford District Museums and Galleries (BDMG) sit within a very diverse district. As such, the museums service was extremely pleased to be selected to host one of the artist residencies for the second cohort of the 20/20 project. Reflecting the diversity of the district in the art collection has been a concern of the service since the 1980s. While active collecting may have slowed as a necessary response to resourcing challenges, projects such as 20/20 enable us to maintain this focus on collecting, displaying and telling the stories of ethnically diverse artists.</p><p>The ways in which Sarah Maple has reflected on the BDMG collections and buildings, Bradford’s history, and her engagement with the experiences of individual Bradfordians provides one model of how work created by non-Bradford-based artists can engage and reflect intimately with the experiences of communities here. The upcoming display of Maple’s work fits within a suite of displays currently at Cartwright Hall Art Gallery (<em>Where It Began – Osman Yousefzada</em>, <em>Plants of the Qur’an</em>, <em>Dreams, and Songs to Sing</em>) that either showcase the experiences of, or are thematically aimed at, BDMG’s diverse local audiences. The 20/20 project has encouraged us to think about, among other things, the importance of centring narratives from a much broader range of people than has traditionally been the case in art galleries. The clear appeal of the recent programming to our audiences further supports this, enhancing our commitment to more diverse programming.</p><p>Curatorially, the influences of the 20/20 project have been felt in a few different ways. The community curatorial and learning teams have been building relationships and working with a wide range of communities. Two of the central tenets in <em>Doing the Work</em>, the core text for the 20/20 project, emphasise redistributing power and taking care of people. This has re-enforced BDMG’s commitment to working effectively and sensitively with community groups: meeting them in their own spaces, working with them to figure out what works best for them and how the museums can support them, and working to build the relationships and processes to do things equitably, rather than in an extractive manner.</p><p>The project has also greatly assisted the collections curatorial team in their practice, particularly as they begin work looking at the embedded racist, colonial and white-centric narratives of the collection. Plans for approaching decolonising work around the collections are currently in progress, with the texts and discussions that formed part of 20/20 having been hugely helpful in this. As we move towards Bradford City of Culture 2025, being able to be an inclusive, non-violent and representative space to all has never been more important.</p>"},"id":"ebccb4c3-223a-4688-a73e-592a4f021e9c","isHidden":false,"type":"text"}]
 
 ----
 
