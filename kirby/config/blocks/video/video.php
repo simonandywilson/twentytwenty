@@ -2,33 +2,31 @@
 use Kirby\Cms\Html;
 
 /** @var \Kirby\Cms\Block $block */
+$caption = $block->caption();
+
+if (
+	$block->location() == 'kirby' &&
+	$video = $block->video()->toFile()
+) {
+	$url   = $video->url();
+	$attrs = array_filter([
+		'autoplay'    => $block->autoplay()->toBool(),
+		'controls'    => $block->controls()->toBool(),
+		'loop'        => $block->loop()->toBool(),
+		'muted'       => $block->muted()->toBool() || $block->autoplay()->toBool(),
+		'playsinline' => $block->autoplay()->toBool(),
+		'poster'      => $block->poster()->toFile()?->url(),
+		'preload'     => $block->preload()->value(),
+	]);
+} else {
+	$url = $block->url();
+}
 ?>
-<?php if ($video = Html::video($block->url())): ?>
+<?php if ($video = Html::video($url, [], $attrs ?? [])): ?>
 <figure>
-  <?php 
-  // Generate a unique ID for the video and transcript relationship
-  $videoId = 'video-' . $block->id();
-  $transcriptId = 'transcript-' . $block->id();
-  
-  // Modify the video HTML to include the ID and aria-describedby if transcript exists
-  $videoHtml = $video;
-  if ($block->transcript()->isNotEmpty()) {
-    // Add ID to the video element
-    $videoHtml = str_replace('<video', '<video id="' . $videoId . '" aria-describedby="' . $transcriptId . '"', $video);
-  }
-  
-  echo $videoHtml;
-  ?>
-  <?php if ($block->caption()->isNotEmpty()): ?>
-  <figcaption><?= $block->caption() ?></figcaption>
-  <?php endif ?>
-  <?php if ($block->transcript()->isNotEmpty()): ?>
-    <details>
-      <summary aria-label="Show video transcript">Transcript</summary>
-      <div class="prose" id="<?= $transcriptId ?>" role="region" aria-label="Transcript for video">
-        <?= $block->transcript() ?>
-      </div>
-    </details>
+  <?= $video ?>
+  <?php if ($caption->isNotEmpty()): ?>
+  <figcaption><?= $caption ?></figcaption>
   <?php endif ?>
 </figure>
 <?php endif ?>

@@ -1106,6 +1106,10 @@ iframe {
   border-radius: 9999px;
 }
 
+.border-0 {
+  border-width: 0px;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1181,6 +1185,14 @@ iframe {
 
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[calc\(56\.25\%\+134px\)\] {
+  padding-bottom: calc(56.25% + 134px);
 }
 
 .font-sans {
@@ -1289,9 +1301,19 @@ iframe {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+@media not all and (min-width: 1024px) {
+  .max-lg\:-mt-\[1px\] {
+    margin-top: -1px;
+  }
+}
+
 @media not all and (min-width: 768px) {
   .max-md\:-mt-\[1px\] {
     margin-top: -1px;
+  }
+
+  .max-md\:mb-\[0px\] {
+    margin-bottom: 0px;
   }
 }
 
@@ -1306,10 +1328,6 @@ iframe {
 
   .md\:-ml-\[1px\] {
     margin-left: -1px;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
   }
 
   .md\:block {
@@ -1355,8 +1373,8 @@ iframe {
     margin-left: -1px;
   }
 
-  .lg\:max-w-2xl {
-    max-width: 42rem;
+  .lg\:max-w-4xl {
+    max-width: 56rem;
   }
 
   .lg\:grid-cols-2 {
@@ -1370,6 +1388,22 @@ iframe {
 
 .\[\&\>a\>svg\]\:w-auto>a>svg {
   width: auto;
+}
+
+.\[\&_iframe\]\:aspect-square iframe {
+  aspect-ratio: 1 / 1;
+}
+
+.\[\&_iframe\]\:aspect-\[37450\/27569\] iframe {
+  aspect-ratio: 37450/27569;
+}
+
+.\[\&_iframe\]\:aspect-\[16\/27569\] iframe {
+  aspect-ratio: 16/27569;
+}
+
+.\[\&_iframe\]\:aspect-\[16\/9\] iframe {
+  aspect-ratio: 16/9;
 }
 
 .\[\&_ol\]\:list-decimal ol {

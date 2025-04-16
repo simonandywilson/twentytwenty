@@ -8,7 +8,7 @@ fields:
     query: model.images
     multiple: true
     layout: cards
-    size: tiny
+    size: small
     empty: field.blocks.gallery.images.empty
     uploads:
       template: blocks/image
@@ -27,18 +27,14 @@ fields:
     options:
       1/1: "1:1"
       16/9: "16:9"
-      9/16: "9:16"
-      5/4: "5:4"
-      4/5: "4:5"
+      10/8: "10:8"
+      21/9: "21:9"
+      7/5: "7:5"
       4/3: "4:3"
-      3/4: "3:4"
+      5/3: "5:3"
       3/2: "3:2"
-      2/3: "2:3"
+      3/1: "3:1"
   crop:
     label: field.blocks.image.crop
-    type: toggle
-    width: 1/2
-  portrait:
-    label: field.blocks.image.portrait
     type: toggle
     width: 1/2

@@ -24,6 +24,117 @@ Email: (email: contact@2020.arts.ac.uk text:  contact@2020.arts.ac.uk)
 
 ----
 
+Accessibility: Read our accessibility statement (link: https://2020.arts.ac.uk/accessibility text: here).
+
+----
+
+Accessibilitystatement:
+
+This website is run by University of the Arts London (UAL). This accessibility statement applies to this website.
+
+This website uses HTML 5 (HyperText Mark-up Language) and CSS (Cascading Style Sheets) to render content. We have also used other technologies including JavaScript on certain areas of the website.
+
+We commit to ensuring this website is as accessible as possible and we want as many people as possible to be able to use it. This means that you should be able to:
+
+- access the website regardless of the device and browser you are using
+- zoom in up to 300% without the text spilling off the screen
+- navigate most of the website using just a keyboard
+- navigate most of the website using speech recognition software
+- listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver).
+
+We have also tried to make the website text as easy to understand as possible although we recognise we have more work to do on this.
+
+AbilityNet has advice on making your device easier to use if you have a disability.
+
+##How accessible this website is
+
+We know that some parts of the website are not fully accessible:
+
+- While you should be able to navigate most pages of the site using a keyboard, some pages may not be fully navigable.
+- Some images may not have alternative text descriptions while other decorative and spacer images may not have appropriate alternative text.
+- In some cases, text has been styled to look like headings.
+- Some links need more descriptive accessible names.
+- Some of our videos embedded on the site do not have subtitles, closed captions or audio description.
+
+##Feedback and contact information
+
+If you need information on this website in an alternative, more accessible format please contact the Digital Team by email at (email: digitalpublicplatforms@arts.ac.uk text: digitalpublicplatforms@arts.ac.uk).
+
+Please include details of the content you need and the required format or the service you are trying to access. We will then work with the team who own the content or the service to get you what you need.
+
+We aim to provide you with an initial response within two working days and will provide clear information about how we will deal with your request.
+
+##Reporting accessibility problems with this website
+
+We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements, contact the Digital Team by email at (email: digitalpublicplatforms@arts.ac.uk text: digitalpublicplatforms@arts.ac.uk).
+
+We aim to provide you with an initial response within two working days and will provide clear information about how we will deal with your enquiry or complaint.
+
+If you feel we have not answered your enquiry or complaint satisfactorily, please contact us again. We will escalate your enquiry or complaint to the Assistant Head of Online Services who will work with the team who provides the service/content to get you a response.
+
+##Enforcement procedure
+
+The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). If you’re not happy with how we respond to your complaint, (link: https://www.equalityadvisoryservice.com text: contact the Equality Advisory and Support Service (EASS)).
+
+##Contacting us by phone or visiting us in person
+
+For information about contacting us by phone or to arrange a visit to our offices please visit the (link: https://www.arts.ac.uk/contact-us text: Contact us page).
+
+More information about accessing our buildings is available from AccessAble.
+
+##Our commitment and legal obligations
+
+We commit to ensuring the communications we produce are clear and accessible to the widest range of people.
+
+We recognise our obligations under The Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 and the Equality Act 2010.
+
+##Technical information about this website's accessibility
+
+UAL is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.
+
+**Compliance status**
+
+This website is partially compliant with the (link: https://www.w3.org/TR/WCAG22/ text: Web Content Accessibility Guidelines version 2.2) AA standard, due to the non-compliances and exemptions below.
+
+##Non-accessible content
+
+The content listed below is non-accessible for the following reasons.
+
+**Non-compliance with the accessibility regulations**
+
+- Some non-text content may not have appropriate alternatives that serve the equivalent purpose or have not been appropriately hidden where images are purely decorative. This fails WCAG success criterion 1.1.1 Decorative Images (Level A).
+- Some expandable content may not display any visual indicators of this functionality. This fails WCAG success criterion 1.3.1 Info and Relationships (Level A).
+- Some links may not be descriptive of their function or purpose. This fails WCAG success criterion 2.4.5 Link Purpose (In Context) (Level A).
+- Some interactive elements may not have an accessible name. This fails WCAG success criterion 4.2.1 Name, Role, Value (Level A).
+- Some text elements, which act as visual headings, are not marked up to relay this information to screen readers. This fails WCAG success criterion 1.3.1 Info and Relationships (Level A).
+- Some pre-recorded video content may not have an alternative or audio description. This fails WCAG success criterion 1.2.3 Audio Description or Media Alternative (Pre-recorded): (Level A).
+- Some pre-recorded video content may not have an audio description. This fails WCAG success criterion 1.2.5 Audio Description (Pre-recorded): (Level AA).
+- Some content is cropped and it cannot be scrolled to at 320 pixel width. This fails WCAG success criterion 1.4.10 Reflow (Level A).
+
+##What we’re doing to improve accessibility
+
+**Content reviews**
+
+We regularly review the content on our website and work with our content editors to ensure that the content is meeting user needs and follows best practice.
+
+**Training**
+
+We are developing further accessibility training for UAL staff which includes accessible content and accessible documents training. There is also an accessibility information hub on our intranet that staff can refer to.
+
+**Prioritisation of issues**
+
+We are prioritising the accessibility issues above and we're aiming to fix the high priority issues first that have the biggest impact on our users.
+
+##Preparation of this statement
+
+This statement was prepared on 3 March 2025. It was last reviewed on 3 March 2025.
+
+The website was last tested in September 2020. Testing was carried out by a third party supplier working on behalf of UAL.
+
+The testing used automated accessibility tools, assistive technology and manual testing methods to test a sample of pages of our website. The pages we tested are listed below.
+
+----
+
 Text:
 
 - 

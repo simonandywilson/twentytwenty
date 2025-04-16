@@ -1,12 +1,12 @@
 <?php snippet('header') ?>
 <h1 class="sr-only"><a href="#" autofocus id="main-content">Main Content</a></h1>
 <article>
-    <div class="w-full grid grid-cols-1 md:grid-cols-2">
+    <div class="w-full grid grid-cols-1 lg:grid-cols-2">
         <?php
             if ($page->artist()->isNotEmpty()):
                 ?>
             <a href="<?= $page->artist()->toPage()->url() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px]">
-                <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->artist()->toPage()->title()->html() ?></h3>
+                <h3 class="leading-tight"><?= $page->artist()->toPage()->title()->html() ?> <span aria-hidden="true">→</span></h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>
@@ -15,7 +15,7 @@
         <?php
             if ($page->title()->html()):
                 ?>
-            <h2 class="container bg-theme-essays leading-tight -mt-[1px] md:mt-0 has-[:focus-visible]:ring-2 ring-black md:-ml-[1px]">
+            <h2 class="container bg-theme-essays leading-tight max-lg:-mt-[1px] has-[:focus-visible]:ring-2 ring-black md:-ml-[1px]">
                 <span class="leading-tight font-bold"><?= $page->title()->html() ?></span>
             </h2>
             <?php else: ?>

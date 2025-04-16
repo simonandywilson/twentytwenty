@@ -9,6 +9,7 @@ use Kirby\Cms\File;
 use Kirby\Cms\Page;
 use Kirby\Cms\Site;
 use Kirby\Cms\User;
+use Kirby\Image\QrCode;
 use Kirby\Toolkit\I18n;
 
 /**
@@ -120,18 +121,22 @@ Query::$entries['page'] = function (string $id): Page|null {
 	return App::instance()->page($id);
 };
 
+Query::$entries['qr'] = function (string $data): QrCode {
+	return new QrCode($data);
+};
+
 Query::$entries['site'] = function (): Site {
 	return App::instance()->site();
 };
 
 Query::$entries['t'] = function (
 	string $key,
-	string|array $fallback = null,
-	string $locale = null
+	string|array|null $fallback = null,
+	string|null $locale = null
 ): string|null {
 	return I18n::translate($key, $fallback, $locale);
 };
 
-Query::$entries['user'] = function (string $id = null): User|null {
+Query::$entries['user'] = function (string|null $id = null): User|null {
 	return App::instance()->user($id);
 };

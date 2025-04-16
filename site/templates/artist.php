@@ -9,8 +9,8 @@
         <?php
             if ($page->essay()->toPage()):
                 ?>
-            <a href="<?= $page->essay()->toPage()->url() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
-                <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->essay()->toPage()->title()->html() ?></h3>
+            <a href="<?= $page->essay()->toPage()->url() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black max-lg:-mt-[1px] lg:-ml-[1px]">
+                <h3 class="leading-tight"><?= $page->essay()->toPage()->title()->html() ?> <span aria-hidden="true">→</span></h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>
@@ -19,7 +19,7 @@
             if ($page->partnername()->exists()):
                 ?>
             <a href="<?= $page->partnerurl() ?>" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px]">
-                <h3 class="leading-tight"><span aria-hidden="true">→</span> <?= $page->partnername() ?></h3>
+                <h3 class="leading-tight"><?= $page->partnername() ?> <span aria-hidden="true">→</span></h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>
@@ -28,7 +28,7 @@
             if ($page->partnerreflection()->exists() && $page->partnerreflection()->isNotEmpty()):
                 ?>
             <a href="#partner-reflection" class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black -mt-[1px] lg:-ml-[1px]">
-                <h3 class="leading-tight"><span aria-hidden="true">↓</span> Partner Reflection</h3>
+                <h3 class="leading-tight">Partner Reflection <span aria-hidden="true">↓</span></h3>
             </a>
             <?php else: ?>
             <div class="w-full h-full"></div>

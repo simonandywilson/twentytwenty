@@ -20,7 +20,6 @@ const circleImages = [...document.getElementsByClassName("artist-circle")];
 
 const circleImagesDefault = [...document.getElementsByClassName("artist-circle-default")];
 
-
 const artistLinks = [...document.getElementsByClassName("artist-link")];
 
 artistLinks.forEach((element) => {
@@ -90,15 +89,121 @@ const resetMenuState = () => {
 
 const menu = document.getElementById("site-menu");
 const menuButton = document.querySelector('button[onclick="toggleMenu()"]');
+const body = document.body;
+
+// Function to get focusable elements within a given element
+function getFocusableElements(element) {
+  return Array.from(
+    element.querySelectorAll(
+      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
+    ),
+  ).filter(
+    (el) => !el.hasAttribute("disabled") && !el.getAttribute("aria-hidden"),
+  );
+}
+
+// Function to trap focus within the menu
+function trapMenuFocus(event) {
+  if (!menu || menu.style.display !== "block") return; // Only trap focus if menu is open
+
+  const focusableElements = getFocusableElements(menu);
+  if (focusableElements.length === 0) return;
+
+  const firstFocusable = focusableElements[0];
+  const lastFocusable = focusableElements[focusableElements.length - 1];
+
+  const isTabPressed = event.key === "Tab";
+  if (!isTabPressed) return;
+
+  if (event.shiftKey) {
+    // Shift + Tab
+    if (document.activeElement === firstFocusable) {
+      lastFocusable.focus();
+      event.preventDefault();
+    }
+  } else {
+    // Tab
+    if (document.activeElement === lastFocusable) {
+      firstFocusable.focus();
+      event.preventDefault();
+    }
+  }
+}
+
+// Function to set accessibility attributes for background elements when menu is open/closed
+function setMenuBackgroundAccessibility(isOpen) {
+    const mainContent = document.querySelector("main");
+    const header = document.querySelector("header"); // Assuming header contains the menu button
+
+    [mainContent, header].forEach((element) => {
+      if (element) {
+        if (isOpen) {
+          element.setAttribute("aria-hidden", "true");
+          // Make elements non-focusable, except the menu itself and its button
+          element.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])').forEach(el => {
+            if (!menu.contains(el) && el !== menuButton) {
+               if (!el.hasAttribute('tabindex')) {
+                 el.setAttribute('data-had-no-tabindex', 'true');
+               }
+               const currentTabIndex = el.getAttribute('tabindex');
+               if (currentTabIndex !== "-1") {
+                 el.setAttribute('data-original-tabindex', currentTabIndex || '0'); // Store 0 if no tabindex
+                 el.setAttribute('tabindex', '-1');
+               }
+            }
+          });
+        } else {
+          element.removeAttribute("aria-hidden");
+          // Restore focusability
+           element.querySelectorAll('[data-original-tabindex]').forEach(el => {
+             el.setAttribute('tabindex', el.getAttribute('data-original-tabindex'));
+             el.removeAttribute('data-original-tabindex');
+           });
+           element.querySelectorAll('[data-had-no-tabindex]').forEach(el => {
+             el.removeAttribute('tabindex');
+             el.removeAttribute('data-had-no-tabindex');
+           });
+        }
+      }
+    });
+     // Ensure menu button itself remains accessible if it's outside the hidden header/main
+     if (menuButton && !header?.contains(menuButton) && !mainContent?.contains(menuButton)) {
+         if (isOpen) {
+             // If button is somehow focusable despite parent being hidden, force non-focusable state?
+             // This case might need specific handling based on exact HTML structure
+         } else {
+             // Restore button focusability if needed
+             if (menuButton.getAttribute('tabindex') === '-1' && menuButton.hasAttribute('data-original-tabindex')) {
+                 menuButton.setAttribute('tabindex', menuButton.getAttribute('data-original-tabindex'));
+                 menuButton.removeAttribute('data-original-tabindex');
+             } else if (menuButton.hasAttribute('data-had-no-tabindex')) {
+                 menuButton.removeAttribute('tabindex');
+                 menuButton.removeAttribute('data-had-no-tabindex');
+             }
+         }
+     }
+}
 
 const toggleMenu = () => {
   const isExpanded = menu.style.display === "block";
   if (isExpanded) {
     menu.style.display = "none";
     menuButton.setAttribute("aria-expanded", "false");
+    body.style.overflow = ""; // Restore body scroll
+    document.removeEventListener("keydown", trapMenuFocus); // Remove focus trap listener
+    setMenuBackgroundAccessibility(false); // Make background accessible
+    menuButton.focus(); // Return focus to the button
   } else {
     menu.style.display = "block";
     menuButton.setAttribute("aria-expanded", "true");
+    body.style.overflow = "hidden"; // Prevent body scroll
+    document.addEventListener("keydown", trapMenuFocus); // Add focus trap listener
+    setMenuBackgroundAccessibility(true); // Hide background from assistive tech
+    // Focus the first focusable element in the menu
+    const focusableElements = getFocusableElements(menu);
+    if (focusableElements.length > 0) {
+      focusableElements[0].focus();
+    }
   }
 };
 
@@ -106,18 +211,35 @@ const isMediumScreen = window.matchMedia("(min-width: 768px)");
 
 isMediumScreen.addEventListener("change", (e) => {
   if (e.matches === true) {
+    // Desktop view
     menu.style.display = "block";
     if (menuButton) menuButton.setAttribute("aria-expanded", "true");
+    body.style.overflow = ""; // Ensure body scroll is enabled
+    document.removeEventListener("keydown", trapMenuFocus); // Remove listener if active
+    setMenuBackgroundAccessibility(false); // Ensure background is accessible
   } else {
+    // Mobile view - close menu by default
     menu.style.display = "none";
     if (menuButton) menuButton.setAttribute("aria-expanded", "false");
+    body.style.overflow = ""; // Ensure body scroll is enabled if menu closed
+    document.removeEventListener("keydown", trapMenuFocus); // Remove listener if active
+    setMenuBackgroundAccessibility(false); // Ensure background is accessible
   }
 });
 
 window.onload = () => {
   if (isMediumScreen.matches) {
+    // Desktop view on load
     menu.style.display = "block";
     if (menuButton) menuButton.setAttribute("aria-expanded", "true");
+    body.style.overflow = ""; // Ensure body scroll is enabled
+    setMenuBackgroundAccessibility(false); // Ensure background is accessible
+  } else {
+    // Mobile view on load
+    menu.style.display = "none";
+     if (menuButton) menuButton.setAttribute("aria-expanded", "false");
+     body.style.overflow = ""; // Ensure body scroll is enabled
+     setMenuBackgroundAccessibility(false); // Ensure background is accessible
   }
   resetMenuState();
 };

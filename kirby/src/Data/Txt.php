@@ -45,7 +45,7 @@ class Txt extends Handler
 		// avoid problems with arrays
 		if (is_array($value) === true) {
 			$value = Data::encode($value, 'yaml');
-		// avoid problems with localized floats
+			// avoid problems with localized floats
 		} elseif (is_float($value) === true) {
 			$value = Str::float($value);
 		}
@@ -65,11 +65,10 @@ class Txt extends Handler
 		$result = $key . ':';
 
 		// multi-line content
-		if (preg_match('!\R!', $value) === 1) {
-			$result .= "\n\n";
-		} else {
-			$result .= ' ';
-		}
+		$result .= match (preg_match('!\R!', $value)) {
+			1       => "\n\n",
+			default => ' ',
+		};
 
 		$result .= $value;
 

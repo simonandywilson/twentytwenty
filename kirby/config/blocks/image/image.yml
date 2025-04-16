@@ -7,9 +7,10 @@ fields:
     type: radio
     columns: 2
     default: "kirby"
+    required: true
     options:
-      kirby: Kirby
-      web: Web
+      kirby: "{{ t('field.blocks.image.location.internal') }}"
+      web: "{{ t('field.blocks.image.location.external') }}"
   image:
     label: field.blocks.image.name
     type: files
@@ -47,15 +48,14 @@ fields:
     options:
       1/1: "1:1"
       16/9: "16:9"
-      9/16: "9:16"
-      5/4: "5:4"
-      4/5: "4:5"
+      10/8: "10:8"
+      21/9: "21:9"
+      7/5: "7:5"
       4/3: "4:3"
-      3/4: "3:4"
+      5/3: "5:3"
       3/2: "3:2"
-      2/3: "2:3"
+      3/1: "3:1"
   crop:
     label: field.blocks.image.crop
     type: toggle
     width: 1/2
-    

@@ -15,7 +15,7 @@
 <body>
   <header class="sticky top-0 w-full font-sans z-50 selection:bg-zinc-500/50 md:fixed md:w-[50vw] md:right-0 ">
     <button onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false" class="sticky top-0 z-[100] container bg-theme-menu leading-tight w-full max-w-full md:hidden font-bold">Menu</button>
-    <div class="hidden w-full max-w-[100vw] h-[calc(100vh-40px)] overflow-y-scroll right-0 rounded-2xl md:h-screen md:pl-4 md:block lg:max-w-2xl" id="site-menu">
+    <div class="hidden w-full max-w-[100vw] h-[calc(100vh-40px)] overflow-y-scroll right-0 rounded-2xl md:h-screen md:pl-4 md:block lg:max-w-4xl" id="site-menu">
       <?php if ($page->template()->name() !== 'home'): ?>
         <a href="#main-content" class="block rounded-3xl p-3 secondary-details container bg-theme-home max-w-full has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px] sr-only focus-visible:static focus-visible:p-3 focus-visible:h-max focus-visible:w-full focus-visible:block">
             <h1 class="leading-tight font-bold">Skip to main content</h1>
@@ -29,7 +29,7 @@
         <div class="w-full col-span-2 lg:col-span-1">
           <?php snippet('menu/artists') ?>
         </div>
-        <div id="secondary-menus" class="w-full col-span-2 lg:col-span-1">
+        <div id="secondary-menus" class="w-full col-span-2 lg:col-span-1 max-md:mb-[0px]">
           <?php snippet('menu/essays') ?>
           <?php snippet('menu/recordings') ?>
           <?php snippet('menu/introduction') ?>
