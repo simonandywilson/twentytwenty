@@ -962,6 +962,10 @@ iframe {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1183,16 +1187,12 @@ iframe {
   padding: 0.75rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
 .pb-\[calc\(56\.25\%\+134px\)\] {
   padding-bottom: calc(56.25% + 134px);
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .font-sans {
@@ -1388,22 +1388,6 @@ iframe {
 
 .\[\&\>a\>svg\]\:w-auto>a>svg {
   width: auto;
-}
-
-.\[\&_iframe\]\:aspect-square iframe {
-  aspect-ratio: 1 / 1;
-}
-
-.\[\&_iframe\]\:aspect-\[37450\/27569\] iframe {
-  aspect-ratio: 37450/27569;
-}
-
-.\[\&_iframe\]\:aspect-\[16\/27569\] iframe {
-  aspect-ratio: 16/27569;
-}
-
-.\[\&_iframe\]\:aspect-\[16\/9\] iframe {
-  aspect-ratio: 16/9;
 }
 
 .\[\&_ol\]\:list-decimal ol {
