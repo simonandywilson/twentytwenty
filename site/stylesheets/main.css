@@ -19,7 +19,7 @@
   }
 
   @font-face {
-    font-family: 'HelveticaNeueLTPro';
+    font-family: "HelveticaNeueLTPro";
     src: url("../fonts/HelveticaNeueLTPro-Md.woff2") format("woff2");
     font-display: auto;
     font-style: normal;
@@ -28,7 +28,7 @@
   }
 
   @font-face {
-    font-family: 'HelveticaNeueLTPro';
+    font-family: "HelveticaNeueLTPro";
     src: url("../fonts/HelveticaNeueLTPro-Hv.woff2") format("woff2");
     font-display: auto;
     font-style: normal;
@@ -40,13 +40,32 @@
     margin-bottom: 1em;
   }
 
+  details {
+    position: relative;
+  }
+
   details > summary {
     list-style: none;
+    position: relative;
+    cursor: pointer;
   }
 
   details > summary::marker,
   details > summary::-webkit-details-marker {
     display: none;
+  }
+
+  details > summary::after {
+    position: absolute;
+    right: 0.5rem;
+    top: 2px;
+    content: "\00a0\00a0+";
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  details:open > summary::after {
+    content: "\00a0\00a0–";
   }
 
   iframe {
@@ -78,6 +97,31 @@
     text-decoration: underline;
   }
 
+  ol {
+    list-style: none !important;
+    list-style-type: none !important;
+    counter-reset: ol-counter;
+    margin-left: 1em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  ol li {
+    counter-increment: ol-counter;
+    position: relative;
+    list-style: none !important;
+    list-style-type: none !important;
+  }
+
+  ol li:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
+  ol li::before {
+    content: "[" counter(ol-counter) "]";
+    position: absolute;
+    left: -1.7em;
+    font-weight: inherit;
+  }
 }
 
 @layer components {

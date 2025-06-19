@@ -1,8 +1,7 @@
 <?php snippet('header') ?>
-<h1 class="sr-only"><a href="#" autofocus id="main-content">Main Content</a></h1>
-<div class="relative w-full h-screen flex flex-col gap-[3vw]" tabindex="-1">
+<div class="relative w-full h-screen flex flex-col gap-[3vw]">
   <div class="relative max-h-[calc(50vh-1.5vw)]">
-    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="578.5988" viewBox="0 0 1000 578.5988" class="w-full h-full object-contain" preserveAspectRatio="xMaxYMin meet" role="img" aria-label="Decorative number 2">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="578.5988" viewBox="0 0 1000 578.5988" class="w-full h-full object-contain" preserveAspectRatio="xMaxYMin meet" aria-hidden="true">
       <path d="M16.26 205.102C10.567 87.963 79.715 0.93 201.719 0.93c100.871 0 180.586 58.581 180.586 165.95 0 101.668 -68.32 152.931 -139.92 197.682 -72.397 43.914 -148.035 80.503 -161.874 152.103h296.093v61.002H0c11.363 -136.64 80.511 -185.451 161.85 -235.895 97.63 -60.206 147.238 -96.006 147.238 -175.721 0 -62.627 -50.436 -104.12 -111.438 -104.12 -80.543 0 -114.687 74.053 -112.234 143.161h-69.156Z" />
     </svg>
     <div class="absolute w-full h-full top-0 right-0 flex justify-end">
@@ -45,7 +44,7 @@
     </div>
   </div>
   <div class="relative max-h-[calc(50vh-1.5vw)]">
-    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="578.5988" viewBox="0 0 1000 578.5988" class="w-full h-full object-contain" preserveAspectRatio="xMaxYMin meet" role="img" aria-label="Decorative number 0">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="578.5988" viewBox="0 0 1000 578.5988" class="w-full h-full object-contain" preserveAspectRatio="xMaxYMin meet" aria-hidden="true">
       <path d="M16.26 205.102C10.567 87.963 79.715 0.93 201.719 0.93c100.871 0 180.586 58.581 180.586 165.95 0 101.668 -68.32 152.931 -139.92 197.682 -72.397 43.914 -148.035 80.503 -161.874 152.103h296.093v61.002H0c11.363 -136.64 80.511 -185.451 161.85 -235.895 97.63 -60.206 147.238 -96.006 147.238 -175.721 0 -62.627 -50.436 -104.12 -111.438 -104.12 -80.543 0 -114.687 74.053 -112.234 143.161h-69.156Z" />
     </svg>
     <div class="absolute w-full h-full top-0 right-0 flex justify-end">

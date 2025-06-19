@@ -1,8 +1,311 @@
-parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"Xtxe":[function(require,module,exports) {
+class CookieModal {
+  constructor() {
+    this.modal = document.getElementById('cookie-modal');
+    this.content = this.modal?.querySelector('[role="document"]');
+    this.features = this.modal?.querySelectorAll('input[type="checkbox"][data-cookie-id]');
+    this.acceptButton = document.getElementById('cookie-accept');
+    this.denyButton = document.getElementById('cookie-deny');
+    this.saveButton = document.getElementById('cookie-save');
+    
+    this.MODAL_OPEN = false;
+    this.MINUMUM_FEATURES = ['essential'];
+    this.MAXIMUM_FEATURES = [];
+    this.CUSTOM_FEATURES = [];
+    this.SHOW_ON_FIRST = this.modal?.dataset.showOnFirst === 'true';
+    
+    // Focus management
+    this.lastFocusedElement = null;
+    this.focusableElements = [];
+    
+    if (this.modal) {
+      this.initCookieModal().then(_ => this.registerHooks());
+    }
+  }
 
-},{}],"PhdE":[function(require,module,exports) {
-var define;
-var e;!function(n){var t;if("function"==typeof e&&e.amd&&(e(n),t=!0),"object"==typeof exports&&(module.exports=n(),t=!0),!t){var o=window.Cookies,r=window.Cookies=n();r.noConflict=function(){return window.Cookies=o,r}}}(function(){function e(){for(var e=0,n={};e<arguments.length;e++){var t=arguments[e];for(var o in t)n[o]=t[o]}return n}function n(e){return e.replace(/(%[0-9A-Z]{2})+/g,decodeURIComponent)}return function t(o){function r(){}function i(n,t,i){if("undefined"!=typeof document){"number"==typeof(i=e({path:"/"},r.defaults,i)).expires&&(i.expires=new Date(1*new Date+864e5*i.expires)),i.expires=i.expires?i.expires.toUTCString():"";try{var c=JSON.stringify(t);/^[\{\[]/.test(c)&&(t=c)}catch(a){}t=o.write?o.write(t,n):encodeURIComponent(String(t)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),n=encodeURIComponent(String(n)).replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent).replace(/[\(\)]/g,escape);var f="";for(var u in i)i[u]&&(f+="; "+u,!0!==i[u]&&(f+="="+i[u].split(";")[0]));return document.cookie=n+"="+t+f}}function c(e,t){if("undefined"!=typeof document){for(var r={},i=document.cookie?document.cookie.split("; "):[],c=0;c<i.length;c++){var f=i[c].split("="),u=f.slice(1).join("=");t||'"'!==u.charAt(0)||(u=u.slice(1,-1));try{var a=n(f[0]);if(u=(o.read||o)(u,a)||n(u),t)try{u=JSON.parse(u)}catch(p){}if(r[a]=u,e===a)break}catch(p){}}return e?r[e]:r}}return r.set=i,r.get=function(e){return c(e,!1)},r.getJSON=function(e){return c(e,!0)},r.remove=function(n,t){i(n,"",e(t,{expires:-1}))},r.defaults={},r.withConverter=t,r}(function(){})});
-},{}],"NLXc":[function(require,module,exports) {
-"use strict";require("./cookie-modal.scss");var e=t(require("js-cookie"));function t(e){return e&&e.__esModule?e:{default:e}}function o(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function i(e,t){for(var o=0;o<t.length;o++){var i=t[o];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}function n(e,t,o){return t&&i(e.prototype,t),o&&i(e,o),e}function a(e){return document.querySelector(e)}function s(e){return document.querySelectorAll(e)}function r(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},o=null;window.CustomEvent&&"function"==typeof window.CustomEvent?o=new CustomEvent(e,{detail:t}):(o=document.createEvent("CustomEvent")).initCustomEvent(e,!0,!0,t),document.querySelector("body").dispatchEvent(o)}var u=function(){function t(){var e=this;o(this,t),this.$COOKIE_MODAL=a("#cookie-modal"),this.$FEATURES=s(".cookie-modal__checkbox"),this.$ACCEPT_BUTTON=a("#cookie-accept"),this.$DENY_BUTTON=a("#cookie-deny"),this.$SAVE_BUTTON=a("#cookie-save"),this.MODAL_OPEN=!1,this.MINUMUM_FEATURES=["essential"],this.MAXIMUM_FEATURES=[],this.CUSTOM_FEATURES=[],this.SHOW_ON_FIRST="true"===this.$COOKIE_MODAL.dataset.showOnFirst,this.initCookieModal().then(function(t){return e.registerHooks()})}return n(t,[{key:"initCookieModal",value:function(){var e=this,t=this;return new Promise(function(o){t.loadMaximumFeatures(),t.loadCustomFeatures(),0===t.CUSTOM_FEATURES.length&&e.SHOW_ON_FIRST&&t.openCookieModal(),o()})}},{key:"registerHooks",value:function(){var e=this;Array.prototype.forEach.call(e.$FEATURES,function(t){t.addEventListener("change",function(t){return e.updateCustomFeatures()})}),e.$ACCEPT_BUTTON.addEventListener("click",function(t){return e.save(e.MAXIMUM_FEATURES)}),e.$DENY_BUTTON.addEventListener("click",function(t){return e.save(e.MINUMUM_FEATURES)}),e.$SAVE_BUTTON.addEventListener("click",function(t){return e.save(e.CUSTOM_FEATURES)}),a("body").addEventListener("cookies:update",function(t){e.loadCustomFeatures(),e.openCookieModal()})}},{key:"loadMaximumFeatures",value:function(){var e=this;Array.prototype.forEach.call(e.$FEATURES,function(t){var o=t.dataset.cookieId.toLowerCase();e.MAXIMUM_FEATURES.push(o)})}},{key:"loadCustomFeatures",value:function(){var t=this;if(e.default.get("cookie_status")){t.CUSTOM_FEATURES=e.default.get("cookie_status").split(",");var o=Array.prototype.filter.call(t.$FEATURES,function(e){var o=e.dataset.cookieId.toLowerCase();return t.CUSTOM_FEATURES.indexOf(o)>-1});Array.prototype.forEach.call(o,function(e){e.setAttribute("checked",!0)}),t.updateButtons()}}},{key:"updateCustomFeatures",value:function(){var e=this;e.CUSTOM_FEATURES=[];var t=Array.prototype.filter.call(e.$FEATURES,function(e){return e.checked});Array.prototype.forEach.call(t,function(t){var o=t.dataset.cookieId.toLowerCase();e.CUSTOM_FEATURES.push(o)}),e.updateButtons()}},{key:"save",value:function(e){event.preventDefault(),r("cookies:saved",e),this.setCookie(e),this.CUSTOM_FEATURES=e,this.closeCookieModal()}},{key:"updateButtons",value:function(){this.CUSTOM_FEATURES.length>1?(this.$ACCEPT_BUTTON.classList.add("hide"),this.$DENY_BUTTON.classList.add("hide"),this.$SAVE_BUTTON.classList.remove("hide")):(this.$ACCEPT_BUTTON.classList.remove("hide"),this.$DENY_BUTTON.classList.remove("hide"),this.$SAVE_BUTTON.classList.add("hide"))}},{key:"setCookie",value:function(t){e.default.set("cookie_status",t.join(","),{expires:365})}},{key:"closeCookieModal",value:function(){this.$COOKIE_MODAL.classList.add("cookie-modal--hidden"),this.MODAL_OPEN=!1}},{key:"openCookieModal",value:function(){this.$COOKIE_MODAL.classList.remove("cookie-modal--hidden"),this.MODAL_OPEN=!0}}]),t}();document.addEventListener("DOMContentLoaded",function(e){return new u});
-},{"./cookie-modal.scss":"Xtxe","js-cookie":"PhdE"}]},{},["NLXc"], null)
+  initCookieModal() {
+    const _this = this;
+    return new Promise(resolve => {
+      _this.loadMaximumFeatures();
+      _this.loadCustomFeatures();
+      if (_this.CUSTOM_FEATURES.length === 0 && this.SHOW_ON_FIRST) {
+        _this.openCookieModal();
+      }
+      resolve();
+    });
+  }
+
+  registerHooks() {
+    const _this = this;
+    Array.prototype.forEach.call(_this.features, feature => {
+      feature.addEventListener('change', _ => _this.updateCustomFeatures());
+    });
+    _this.acceptButton?.addEventListener('click', (e) => {
+      e.preventDefault();
+      _this.save(_this.MAXIMUM_FEATURES);
+    });
+    _this.denyButton?.addEventListener('click', (e) => {
+      e.preventDefault();
+      _this.save(_this.MINUMUM_FEATURES);
+    });
+    _this.saveButton?.addEventListener('click', (e) => {
+      e.preventDefault();
+      _this.save(_this.CUSTOM_FEATURES);
+    });
+    
+    // Keyboard navigation
+    _this.modal?.addEventListener('keydown', (e) => _this.handleKeyDown(e));
+    
+    document.querySelector('body').addEventListener('cookies:update', _ => {
+      _this.loadCustomFeatures();
+      _this.openCookieModal();
+    });
+  }
+
+  handleKeyDown(e) {
+    if (!this.MODAL_OPEN) return;
+
+    switch (e.key) {
+      case 'Escape':
+        // Don't allow escape to close - user must make a choice
+        e.preventDefault();
+        break;
+      case 'Tab':
+        this.handleTabKey(e);
+        break;
+    }
+  }
+
+  handleTabKey(e) {
+    this.updateFocusableElements();
+    
+    if (this.focusableElements.length === 0) return;
+
+    const firstElement = this.focusableElements[0];
+    const lastElement = this.focusableElements[this.focusableElements.length - 1];
+    const currentElement = document.activeElement;
+
+    // Only trap focus when trying to leave the modal boundaries
+    if (e.shiftKey) {
+      // Shift + Tab (backward) - only trap if we're at the first element
+      if (currentElement === firstElement) {
+        e.preventDefault();
+        lastElement.focus();
+      }
+      // Otherwise, allow normal backward tabbing
+    } else {
+      // Tab (forward) - only trap if we're at the last element
+      if (currentElement === lastElement) {
+        e.preventDefault();
+        firstElement.focus();
+      }
+      // Otherwise, allow normal forward tabbing
+    }
+  }
+
+  updateFocusableElements() {
+    const focusableSelectors = [
+      'input:not([disabled])',
+      'button:not([disabled])',
+      'select:not([disabled])',
+      'textarea:not([disabled])',
+      'a[href]',
+      '[tabindex]:not([tabindex="-1"])'
+    ];
+
+    this.focusableElements = Array.from(
+      this.content?.querySelectorAll(focusableSelectors.join(',')) || []
+    ).filter(el => {
+      const computedStyle = getComputedStyle(el);
+      const isVisible = el.offsetParent !== null && // Not hidden by display: none
+             !el.hasAttribute('hidden') &&
+             computedStyle.visibility !== 'hidden' &&
+             computedStyle.display !== 'none' &&
+             (!el.hasAttribute('aria-hidden') || el.getAttribute('aria-hidden') !== 'true') &&
+             !el.classList.contains('hidden'); // Tailwind hidden class
+      
+      return isVisible;
+    });
+  }
+
+  loadMaximumFeatures() {
+    const _this = this;
+    Array.prototype.forEach.call(_this.features, feature => {
+      const featureKey = feature.dataset.cookieId?.toLowerCase();
+      if (featureKey) {
+        _this.MAXIMUM_FEATURES.push(featureKey);
+      }
+    });
+  }
+
+  loadCustomFeatures() {
+    const _this = this;
+    const cookieStatus = this.getCookie('cookie_status');
+    if (cookieStatus) {
+      _this.CUSTOM_FEATURES = cookieStatus.split(',');
+      
+      // Update checkboxes based on saved preferences
+      Array.prototype.forEach.call(_this.features, feature => {
+        const featureKey = feature.dataset.cookieId?.toLowerCase();
+        const isActive = _this.CUSTOM_FEATURES.includes(featureKey);
+        feature.checked = isActive;
+      });
+      
+      _this.updateButtons();
+    }
+  }
+
+  updateCustomFeatures() {
+    const _this = this;
+    _this.CUSTOM_FEATURES = [];
+    
+    const checkedFeatures = Array.prototype.filter.call(_this.features, feature => feature.checked);
+    Array.prototype.forEach.call(checkedFeatures, feature => {
+      const featureKey = feature.dataset.cookieId?.toLowerCase();
+      if (featureKey) {
+        _this.CUSTOM_FEATURES.push(featureKey);
+      }
+    });
+    
+    _this.updateButtons();
+  }
+
+  updateButtons() {
+    const _this = this;
+    if (!_this.acceptButton || !_this.denyButton || !_this.saveButton) return;
+
+    if (_this.CUSTOM_FEATURES.length > 1) {
+      _this.acceptButton.classList.add('hidden');
+      _this.denyButton.classList.add('hidden');
+      _this.saveButton.classList.remove('hidden');
+      _this.saveButton.setAttribute('aria-hidden', 'false');
+      _this.acceptButton.setAttribute('aria-hidden', 'true');
+      _this.denyButton.setAttribute('aria-hidden', 'true');
+    } else {
+      _this.acceptButton.classList.remove('hidden');
+      _this.denyButton.classList.remove('hidden');
+      _this.saveButton.classList.add('hidden');
+      _this.acceptButton.setAttribute('aria-hidden', 'false');
+      _this.denyButton.setAttribute('aria-hidden', 'false');
+      _this.saveButton.setAttribute('aria-hidden', 'true');
+    }
+    
+    // Update focusable elements when button visibility changes
+    _this.updateFocusableElements();
+  }
+
+  save(features) {
+    const _this = this;
+    _this.triggerEvent('cookies:saved', features);
+    _this.setCookie('cookie_status', features.join(','), 365);
+    _this.CUSTOM_FEATURES = features;
+    _this.closeCookieModal();
+  }
+
+  triggerEvent(eventName, data = {}) {
+    let customEvent;
+    if (window.CustomEvent && typeof window.CustomEvent === 'function') {
+      customEvent = new CustomEvent(eventName, { detail: data });
+    } else {
+      customEvent = document.createEvent('CustomEvent');
+      customEvent.initCustomEvent(eventName, true, true, data);
+    }
+    document.querySelector('body').dispatchEvent(customEvent);
+  }
+
+  setCookie(name, value, days) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+  }
+
+  getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+
+  closeCookieModal() {
+    const _this = this;
+    if (!_this.modal) return;
+
+    // Hide modal
+    _this.modal.classList.add('hidden');
+    _this.modal.setAttribute('aria-hidden', 'true');
+    _this.MODAL_OPEN = false;
+    
+    // Restore focus
+    if (_this.lastFocusedElement) {
+      _this.lastFocusedElement.focus();
+    }
+    
+    // Restore body scroll
+    document.body.style.overflow = '';
+    
+    // Announce to screen readers
+    _this.announceToScreenReader('Cookie preferences saved and dialog closed.');
+  }
+
+  openCookieModal() {
+    const _this = this;
+    if (!_this.modal) return;
+
+    // Store the last focused element
+    _this.lastFocusedElement = document.activeElement;
+    
+    // Show modal
+    _this.modal.classList.remove('hidden');
+    _this.modal.setAttribute('aria-hidden', 'false');
+    _this.MODAL_OPEN = true;
+    
+    // Set focus to the modal content
+    setTimeout(() => {
+      _this.updateFocusableElements();
+      if (_this.focusableElements.length > 0) {
+        _this.focusableElements[0].focus();
+      } else {
+        _this.content?.focus();
+      }
+    }, 100);
+    
+    // Prevent background scrolling
+    document.body.style.overflow = 'hidden';
+    
+    // Announce to screen readers
+    _this.announceToScreenReader('Cookie preferences dialog opened. Please make your selection.');
+  }
+
+  announceToScreenReader(message) {
+    const announcement = document.createElement('div');
+    announcement.setAttribute('aria-live', 'polite');
+    announcement.setAttribute('aria-atomic', 'true');
+    announcement.style.position = 'absolute';
+    announcement.style.left = '-10000px';
+    announcement.textContent = message;
+    
+    document.body.appendChild(announcement);
+    
+    setTimeout(() => {
+      document.body.removeChild(announcement);
+    }, 1000);
+  }
+}
+
+// Global function for external access
+window.cookieBanner = null;
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', _ => {
+  window.cookieBanner = new CookieModal();
+});
+
+// Global function to reopen modal (for settings links)
+window.openCookieModal = function() {
+  if (window.cookieBanner) {
+    window.cookieBanner.openCookieModal();
+  }
+};

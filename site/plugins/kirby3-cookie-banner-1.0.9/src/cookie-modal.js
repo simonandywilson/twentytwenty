@@ -23,6 +23,7 @@ function triggerEvent(eventName, data = {}) {
 class CookieModal {
   constructor() {
     this.$COOKIE_MODAL = element('#cookie-modal');
+    this.$CONTENT = this.$COOKIE_MODAL?.querySelector('.cookie-modal__content');
     this.$FEATURES = allElements('.cookie-modal__checkbox');
     this.$ACCEPT_BUTTON = element('#cookie-accept');
     this.$DENY_BUTTON = element('#cookie-deny');
@@ -32,9 +33,15 @@ class CookieModal {
     this.MINUMUM_FEATURES = ['essential'];
     this.MAXIMUM_FEATURES = [];
     this.CUSTOM_FEATURES = [];
-    this.SHOW_ON_FIRST = this.$COOKIE_MODAL.dataset.showOnFirst === 'true';
+    this.SHOW_ON_FIRST = this.$COOKIE_MODAL?.dataset.showOnFirst === 'true';
+    
+    // Focus management
+    this.lastFocusedElement = null;
+    this.focusableElements = [];
 
-    this.initCookieModal().then(_ => this.registerHooks());
+    if (this.$COOKIE_MODAL) {
+      this.initCookieModal().then(_ => this.registerHooks());
+    }
   }
 
   initCookieModal() {
@@ -54,21 +61,81 @@ class CookieModal {
     Array.prototype.forEach.call(_this.$FEATURES, feature => {
       feature.addEventListener('change', _ => _this.updateCustomFeatures());
     });
-    _this.$ACCEPT_BUTTON.addEventListener(
-      'click',
-      _ => _this.save(_this.MAXIMUM_FEATURES),
-    );
-    _this.$DENY_BUTTON.addEventListener(
-      'click',
-      _ => _this.save(_this.MINUMUM_FEATURES),
-    );
-    _this.$SAVE_BUTTON.addEventListener(
-      'click',
-      _ => _this.save(_this.CUSTOM_FEATURES),
-    );
+    _this.$ACCEPT_BUTTON?.addEventListener('click', (e) => {
+      e.preventDefault();
+      _this.save(_this.MAXIMUM_FEATURES);
+    });
+    _this.$DENY_BUTTON?.addEventListener('click', (e) => {
+      e.preventDefault();
+      _this.save(_this.MINUMUM_FEATURES);
+    });
+    _this.$SAVE_BUTTON?.addEventListener('click', (e) => {
+      e.preventDefault();
+      _this.save(_this.CUSTOM_FEATURES);
+    });
+    
+    // Keyboard navigation
+    _this.$COOKIE_MODAL?.addEventListener('keydown', (e) => _this.handleKeyDown(e));
+    
     element('body').addEventListener('cookies:update', _ => {
       _this.loadCustomFeatures();
       _this.openCookieModal();
+    });
+  }
+
+  handleKeyDown(e) {
+    if (!this.MODAL_OPEN) return;
+
+    switch (e.key) {
+      case 'Escape':
+        // Don't allow escape to close - user must make a choice
+        e.preventDefault();
+        break;
+      case 'Tab':
+        this.handleTabKey(e);
+        break;
+    }
+  }
+
+  handleTabKey(e) {
+    this.updateFocusableElements();
+    
+    if (this.focusableElements.length === 0) return;
+
+    const firstElement = this.focusableElements[0];
+    const lastElement = this.focusableElements[this.focusableElements.length - 1];
+
+    if (e.shiftKey) {
+      // Shift + Tab (backward)
+      if (document.activeElement === firstElement) {
+        e.preventDefault();
+        lastElement.focus();
+      }
+    } else {
+      // Tab (forward)
+      if (document.activeElement === lastElement) {
+        e.preventDefault();
+        firstElement.focus();
+      }
+    }
+  }
+
+  updateFocusableElements() {
+    const focusableSelectors = [
+      'input:not([disabled])',
+      'button:not([disabled])',
+      'select:not([disabled])',
+      'textarea:not([disabled])',
+      'a[href]',
+      '[tabindex]:not([tabindex="-1"])'
+    ];
+
+    this.focusableElements = Array.from(
+      this.$CONTENT?.querySelectorAll(focusableSelectors.join(',')) || []
+    ).filter(el => {
+      return el.offsetParent !== null && // Not hidden
+             !el.hasAttribute('hidden') &&
+             getComputedStyle(el).visibility !== 'hidden';
     });
   }
 
@@ -112,7 +179,6 @@ class CookieModal {
 
   save(features) {
     const _this = this;
-    event.preventDefault();
     triggerEvent('cookies:saved', features);
     _this.setCookie(features);
     _this.CUSTOM_FEATURES = features;
@@ -121,14 +187,22 @@ class CookieModal {
 
   updateButtons() {
     let _this = this;
+    if (!_this.$ACCEPT_BUTTON || !_this.$DENY_BUTTON || !_this.$SAVE_BUTTON) return;
+
     if (_this.CUSTOM_FEATURES.length > 1) {
-      _this.$ACCEPT_BUTTON.classList.add('hide');
-      _this.$DENY_BUTTON.classList.add('hide');
-      _this.$SAVE_BUTTON.classList.remove('hide');
+      _this.$ACCEPT_BUTTON.style.display = 'none';
+      _this.$DENY_BUTTON.style.display = 'none';
+      _this.$SAVE_BUTTON.style.display = 'block';
+      _this.$SAVE_BUTTON.setAttribute('aria-hidden', 'false');
+      _this.$ACCEPT_BUTTON.setAttribute('aria-hidden', 'true');
+      _this.$DENY_BUTTON.setAttribute('aria-hidden', 'true');
     } else {
-      _this.$ACCEPT_BUTTON.classList.remove('hide');
-      _this.$DENY_BUTTON.classList.remove('hide');
-      _this.$SAVE_BUTTON.classList.add('hide');
+      _this.$ACCEPT_BUTTON.style.display = 'block';
+      _this.$DENY_BUTTON.style.display = 'block';
+      _this.$SAVE_BUTTON.style.display = 'none';
+      _this.$ACCEPT_BUTTON.setAttribute('aria-hidden', 'false');
+      _this.$DENY_BUTTON.setAttribute('aria-hidden', 'false');
+      _this.$SAVE_BUTTON.setAttribute('aria-hidden', 'true');
     }
   }
 
@@ -138,15 +212,81 @@ class CookieModal {
 
   closeCookieModal() {
     const _this = this;
+    if (!_this.$COOKIE_MODAL) return;
+
+    // Hide modal
     _this.$COOKIE_MODAL.classList.add('cookie-modal--hidden');
+    _this.$COOKIE_MODAL.setAttribute('aria-hidden', 'true');
     _this.MODAL_OPEN = false;
+    
+    // Restore focus
+    if (_this.lastFocusedElement) {
+      _this.lastFocusedElement.focus();
+    }
+    
+    // Restore body scroll
+    document.body.style.overflow = '';
+    
+    // Announce to screen readers
+    _this.announceToScreenReader('Cookie preferences saved and dialog closed.');
   }
 
   openCookieModal() {
     const _this = this;
+    if (!_this.$COOKIE_MODAL) return;
+
+    // Store the last focused element
+    _this.lastFocusedElement = document.activeElement;
+    
+    // Show modal
     _this.$COOKIE_MODAL.classList.remove('cookie-modal--hidden');
+    _this.$COOKIE_MODAL.setAttribute('aria-hidden', 'false');
     _this.MODAL_OPEN = true;
+    
+    // Set focus to the modal content
+    setTimeout(() => {
+      _this.updateFocusableElements();
+      if (_this.focusableElements.length > 0) {
+        _this.focusableElements[0].focus();
+      } else {
+        _this.$CONTENT?.focus();
+      }
+    }, 100);
+    
+    // Prevent background scrolling
+    document.body.style.overflow = 'hidden';
+    
+    // Announce to screen readers
+    _this.announceToScreenReader('Cookie preferences dialog opened. Please make your selection.');
+  }
+
+  announceToScreenReader(message) {
+    const announcement = document.createElement('div');
+    announcement.setAttribute('aria-live', 'polite');
+    announcement.setAttribute('aria-atomic', 'true');
+    announcement.style.position = 'absolute';
+    announcement.style.left = '-10000px';
+    announcement.textContent = message;
+    
+    document.body.appendChild(announcement);
+    
+    setTimeout(() => {
+      document.body.removeChild(announcement);
+    }, 1000);
   }
 }
 
-document.addEventListener('DOMContentLoaded', _ => new CookieModal());
+// Global function for external access
+window.cookieBanner = null;
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', _ => {
+  window.cookieBanner = new CookieModal();
+});
+
+// Global function to reopen modal (for settings links)
+window.openCookieModal = function() {
+  if (window.cookieBanner) {
+    window.cookieBanner.openCookieModal();
+  }
+};

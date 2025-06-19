@@ -1,8 +1,7 @@
 
 
 <?php snippet('header') ?>
-<h1 class="sr-only"><a href="#" autofocus id="main-content">Main Content</a></h1>
-<article>
+<article id="main-content">
     <div class="w-full grid grid-cols-1 md:grid-cols-2">
         <h3 class="container bg-theme-essays leading-tight has-[:focus-visible]:ring-2 ring-black max-md:-mt-[1px]">
             <span class="leading-tight font-bold">Accessibility Statement</span>
