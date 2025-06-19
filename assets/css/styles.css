@@ -1681,9 +1681,30 @@ ol li::before {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
+.focus-visible\:static:focus-visible {
+  position: static;
+}
+
+.focus-visible\:block:focus-visible {
+  display: block;
+}
+
+.focus-visible\:h-max:focus-visible {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.focus-visible\:w-full:focus-visible {
+  width: 100%;
+}
+
 .focus-visible\:bg-blue-600:focus-visible {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.focus-visible\:p-3:focus-visible {
+  padding: 0.75rem;
 }
 
 .focus-visible\:text-white:focus-visible {
@@ -1757,6 +1778,10 @@ ol li::before {
 }
 
 @media (min-width: 768px) {
+  .md\:pointer-events-none {
+    pointer-events: none;
+  }
+
   .md\:fixed {
     position: fixed;
   }

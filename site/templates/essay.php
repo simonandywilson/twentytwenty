@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<h1 class="sr-only"><a href="#" autofocus id="main-content">Main Content</a></h1>
+<h1 class="sr-only"><a href="#" id="main-content">Main Content</a></h1>
 <article id="main-content">
     <div class="w-full grid grid-cols-1 lg:grid-cols-2">
         <?php
